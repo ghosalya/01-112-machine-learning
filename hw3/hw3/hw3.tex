@@ -286,17 +286,136 @@
 
     \subsubsection{Q1. Matrix Factorization}\label{q1.-matrix-factorization}
 
-    \begin{figure}[htbp]
-\centering
-\includegraphics{factor.jpeg}
-\caption{pic}
-\end{figure}
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}1}]:} \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
+        \PY{k+kn}{import} \PY{n+nn}{theano}
+        \PY{k+kn}{import} \PY{n+nn}{theano}\PY{n+nn}{.}\PY{n+nn}{tensor} \PY{k}{as} \PY{n+nn}{T}
+        
+        \PY{n}{learn\PYZus{}rate} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{l+m+mf}{0.01}
+        \PY{n}{u} \PY{o}{=} \PY{n}{theano}\PY{o}{.}\PY{n}{shared}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{,} \PY{n}{name}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{u}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{v} \PY{o}{=} \PY{n}{theano}\PY{o}{.}\PY{n}{shared}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{,} \PY{n}{name}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{v}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{target} \PY{o}{=} \PY{n}{T}\PY{o}{.}\PY{n}{matrix}\PY{p}{(}\PY{n}{name}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{target}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{mask} \PY{o}{=} \PY{n}{T}\PY{o}{.}\PY{n}{matrix}\PY{p}{(}\PY{n}{name}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{mask}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        
+        \PY{n}{tgt} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{zeros}\PY{p}{(}\PY{n}{shape}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{)}\PY{p}{)}
+        \PY{n}{tgt}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}
+        \PY{n}{tgt}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}
+        \PY{n}{tgt}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{2}\PY{p}{]}
+        
+        \PY{n}{msk} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{zeros}\PY{p}{(}\PY{n}{shape}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{,}\PY{l+m+mi}{3}\PY{p}{)}\PY{p}{)}
+        \PY{n}{msk}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{]}
+        \PY{n}{msk}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}
+        \PY{n}{msk}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{0}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{]}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+{\color{incolor}In [{\color{incolor}2}]:} \PY{n}{risk} \PY{o}{=} \PY{n}{T}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{p}{(}\PY{p}{(}\PY{n}{T}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{u}\PY{p}{,} \PY{n}{v}\PY{o}{.}\PY{n}{T}\PY{p}{)}\PY{o}{\PYZhy{}}\PY{n}{target}\PY{p}{)}\PY{o}{*}\PY{n}{mask}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}\PY{p}{)}
+        \PY{n}{u\PYZus{}grad} \PY{o}{=} \PY{n}{T}\PY{o}{.}\PY{n}{grad}\PY{p}{(}\PY{n}{risk}\PY{p}{,} \PY{n}{wrt}\PY{o}{=}\PY{n}{u}\PY{p}{)}
+        \PY{n}{v\PYZus{}grad} \PY{o}{=} \PY{n}{T}\PY{o}{.}\PY{n}{grad}\PY{p}{(}\PY{n}{risk}\PY{p}{,} \PY{n}{wrt}\PY{o}{=}\PY{n}{v}\PY{p}{)}
+        
+        \PY{n}{u\PYZus{}train} \PY{o}{=} \PY{n}{theano}\PY{o}{.}\PY{n}{function}\PY{p}{(}\PY{n}{inputs}\PY{o}{=}\PY{p}{[}\PY{p}{]}\PY{p}{,}
+                                   \PY{n}{outputs}\PY{o}{=}\PY{n}{risk}\PY{p}{,}
+                                   \PY{n}{updates}\PY{o}{=}\PY{p}{[}\PY{p}{(}\PY{n}{u}\PY{p}{,} \PY{n}{u} \PY{o}{+} \PY{n}{learn\PYZus{}rate}\PY{o}{*}\PY{n}{u\PYZus{}grad}\PY{p}{)}\PY{p}{]}\PY{p}{,}
+                                   \PY{n}{givens}\PY{o}{=}\PY{p}{\PYZob{}}\PY{n}{target}\PY{p}{:}\PY{n}{tgt}\PY{p}{,} \PY{n}{mask}\PY{p}{:}\PY{n}{msk}\PY{p}{\PYZcb{}}\PY{p}{)}
+        
+        \PY{n}{v\PYZus{}train} \PY{o}{=} \PY{n}{theano}\PY{o}{.}\PY{n}{function}\PY{p}{(}\PY{n}{inputs}\PY{o}{=}\PY{p}{[}\PY{p}{]}\PY{p}{,}
+                                   \PY{n}{outputs}\PY{o}{=}\PY{n}{risk}\PY{p}{,}
+                                   \PY{n}{updates}\PY{o}{=}\PY{p}{[}\PY{p}{(}\PY{n}{v}\PY{p}{,} \PY{n}{v} \PY{o}{+} \PY{n}{learn\PYZus{}rate}\PY{o}{*}\PY{n}{v\PYZus{}grad}\PY{p}{)}\PY{p}{]}\PY{p}{,}
+                                   \PY{n}{givens}\PY{o}{=}\PY{p}{\PYZob{}}\PY{n}{target}\PY{p}{:}\PY{n}{tgt}\PY{p}{,} \PY{n}{mask}\PY{p}{:}\PY{n}{msk}\PY{p}{\PYZcb{}}\PY{p}{)}
+        
+        \PY{n}{loss} \PY{o}{=} \PY{l+m+mi}{0}
+        
+        \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{50}\PY{p}{)}\PY{p}{:}
+            \PY{k}{for} \PY{n}{j} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{20}\PY{p}{)}\PY{p}{:}
+                \PY{n}{loss} \PY{o}{=} \PY{n}{u\PYZus{}train}\PY{p}{(}\PY{p}{)}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{*}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{end}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{k}{for} \PY{n}{j} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{20}\PY{p}{)}\PY{p}{:}
+                \PY{n}{loss} \PY{o}{=} \PY{n}{v\PYZus{}train}\PY{p}{(}\PY{p}{)}
+                \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{+}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{end}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+                
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{A:}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{u}\PY{o}{.}\PY{n}{get\PYZus{}value}\PY{p}{(}\PY{p}{)}\PY{p}{,} \PY{n}{v}\PY{o}{.}\PY{n}{get\PYZus{}value}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{T}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{u:}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{u}\PY{o}{.}\PY{n}{get\PYZus{}value}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{v:}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{v}\PY{o}{.}\PY{n}{get\PYZus{}value}\PY{p}{(}\PY{p}{)}\PY{p}{)}
+        \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{Loss: }\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{loss}\PY{p}{)}
+\end{Verbatim}
+
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+********************++++++++++++++++++++
+
+A:
+[[ 0.48744963  0.61111319  0.95526164]
+ [ 0.61145451  0.7665775   1.19827569]
+ [ 0.95582976  1.19831904  1.87315252]]
+u:
+ [[ 0.70141988]
+ [ 0.87985777]
+ [ 1.37539952]]
+v:
+ [[ 0.694947  ]
+ [ 0.8712516 ]
+ [ 1.36189703]]
+Loss:  0.6345416618772093
+
+    \end{Verbatim}
 
     \subsubsection{Q2. Support Vector
 Machines}\label{q2.-support-vector-machines}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}1}]:} \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+{\color{incolor}In [{\color{incolor}3}]:} \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
         \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
         \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
         \PY{n}{csv} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{https://www.dropbox.com/s/wt45tvn9ig3o7vu/kernel.csv?dl=1}\PY{l+s+s1}{\PYZsq{}}
@@ -309,7 +428,7 @@ Machines}\label{q2.-support-vector-machines}
 
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_4_0.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_5_0.png}
     \end{center}
     { \hspace*{\fill} \\}
     
@@ -320,14 +439,14 @@ support vector machine via the radial basis kernel. Set gamma to 0.5 and
 \texttt{kernel} to \texttt{rbf}.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}2}]:} \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{svm} \PY{k}{import} \PY{n}{SVC}
+{\color{incolor}In [{\color{incolor}4}]:} \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{svm} \PY{k}{import} \PY{n}{SVC}
         \PY{n}{dis\PYZus{}svc} \PY{o}{=} \PY{n}{SVC}\PY{p}{(}\PY{n}{gamma}\PY{o}{=}\PY{l+m+mf}{0.5}\PY{p}{,} \PY{n}{kernel}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{rbf}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
         \PY{n}{dis\PYZus{}svc}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{X}\PY{p}{,} \PY{n}{Y}\PY{p}{)}
 \end{Verbatim}
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}2}]:} SVC(C=1.0, cache\_size=200, class\_weight=None, coef0=0.0,
+{\color{outcolor}Out[{\color{outcolor}4}]:} SVC(C=1.0, cache\_size=200, class\_weight=None, coef0=0.0,
           decision\_function\_shape='ovr', degree=3, gamma=0.5, kernel='rbf',
           max\_iter=-1, probability=False, random\_state=None, shrinking=True,
           tol=0.001, verbose=False)
@@ -341,7 +460,7 @@ that takes coordinates \texttt{x1,\ x2} and the SVC object \texttt{clf},
 and return the value of decision function.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}3}]:} \PY{n}{clf} \PY{o}{=} \PY{n}{dis\PYZus{}svc}
+{\color{incolor}In [{\color{incolor}5}]:} \PY{n}{clf} \PY{o}{=} \PY{n}{dis\PYZus{}svc}
         
         \PY{k}{def} \PY{n+nf}{decision}\PY{p}{(}\PY{n}{x1}\PY{p}{,} \PY{n}{x2}\PY{p}{,} \PY{n}{clf}\PY{p}{)}\PY{p}{:}
             \PY{n}{x} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{array}\PY{p}{(}\PY{p}{[}\PY{p}{[}\PY{n}{x1}\PY{p}{,} \PY{n}{x2}\PY{p}{]}\PY{p}{]}\PY{p}{)}
@@ -353,7 +472,7 @@ and return the value of decision function.
 
 
 \begin{Verbatim}[commandchars=\\\{\}]
-{\color{outcolor}Out[{\color{outcolor}3}]:} 1.1813851778172231
+{\color{outcolor}Out[{\color{outcolor}5}]:} 1.1813851778172231
 \end{Verbatim}
             
     \begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
@@ -362,7 +481,7 @@ and return the value of decision function.
 data points.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}4}]:} \PY{n}{vdecision} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{vectorize}\PY{p}{(}\PY{n}{decision}\PY{p}{,}\PY{n}{excluded}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}6}]:} \PY{n}{vdecision} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{vectorize}\PY{p}{(}\PY{n}{decision}\PY{p}{,}\PY{n}{excluded}\PY{o}{=}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{)}
         \PY{n}{x1list} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{8.0}\PY{p}{,} \PY{l+m+mf}{8.0}\PY{p}{,} \PY{l+m+mi}{100}\PY{p}{)}
         \PY{n}{x2list} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{o}{\PYZhy{}}\PY{l+m+mf}{8.0}\PY{p}{,} \PY{l+m+mf}{8.0}\PY{p}{,} \PY{l+m+mi}{100}\PY{p}{)}
         \PY{n}{X1}\PY{p}{,} \PY{n}{X2} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{meshgrid}\PY{p}{(}\PY{n}{x1list}\PY{p}{,} \PY{n}{x2list}\PY{p}{)}
@@ -375,14 +494,14 @@ data points.
 
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_10_0.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_11_0.png}
     \end{center}
     { \hspace*{\fill} \\}
     
     \subsubsection{Q3. Deep Learning}\label{q3.-deep-learning}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}5}]:} \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+{\color{incolor}In [{\color{incolor}7}]:} \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
         \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
         \PY{k+kn}{from} \PY{n+nn}{numpy}\PY{n+nn}{.}\PY{n+nn}{linalg} \PY{k}{import} \PY{n}{norm}
         \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
@@ -396,7 +515,7 @@ data points.
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}6}]:} \PY{n}{nV} \PY{o}{=} \PY{l+m+mi}{8}\PY{o}{*}\PY{l+m+mi}{8}
+{\color{incolor}In [{\color{incolor}8}]:} \PY{n}{nV} \PY{o}{=} \PY{l+m+mi}{8}\PY{o}{*}\PY{l+m+mi}{8}
         \PY{n}{nH} \PY{o}{=} \PY{l+m+mi}{25}
         \PY{n}{dW} \PY{o}{=} \PY{l+m+mf}{0.0001}
         \PY{n}{sW} \PY{o}{=} \PY{l+m+mi}{3}
@@ -404,7 +523,7 @@ data points.
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}7}]:} \PY{n}{npy} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{images.npy}\PY{l+s+s1}{\PYZsq{}}
+{\color{incolor}In [{\color{incolor}9}]:} \PY{n}{npy} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{images.npy}\PY{l+s+s1}{\PYZsq{}}
         \PY{n}{X} \PY{o}{=} \PY{n}{normalize}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{load}\PY{p}{(}\PY{n}{npy}\PY{p}{)}\PY{p}{)}
         \PY{n}{plt}\PY{o}{.}\PY{n}{imshow}\PY{p}{(}\PY{n}{tile\PYZus{}raster\PYZus{}images}\PY{p}{(}\PY{n}{X}\PY{o}{=}\PY{n}{X}\PY{p}{,} \PY{n}{img\PYZus{}shape}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{8}\PY{p}{,}\PY{l+m+mi}{8}\PY{p}{)}\PY{p}{,} \PY{n}{tile\PYZus{}shape}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{,}\PY{l+m+mi}{5}\PY{p}{)}\PY{p}{,} 
                                       \PY{n}{tile\PYZus{}spacing}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{,}
@@ -414,7 +533,7 @@ data points.
 
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_14_0.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_15_0.png}
     \end{center}
     { \hspace*{\fill} \\}
     
@@ -428,53 +547,53 @@ of the function is therefore to unpack the \texttt{theta} vector into
 \emph{W1, W2, b1, b2}.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}8}]:} \PY{k}{def} \PY{n+nf}{sparseAutoencoderCost}\PY{p}{(}\PY{n}{theta}\PY{p}{,} \PY{n}{nV}\PY{p}{,} \PY{n}{nH}\PY{p}{,} \PY{n}{dW}\PY{p}{,} \PY{n}{sW}\PY{p}{,} \PY{n}{X}\PY{p}{)}\PY{p}{:}
-            \PY{n}{W1}\PY{p}{,} \PY{n}{W2}\PY{p}{,} \PY{n}{b1}\PY{p}{,} \PY{n}{b2} \PY{o}{=} \PY{n}{unravelParameters}\PY{p}{(}\PY{n}{theta}\PY{p}{,} \PY{n}{nH}\PY{p}{,} \PY{n}{nV}\PY{p}{)}
-            \PY{n}{n} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
-            
-            \PY{n}{z2} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{X}\PY{p}{,}\PY{n}{W1}\PY{p}{)} \PY{o}{+} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{n}{n}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{,}\PY{n}{b1}\PY{o}{.}\PY{n}{T}\PY{p}{)}
-            \PY{n}{a2} \PY{o}{=} \PY{n}{sigmoid}\PY{p}{(}\PY{n}{z2}\PY{p}{)}
-            \PY{n}{z3} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{a2}\PY{p}{,}\PY{n}{W2}\PY{p}{)} \PY{o}{+} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{n}{n}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{,}\PY{n}{b2}\PY{o}{.}\PY{n}{T}\PY{p}{)}
-            \PY{n}{a3} \PY{o}{=} \PY{n}{sigmoid}\PY{p}{(}\PY{n}{z3}\PY{p}{)}
-            
-            \PY{n}{eps} \PY{o}{=} \PY{n}{a3}\PY{o}{\PYZhy{}}\PY{n}{X}
-            \PY{n}{loss} \PY{o}{=} \PY{n}{norm}\PY{p}{(}\PY{n}{eps}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}\PY{o}{/}\PY{p}{(}\PY{l+m+mi}{2}\PY{o}{*}\PY{n}{n}\PY{p}{)}
-            \PY{n}{decay} \PY{o}{=} \PY{l+m+mf}{0.5}\PY{o}{*}\PY{p}{(}\PY{n}{norm}\PY{p}{(}\PY{n}{W1}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}\PY{o}{+}\PY{n}{norm}\PY{p}{(}\PY{n}{W2}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}\PY{p}{)}
-            
-            \PY{c+c1}{\PYZsh{}compute sparsity terms and total cost}
-            \PY{n}{rho} \PY{o}{=} \PY{l+m+mf}{0.01}
-            \PY{n}{a2mean} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{a2}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{n}{nH}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
-            \PY{n}{kl\PYZus{}first} \PY{o}{=} \PY{n}{rho}\PY{o}{*}\PY{n}{np}\PY{o}{.}\PY{n}{log}\PY{p}{(}\PY{n}{rho}\PY{o}{/}\PY{n}{a2mean}\PY{p}{)}
-            \PY{n}{kl\PYZus{}last} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{rho}\PY{p}{)}\PY{o}{*}\PY{n}{np}\PY{o}{.}\PY{n}{log}\PY{p}{(}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{rho}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a2mean}\PY{p}{)}\PY{p}{)}
-            \PY{n}{kl} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{kl\PYZus{}first} \PY{o}{+} \PY{n}{kl\PYZus{}last}\PY{p}{)}
-            \PY{n}{dkl} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{n}{rho}\PY{o}{/}\PY{n}{a2mean}\PY{o}{+}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{rho}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a2mean}\PY{p}{)}
-            \PY{n}{cost} \PY{o}{=} \PY{n}{loss}\PY{o}{+}\PY{n}{dW}\PY{o}{*}\PY{n}{decay}\PY{o}{+}\PY{n}{sW}\PY{o}{*}\PY{n}{kl}
-            
-            \PY{n}{d3} \PY{o}{=} \PY{n}{eps}\PY{o}{*}\PY{n}{a3}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a3}\PY{p}{)}
-            \PY{n}{d2} \PY{o}{=} \PY{p}{(}\PY{n}{sW}\PY{o}{*}\PY{n}{dkl}\PY{o}{.}\PY{n}{T}\PY{o}{+}\PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{d3}\PY{p}{,} \PY{n}{W2}\PY{o}{.}\PY{n}{T}\PY{p}{)}\PY{p}{)}\PY{o}{*}\PY{n}{a2}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a2}\PY{p}{)}
-            \PY{n}{W1grad} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{X}\PY{o}{.}\PY{n}{T}\PY{p}{,}\PY{n}{d2}\PY{p}{)}\PY{o}{/}\PY{n}{n} \PY{o}{+} \PY{n}{dW}\PY{o}{*}\PY{n}{W1}
-            \PY{n}{W2grad} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{a2}\PY{o}{.}\PY{n}{T}\PY{p}{,}\PY{n}{d3}\PY{p}{)}\PY{o}{/}\PY{n}{n} \PY{o}{+} \PY{n}{dW}\PY{o}{*}\PY{n}{W2}
-            \PY{n}{b1grad} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{d2}\PY{o}{.}\PY{n}{T}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{n}{n}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{)}\PY{o}{/}\PY{n}{n}
-            \PY{n}{b2grad} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{d3}\PY{o}{.}\PY{n}{T}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{n}{n}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{)}\PY{o}{/}\PY{n}{n}
-            
-            \PY{n}{grad} \PY{o}{=} \PY{n}{ravelParameters}\PY{p}{(}\PY{n}{W1grad}\PY{p}{,}\PY{n}{W2grad}\PY{p}{,}
-                                   \PY{n}{b1grad}\PY{p}{,} \PY{n}{b2grad}\PY{p}{)}
-            \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ .}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{end}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-            \PY{k}{return} \PY{n}{cost}\PY{p}{,} \PY{n}{grad}
+{\color{incolor}In [{\color{incolor}10}]:} \PY{k}{def} \PY{n+nf}{sparseAutoencoderCost}\PY{p}{(}\PY{n}{theta}\PY{p}{,} \PY{n}{nV}\PY{p}{,} \PY{n}{nH}\PY{p}{,} \PY{n}{dW}\PY{p}{,} \PY{n}{sW}\PY{p}{,} \PY{n}{X}\PY{p}{)}\PY{p}{:}
+             \PY{n}{W1}\PY{p}{,} \PY{n}{W2}\PY{p}{,} \PY{n}{b1}\PY{p}{,} \PY{n}{b2} \PY{o}{=} \PY{n}{unravelParameters}\PY{p}{(}\PY{n}{theta}\PY{p}{,} \PY{n}{nH}\PY{p}{,} \PY{n}{nV}\PY{p}{)}
+             \PY{n}{n} \PY{o}{=} \PY{n}{X}\PY{o}{.}\PY{n}{shape}\PY{p}{[}\PY{l+m+mi}{0}\PY{p}{]}
+             
+             \PY{n}{z2} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{X}\PY{p}{,}\PY{n}{W1}\PY{p}{)} \PY{o}{+} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{n}{n}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{,}\PY{n}{b1}\PY{o}{.}\PY{n}{T}\PY{p}{)}
+             \PY{n}{a2} \PY{o}{=} \PY{n}{sigmoid}\PY{p}{(}\PY{n}{z2}\PY{p}{)}
+             \PY{n}{z3} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{a2}\PY{p}{,}\PY{n}{W2}\PY{p}{)} \PY{o}{+} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{n}{n}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{,}\PY{n}{b2}\PY{o}{.}\PY{n}{T}\PY{p}{)}
+             \PY{n}{a3} \PY{o}{=} \PY{n}{sigmoid}\PY{p}{(}\PY{n}{z3}\PY{p}{)}
+             
+             \PY{n}{eps} \PY{o}{=} \PY{n}{a3}\PY{o}{\PYZhy{}}\PY{n}{X}
+             \PY{n}{loss} \PY{o}{=} \PY{n}{norm}\PY{p}{(}\PY{n}{eps}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}\PY{o}{/}\PY{p}{(}\PY{l+m+mi}{2}\PY{o}{*}\PY{n}{n}\PY{p}{)}
+             \PY{n}{decay} \PY{o}{=} \PY{l+m+mf}{0.5}\PY{o}{*}\PY{p}{(}\PY{n}{norm}\PY{p}{(}\PY{n}{W1}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}\PY{o}{+}\PY{n}{norm}\PY{p}{(}\PY{n}{W2}\PY{p}{)}\PY{o}{*}\PY{o}{*}\PY{l+m+mi}{2}\PY{p}{)}
+             
+             \PY{c+c1}{\PYZsh{}compute sparsity terms and total cost}
+             \PY{n}{rho} \PY{o}{=} \PY{l+m+mf}{0.01}
+             \PY{n}{a2mean} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{n}{a2}\PY{p}{,} \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}\PY{o}{.}\PY{n}{reshape}\PY{p}{(}\PY{n}{nH}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
+             \PY{n}{kl\PYZus{}first} \PY{o}{=} \PY{n}{rho}\PY{o}{*}\PY{n}{np}\PY{o}{.}\PY{n}{log}\PY{p}{(}\PY{n}{rho}\PY{o}{/}\PY{n}{a2mean}\PY{p}{)}
+             \PY{n}{kl\PYZus{}last} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{rho}\PY{p}{)}\PY{o}{*}\PY{n}{np}\PY{o}{.}\PY{n}{log}\PY{p}{(}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{rho}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a2mean}\PY{p}{)}\PY{p}{)}
+             \PY{n}{kl} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{sum}\PY{p}{(}\PY{n}{kl\PYZus{}first} \PY{o}{+} \PY{n}{kl\PYZus{}last}\PY{p}{)}
+             \PY{n}{dkl} \PY{o}{=} \PY{o}{\PYZhy{}}\PY{n}{rho}\PY{o}{/}\PY{n}{a2mean}\PY{o}{+}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{rho}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a2mean}\PY{p}{)}
+             \PY{n}{cost} \PY{o}{=} \PY{n}{loss}\PY{o}{+}\PY{n}{dW}\PY{o}{*}\PY{n}{decay}\PY{o}{+}\PY{n}{sW}\PY{o}{*}\PY{n}{kl}
+             
+             \PY{n}{d3} \PY{o}{=} \PY{n}{eps}\PY{o}{*}\PY{n}{a3}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a3}\PY{p}{)}
+             \PY{n}{d2} \PY{o}{=} \PY{p}{(}\PY{n}{sW}\PY{o}{*}\PY{n}{dkl}\PY{o}{.}\PY{n}{T}\PY{o}{+}\PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{d3}\PY{p}{,} \PY{n}{W2}\PY{o}{.}\PY{n}{T}\PY{p}{)}\PY{p}{)}\PY{o}{*}\PY{n}{a2}\PY{o}{*}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{\PYZhy{}}\PY{n}{a2}\PY{p}{)}
+             \PY{n}{W1grad} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{X}\PY{o}{.}\PY{n}{T}\PY{p}{,}\PY{n}{d2}\PY{p}{)}\PY{o}{/}\PY{n}{n} \PY{o}{+} \PY{n}{dW}\PY{o}{*}\PY{n}{W1}
+             \PY{n}{W2grad} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{a2}\PY{o}{.}\PY{n}{T}\PY{p}{,}\PY{n}{d3}\PY{p}{)}\PY{o}{/}\PY{n}{n} \PY{o}{+} \PY{n}{dW}\PY{o}{*}\PY{n}{W2}
+             \PY{n}{b1grad} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{d2}\PY{o}{.}\PY{n}{T}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{n}{n}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{)}\PY{o}{/}\PY{n}{n}
+             \PY{n}{b2grad} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{dot}\PY{p}{(}\PY{n}{d3}\PY{o}{.}\PY{n}{T}\PY{p}{,}\PY{n}{np}\PY{o}{.}\PY{n}{ones}\PY{p}{(}\PY{p}{(}\PY{n}{n}\PY{p}{,}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}\PY{p}{)}\PY{o}{/}\PY{n}{n}
+             
+             \PY{n}{grad} \PY{o}{=} \PY{n}{ravelParameters}\PY{p}{(}\PY{n}{W1grad}\PY{p}{,}\PY{n}{W2grad}\PY{p}{,}
+                                    \PY{n}{b1grad}\PY{p}{,} \PY{n}{b2grad}\PY{p}{)}
+             \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{ .}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{n}{end}\PY{o}{=}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+             \PY{k}{return} \PY{n}{cost}\PY{p}{,} \PY{n}{grad}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}9}]:} \PY{n}{theta} \PY{o}{=} \PY{n}{initializeParameters}\PY{p}{(}\PY{n}{nH}\PY{p}{,} \PY{n}{nV}\PY{p}{)}
-        \PY{n}{cost}\PY{p}{,} \PY{n}{grad} \PY{o}{=} \PY{n}{sparseAutoencoderCost}\PY{p}{(}\PY{n}{theta}\PY{p}{,} \PY{n}{nV}\PY{p}{,} \PY{n}{nH}\PY{p}{,} \PY{n}{dW}\PY{p}{,} \PY{n}{sW}\PY{p}{,} \PY{n}{X}\PY{p}{)}
-        \PY{n+nb}{print}\PY{p}{(}\PY{n}{cost}\PY{p}{,}\PY{n}{grad}\PY{p}{)}
-        \PY{c+c1}{\PYZsh{}print(np.ones(50))}
+{\color{incolor}In [{\color{incolor}11}]:} \PY{n}{theta} \PY{o}{=} \PY{n}{initializeParameters}\PY{p}{(}\PY{n}{nH}\PY{p}{,} \PY{n}{nV}\PY{p}{)}
+         \PY{n}{cost}\PY{p}{,} \PY{n}{grad} \PY{o}{=} \PY{n}{sparseAutoencoderCost}\PY{p}{(}\PY{n}{theta}\PY{p}{,} \PY{n}{nV}\PY{p}{,} \PY{n}{nH}\PY{p}{,} \PY{n}{dW}\PY{p}{,} \PY{n}{sW}\PY{p}{,} \PY{n}{X}\PY{p}{)}
+         \PY{n+nb}{print}\PY{p}{(}\PY{n}{cost}\PY{p}{,}\PY{n}{grad}\PY{p}{)}
+         \PY{c+c1}{\PYZsh{}print(np.ones(50))}
 \end{Verbatim}
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
- .56.5319053844 [ 0.83106574  0.87429827  0.80847634 {\ldots}, -0.02399919 -0.03810212
- -0.00833089]
+ .49.7204533671 [ 0.92409996  0.66995594  0.7605772  {\ldots}, -0.01799767  0.00212467
+  0.00521965]
 
     \end{Verbatim}
 
@@ -485,7 +604,7 @@ of the function is therefore to unpack the \texttt{theta} vector into
 from the cost. The relative difference should be less than 10e-9.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}10}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Comparing numerical gradient with backdrop gradient}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}12}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Comparing numerical gradient with backdrop gradient}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
          \PY{n}{num\PYZus{}coords} \PY{o}{=} \PY{l+m+mi}{5}
          \PY{n}{indices} \PY{o}{=} \PY{n}{np}\PY{o}{.}\PY{n}{random}\PY{o}{.}\PY{n}{choice}\PY{p}{(}\PY{n}{theta}\PY{o}{.}\PY{n}{size}\PY{p}{,} \PY{n}{num\PYZus{}coords}\PY{p}{,} \PY{n}{replace}\PY{o}{=}\PY{k+kc}{False}\PY{p}{)}
          \PY{n}{numgrad} \PY{o}{=} \PY{n}{computeNumericalGradient}\PY{p}{(}\PY{k}{lambda} \PY{n}{t}\PY{p}{:} 
@@ -508,12 +627,12 @@ from the cost. The relative difference should be less than 10e-9.
 
 Comparing numerical gradient with backdrop gradient
  . . . . . . . . . .
- [[ -5.60882391e-03  -5.60882395e-03]
- [  8.31224652e-01   8.31224652e-01]
- [ -4.60600091e-05  -4.60599727e-05]
- [  1.60391841e-02   1.60391841e-02]
- [  5.93707750e-01   5.93707750e-01]]
-Relative difference:  9.6956630679e-11
+ [[ 0.8326458   0.8326458 ]
+ [ 0.76225529  0.76225529]
+ [ 0.86552561  0.86552561]
+ [ 0.92709986  0.92709986]
+ [-0.00107397 -0.00107397]]
+Relative difference:  5.18413941778e-11
 small enough!
 
     \end{Verbatim}
@@ -525,7 +644,7 @@ network and to visualize the features learnt by the autoencoder. The
 optimization takes several minutes.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}11}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Training neural network}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}13}]:} \PY{n+nb}{print}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+se}{\PYZbs{}n}\PY{l+s+s1}{Training neural network}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
          \PY{n}{theta} \PY{o}{=} \PY{n}{initializeParameters}\PY{p}{(}\PY{n}{nH}\PY{p}{,}\PY{n}{nV}\PY{p}{)}
          \PY{n}{opttheta}\PY{p}{,}\PY{n}{cost}\PY{p}{,}\PY{n}{msg} \PY{o}{=} \PY{n}{minimize}\PY{p}{(}\PY{n}{sparseAutoencoderCost}\PY{p}{,}
                                       \PY{n}{theta}\PY{p}{,}\PY{n}{fprime}\PY{o}{=}\PY{k+kc}{None}\PY{p}{,}\PY{n}{maxiter}\PY{o}{=}\PY{l+m+mi}{400}\PY{p}{,}
@@ -541,18 +660,18 @@ optimization takes several minutes.
     \begin{Verbatim}[commandchars=\\\{\}]
 
 Training neural network
- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
     \end{Verbatim}
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_21_1.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_22_1.png}
     \end{center}
     { \hspace*{\fill} \\}
     
     \subsubsection{Q4. DataSpark Challenge}\label{q4.-dataspark-challenge}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}12}]:} \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
+{\color{incolor}In [{\color{incolor}14}]:} \PY{o}{\PYZpc{}}\PY{k}{matplotlib} inline
          \PY{k+kn}{import} \PY{n+nn}{numpy} \PY{k}{as} \PY{n+nn}{np}
          \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
          \PY{k+kn}{import} \PY{n+nn}{matplotlib}\PY{n+nn}{.}\PY{n+nn}{pyplot} \PY{k}{as} \PY{n+nn}{plt}
@@ -561,7 +680,7 @@ Training neural network
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}13}]:} \PY{n}{data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dataspark.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}15}]:} \PY{n}{data} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dataspark2.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
          \PY{n}{data} \PY{o}{=} \PY{n}{data}\PY{o}{.}\PY{n}{drop}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{seqid}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{index}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{acc}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dir}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{spd}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
                           \PY{n}{axis}\PY{o}{=}\PY{l+m+mi}{1}\PY{p}{)}
          \PY{n+nb}{print}\PY{p}{(}\PY{n}{data}\PY{o}{.}\PY{n}{info}\PY{p}{(}\PY{p}{)}\PY{p}{)}
@@ -573,25 +692,25 @@ Training neural network
 
     \begin{Verbatim}[commandchars=\\\{\}]
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 141437 entries, 0 to 141436
+RangeIndex: 108208 entries, 0 to 108207
 Data columns (total 4 columns):
-date      141437 non-null object
-userid    141437 non-null object
-lat       141437 non-null float64
-lon       141437 non-null float64
+date      108208 non-null object
+userid    108208 non-null object
+lat       108208 non-null float64
+lon       108208 non-null float64
 dtypes: float64(2), object(2)
-memory usage: 4.3+ MB
+memory usage: 3.3+ MB
 None
 
     \end{Verbatim}
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_24_1.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_25_1.png}
     \end{center}
     { \hspace*{\fill} \\}
     
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}14}]:} \PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DatetimeIndex}\PY{p}{(}\PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{5min}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}16}]:} \PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DatetimeIndex}\PY{p}{(}\PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{round}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{5min}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
          \PY{n}{data} \PY{o}{=} \PY{n}{data}\PY{o}{.}\PY{n}{groupby}\PY{p}{(}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{userid}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{o}{.}\PY{n}{mean}\PY{p}{(}\PY{p}{)}\PY{o}{.}\PY{n}{reset\PYZus{}index}\PY{p}{(}\PY{p}{)}
          \PY{n+nb}{print}\PY{p}{(}\PY{n}{data}\PY{o}{.}\PY{n}{info}\PY{p}{(}\PY{p}{)}\PY{p}{)}
          \PY{n}{plt}\PY{o}{.}\PY{n}{scatter}\PY{p}{(}\PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lon}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}\PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lat}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}\PY{n}{marker}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
@@ -601,20 +720,20 @@ None
 
     \begin{Verbatim}[commandchars=\\\{\}]
 <class 'pandas.core.frame.DataFrame'>
-RangeIndex: 26115 entries, 0 to 26114
+RangeIndex: 18204 entries, 0 to 18203
 Data columns (total 4 columns):
-userid    26115 non-null object
-date      26115 non-null datetime64[ns]
-lat       26115 non-null float64
-lon       26115 non-null float64
+userid    18204 non-null object
+date      18204 non-null datetime64[ns]
+lat       18204 non-null float64
+lon       18204 non-null float64
 dtypes: datetime64[ns](1), float64(2), object(1)
-memory usage: 816.2+ KB
+memory usage: 569.0+ KB
 None
 
     \end{Verbatim}
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_25_1.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_26_1.png}
     \end{center}
     { \hspace*{\fill} \\}
     
@@ -626,7 +745,7 @@ clusters. Sample the data to improve speed. Write your guess for the
 number of clusters in the data.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}15}]:} \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{cluster} \PY{k}{import} \PY{n}{KMeans}
+{\color{incolor}In [{\color{incolor}17}]:} \PY{k+kn}{from} \PY{n+nn}{sklearn}\PY{n+nn}{.}\PY{n+nn}{cluster} \PY{k}{import} \PY{n}{KMeans}
          \PY{n}{smp} \PY{o}{=} \PY{n}{data}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lat}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lon}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}\PY{o}{.}\PY{n}{sample}\PY{p}{(}\PY{n}{n}\PY{o}{=}\PY{l+m+mi}{3000}\PY{p}{,}\PY{n}{random\PYZus{}state}\PY{o}{=}\PY{l+m+mi}{200}\PY{p}{)}
          \PY{n}{score} \PY{o}{=} \PY{p}{[}\PY{p}{]}
          \PY{n}{cls\PYZus{}range} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{range}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,}\PY{l+m+mi}{150}\PY{p}{,}\PY{l+m+mi}{10}\PY{p}{)}\PY{p}{)}
@@ -639,11 +758,11 @@ number of clusters in the data.
 
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_27_0.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_28_0.png}
     \end{center}
     { \hspace*{\fill} \\}
     
-    My guess is that we have 80 clusters.
+    My guess is that we have 20 clusters.
 
     \begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
@@ -652,7 +771,7 @@ number of clusters in the data.
 latitude of some centroid.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}16}]:} \PY{n}{num\PYZus{}cluster} \PY{o}{=} \PY{l+m+mi}{80}
+{\color{incolor}In [{\color{incolor}18}]:} \PY{n}{num\PYZus{}cluster} \PY{o}{=} \PY{l+m+mi}{20}
          \PY{n}{data\PYZus{}latlon} \PY{o}{=} \PY{n}{data}\PY{p}{[}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lat}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lon}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{]}
          \PY{n}{decided\PYZus{}kmean} \PY{o}{=} \PY{n}{KMeans}\PY{p}{(}\PY{n}{n\PYZus{}clusters}\PY{o}{=}\PY{n}{num\PYZus{}cluster}\PY{p}{)}\PY{o}{.}\PY{n}{fit}\PY{p}{(}\PY{n}{data\PYZus{}latlon}\PY{p}{)}
          \PY{n}{centroids} \PY{o}{=} \PY{n}{decided\PYZus{}kmean}\PY{o}{.}\PY{n}{cluster\PYZus{}centers\PYZus{}}
@@ -662,7 +781,7 @@ latitude of some centroid.
 
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_30_0.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_31_0.png}
     \end{center}
     { \hspace*{\fill} \\}
     
@@ -671,7 +790,7 @@ latitude of some centroid.
 \textbf{c)} Compute the speeds at which each user is travelling.
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}47}]:} \PY{k+kn}{from} \PY{n+nn}{numpy}\PY{n+nn}{.}\PY{n+nn}{linalg} \PY{k}{import} \PY{n}{norm}
+{\color{incolor}In [{\color{incolor}19}]:} \PY{k+kn}{from} \PY{n+nn}{numpy}\PY{n+nn}{.}\PY{n+nn}{linalg} \PY{k}{import} \PY{n}{norm}
          \PY{k}{for} \PY{n}{u} \PY{o+ow}{in} \PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{userid}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{.}\PY{n}{unique}\PY{p}{(}\PY{p}{)}\PY{p}{:}
              \PY{n}{user} \PY{o}{=} \PY{n}{data}\PY{p}{[}\PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{userid}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{==}\PY{n}{u}\PY{p}{]}
              \PY{n}{date} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{DatetimeIndex}\PY{p}{(}\PY{n}{user}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}
@@ -690,7 +809,7 @@ latitude of some centroid.
 
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}49}]:} \PY{n}{stop} \PY{o}{=} \PY{n}{data}\PY{p}{[}\PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{speed}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{\PYZlt{}}\PY{l+m+mi}{1}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}20}]:} \PY{n}{stop} \PY{o}{=} \PY{n}{data}\PY{p}{[}\PY{n}{data}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{speed}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{\PYZlt{}}\PY{l+m+mi}{1}\PY{p}{]}
          \PY{n}{plt}\PY{o}{.}\PY{n}{scatter}\PY{p}{(}\PY{n}{stop}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lon}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}\PY{n}{stop}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{lat}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{,}
                      \PY{n}{c}\PY{o}{=}\PY{n}{np}\PY{o}{.}\PY{n}{log}\PY{p}{(}\PY{n}{stop}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{speed}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)}\PY{p}{,}
                      \PY{n}{marker}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{.}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
@@ -707,22 +826,22 @@ latitude of some centroid.
 
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_33_0.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_34_0.png}
     \end{center}
     { \hspace*{\fill} \\}
     
     \begin{Verbatim}[commandchars=\\\{\}]
-Number of entries = 20921
+Number of entries = 14135
 
     \end{Verbatim}
 
     \begin{center}
-    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_33_2.png}
+    \adjustimage{max size={0.9\linewidth}{0.9\paperheight}}{output_34_2.png}
     \end{center}
     { \hspace*{\fill} \\}
     
     \begin{Verbatim}[commandchars=\\\{\}]
-Number of entries = 5164
+Number of entries = 4059
 
     \end{Verbatim}
 
