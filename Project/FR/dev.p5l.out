@@ -6,7 +6,7 @@ horrible O none
 
 Assiettes O none
 de O none
-tapas O none
+tapas B positive
 ridicules O none
 . O none
 
@@ -20,7 +20,7 @@ autres O none
 personnes O none
 par O none
 la O none
-terrasse O none
+terrasse B positive
 et O none
 les O none
 prix O none
@@ -61,7 +61,7 @@ limite O none
 à O none
 savoir O none
 des O none
-pâtes O none
+pâtes B neutral
 desséchées O none
 et O none
 froides O none
@@ -108,7 +108,7 @@ maison O none
 
 Reste O none
 le O none
-service O none
+service B positive
 , O none
 sympathique O none
 mais O none
@@ -127,7 +127,7 @@ de O none
 qualité O none
 de O none
 ce O none
-restaurant O none
+restaurant B positive
 . O none
 
 En O none
@@ -171,7 +171,7 @@ l O none
 ' O none
 entrée O none
 ( O none
-moules O none
+moules B negative
 gratinées O none
 ) O none
 qui O none
@@ -180,7 +180,7 @@ trop O none
 petite O none
 tant O none
 les O none
-moules O none
+moules B negative
 étaient O none
 bonnes O none
 . O none
@@ -195,7 +195,7 @@ sucré O none
 . O none
 
 Le O none
-restaurant B neutral
+restaurant B positive
 se O none
 trouvant O none
 au-dessus O none
@@ -204,7 +204,7 @@ marché O none
 , O none
 l O none
 ' O none
-ambiance O none
+ambiance B positive
 est O none
 garantie O none
 . O none
@@ -228,7 +228,7 @@ peu O none
 d'amabilité O none
 d'une O none
 des O none
-serveuses O none
+serveuses B negative
 assez O none
 désagréable O none
 et O none
@@ -385,13 +385,13 @@ du O none
 siècle O none
 , O none
 les O none
-assiettes O none
+assiettes B neutral
 sont O none
 peu O none
 fournies O none
 , O none
 les O none
-plats O none
+plats B neutral
 médiocres O none
 et O none
 le O none
@@ -428,7 +428,7 @@ nous O none
 dire O none
 que O none
 nos O none
-plats O none
+plats B negative
 sont O none
 entrain O none
 d'arriver O none
@@ -567,7 +567,7 @@ ne O none
 retournerons O none
 dans O none
 ce O none
-restaurant O none
+restaurant B neutral
 . O none
 
 Le O none
@@ -608,7 +608,7 @@ de O none
 Gap O none
 , O none
 ce O none
-restaurant O none
+restaurant B neutral
 est O none
 bien O none
 décoré O none
@@ -620,7 +620,7 @@ beaucoup O none
 fréquenté O none
 ce O none
 petit O none
-restaurant O none
+restaurant B neutral
 , O none
 mais O none
 là O none
@@ -671,10 +671,10 @@ pour O none
 les O none
 amateurs O none
 de O none
-viande O none
+viande B negative
 , O none
 une O none
-entrecôte O none
+entrecôte B negative
 qui O none
 fond O none
 dans O none
@@ -682,16 +682,16 @@ la O none
 bouche O none
 , O none
 une O none
-sauce O none
+sauce B negative
 simple O none
 mais O none
 goûteuses O none
 et O none
 un O none
-verre O none
-de O none
-vin O none
-de O none
+verre B negative
+de I negative
+vin I negative
+de I negative
 bonne O none
 qualité O none
 . O none
@@ -785,7 +785,7 @@ P O none
 les O none
 entrées O none
 et O none
-desserts O none
+desserts B neutral
 sont O none
 inégaux O none
 quant O none
@@ -798,7 +798,7 @@ ne O none
 recommanderai O none
 pas O none
 ce O none
-restaurant O none
+restaurant B neutral
 et O none
 n'y O none
 retournerai O none
@@ -817,7 +817,7 @@ un O none
 comble O none
 pour O none
 un O none
-établissement O none
+établissement B positive
 mettant O none
 en O none
 avant O none
@@ -899,7 +899,7 @@ d'eau O none
 , O none
 bref O none
 une O none
-bière O none
+bière B negative
 coupée O none
 à O none
 l'eau O none
@@ -921,7 +921,7 @@ les O none
 papilles O none
 avec O none
 des O none
-produits O none
+produits B positive
 très O none
 bien O none
 cuisinés O none
@@ -951,14 +951,14 @@ des O none
 baies O none
 vitrées O none
 la O none
-cuisine O none
+cuisine B positive
 et O none
 bonne O none
 et O none
 en O none
 plus O none
 le O none
-service O none
+service B positive
 est O none
 avec O none
 le O none
@@ -977,7 +977,7 @@ lorsque O none
 nous O none
 lisions O none
 la O none
-carte O none
+carte B negative
 , O none
 malgré O none
 cette O none
@@ -988,7 +988,7 @@ le O none
 contenu O none
 de O none
 la O none
-carte O none
+carte B negative
 avait O none
 l'air O none
 pas O none
@@ -1011,7 +1011,7 @@ choix O none
 , O none
 l O none
 ' O none
-attente O none
+attente B negative
 a O none
 été O none
 longue O none
@@ -1019,10 +1019,10 @@ longue O none
 heureusement O none
 l'égarement O none
 d'une O none
-serveuse O none
+serveuse B negative
 avec O none
 ses O none
-assiettes O none
+assiettes B negative
 nous O none
 a O none
 fait O none
@@ -1107,7 +1107,7 @@ fois O none
 
 1 O none
 ticket O none
-Resto O none
+Resto B positive
 par O none
 personne O none
 
@@ -1137,7 +1137,7 @@ donc O none
 je O none
 pense O none
 les O none
-serveurs O none
+serveurs B negative
 fatigués O none
 . O none
 
@@ -1156,7 +1156,7 @@ parisiennes O none
 dîner O none
 dans O none
 cet O none
-établissement O none
+établissement B neutral
 bien O none
 situé O none
 . O none
@@ -1206,7 +1206,7 @@ grand O none
 remerciement O none
 pour O none
 cette O none
-cuisine O none
+cuisine B positive
 riche O none
 moderne O none
 et O none
@@ -1219,9 +1219,9 @@ merci O none
 à O none
 l O none
 ' O none
-accueil O none
-au O none
-service O none
+accueil B positive
+au O positive
+service B positive
 , O none
 la O none
 gentillesse O none
@@ -1229,7 +1229,7 @@ et O none
 le O none
 professionnalisme O none
 du O none
-personnel O none
+personnel B positive
 merci O none
 et O none
 merci O none
@@ -1281,13 +1281,13 @@ Bien O none
 situé O none
 . O none
 
-repas B neutral
+repas B positive
 et O none
 un O none
 vin O none
 irréprochable O none
 , O none
-service O none
+service B positive
 impeccable O none
 . O none
 
@@ -1306,7 +1306,7 @@ de O none
 passage O none
 dans O none
 le O none
-restaurant O none
+restaurant B neutral
 . O none
 
 Certes O none
@@ -1353,7 +1353,7 @@ aimable O none
 de O none
 la O none
 vraie O none
-nourriture O none
+nourriture B negative
 traditionnelle O none
 française O none
 , O none
@@ -1377,7 +1377,7 @@ recettes O none
 de O none
 bon O none
 petits O none
-vins O none
+vins B positive
 , O none
 franchement O none
 , O none
@@ -1414,7 +1414,7 @@ avons O none
 testé O none
 de O none
 nombreux O none
-plats O none
+plats B neutral
 différents O none
 et O none
 toujours O none
@@ -1455,13 +1455,13 @@ peu O none
 accéléré O none
 par O none
 un O none
-serveur O none
+serveur B negative
 visiblement O none
 pressé O none
 de O none
 finir O none
 son O none
-service O none
+service B positive
 et O none
 qui O none
 est O none
@@ -1553,12 +1553,12 @@ casserole O none
 de O none
 puré O none
 de O none
-pommes O none
-de O none
-terre O none
+pommes B negative
+de I negative
+terre I negative
 comme O none
 une O none
-soupe O none
+soupe B negative
 amère O none
 . O none
 
@@ -1599,8 +1599,8 @@ sympathique O none
 
 Des O none
 serveurs B negative
-antipathiques O none
-au O none
+antipathiques I negative
+au I negative
 possible O none
 . O none
 
@@ -1632,7 +1632,7 @@ de O none
 la O none
 recette O none
 des O none
-moules O none
+moules B negative
 marinières O none
 . O none
 
@@ -1723,7 +1723,7 @@ nous O none
 venions O none
 dans O none
 ce O none
-restaurant O none
+restaurant B neutral
 ! O none
 
 Le O none
@@ -1757,7 +1757,7 @@ ne O none
 souhaite O none
 manger O none
 ces O none
-moules O none
+moules B negative
 douteuses O none
 . O none
 
@@ -1774,13 +1774,13 @@ savent O none
 pas O none
 décrire O none
 les O none
-plats O none
+plats B positive
 , O none
 les O none
 noms O none
 originaux O none
 des O none
-plats O none
+plats B positive
 sont O none
 incompréhensible O none
 . O none
@@ -1849,7 +1849,7 @@ plaisir O none
 dés O none
 l O none
 ' O none
-accueil O none
+accueil B positive
 , O none
 ce O none
 grand O none
@@ -1893,7 +1893,7 @@ parisienne O none
 qui O none
 achète O none
 ses O none
-produits O none
+produits B positive
 de O none
 basse O none
 qualité O none
@@ -1917,17 +1917,17 @@ sur O none
 le O none
 choix O none
 du O none
-lieu O none
+lieu B positive
 , O none
 un O none
 bon O none
-verre O none
-de O none
-vin O none
+verre B positive
+de I positive
+vin I positive
 , O none
 des O none
 bons O none
-tapas O none
+tapas B positive
 de O none
 qualité O none
 engloutis O none
@@ -2033,7 +2033,7 @@ la O none
 petite O none
 Venise O none
 avec O none
-terrasse O none
+terrasse B positive
 au O none
 bord O none
 de O none
@@ -2041,7 +2041,7 @@ l'eau O none
 , O none
 l O none
 ' O none
-endroit O none
+endroit B positive
 semblait O none
 idéal O none
 pour O none
@@ -2055,12 +2055,12 @@ Colmar O none
 Excellent O none
 dîner O none
 , O none
-serveuse O none
+serveuse B negative
 très O none
 aimable O none
 , O none
 et O none
-ambiance O none
+ambiance B positive
 tamisée O none
 .. O none
 Nous O none
@@ -2069,7 +2069,7 @@ testé O none
 plusieurs O none
 entrées O none
 et O none
-plats O none
+plats B negative
 .. O none
 Personne O none
 n O none
@@ -2111,7 +2111,7 @@ vous O none
 recommandons O none
 l O none
 ' O none
-endroit O none
+endroit B positive
 . O none
 
 Le O none
@@ -2295,7 +2295,7 @@ clinquante O none
 
 Lorsque O none
 le O none
-serveur O none
+serveur B negative
 nous O none
 demande O none
 si O none
@@ -2307,7 +2307,7 @@ lui O none
 dis O none
 que O none
 la O none
-viande O none
+viande B negative
 était O none
 bonne O none
 mais O none
@@ -2340,15 +2340,15 @@ chaud I negative
 , O none
 suivi O none
 d'un O none
-magret O none
-de O none
-canard O none
-miel O none
-/ O none
-citron O none
-accompagné O none
-de O none
-pommes O none
+magret B positive
+de I positive
+canard I positive
+miel I negative
+/ I negative
+citron I negative
+accompagné I negative
+de I negative
+pommes O negative
 sautées O none
 , O none
 un O none
@@ -2395,7 +2395,7 @@ des O none
 ordres O none
 aux O none
 autres O none
-serveurs O none
+serveurs B negative
 . O none
 
 Les O none
@@ -2420,7 +2420,7 @@ positions O none
 de O none
 l O none
 ' O none
-équipe O none
+équipe B positive
 qui O none
 est O none
 au O none
@@ -2433,7 +2433,7 @@ Après O none
 mais O none
 une O none
 certaine O none
-ambiance O none
+ambiance B positive
 dans O none
 la O none
 salle O none
@@ -2476,7 +2476,7 @@ sec O none
 mal O none
 cuit O none
 , O none
-frites O none
+frites B negative
 sans O none
 goût O none
 à O none
@@ -2485,10 +2485,10 @@ celui O none
 de O none
 l'huile O none
 , O none
-bière O none
+bière B negative
 chaude O none
 ... O none
-service O none
+service B positive
 assez O none
 sympathique O none
 et O none
@@ -2573,7 +2573,7 @@ du O none
 se O none
 méfier O none
 du O none
-restaurant O none
+restaurant B neutral
 presque O none
 vide O none
 un O none
@@ -2604,14 +2604,14 @@ délicieux O none
 ) O none
 et O none
 une O none
-sorte O none
-de O none
-canard O none
-confis O none
-en O none
-gelée O none
-avec O none
-noix O none
+sorte B negative
+de I negative
+canard I negative
+confis I negative
+en I negative
+gelée I negative
+avec I negative
+noix I positive
 et O none
 poires O none
 ( O none
@@ -2626,7 +2626,7 @@ quartier O none
 tranquille O none
 , O none
 un O none
-restaurant O none
+restaurant B positive
 où O none
 l'on O none
 peut O none
@@ -2640,7 +2640,7 @@ dégustant O none
 une O none
 très O none
 bonne O none
-cuisine O none
+cuisine B positive
 de O none
 saison O none
 . O none
@@ -2681,33 +2681,33 @@ bien O none
 exécutés O none
 , O none
 les O none
-sauces O none
+sauces B negative
 sont O none
 également O none
 bonnes O none
 
 des O none
-plats B neutral
+plats B negative
 sans O none
 passion O none
 , O none
 vaisselle O none
 cassée O none
 , O none
-plat O none
-du O none
-jour O none
+plat B negative
+du I negative
+jour I negative
 ( O none
-riz O none
-crustacés O none
-en O none
-gros O none
+riz B negative
+crustacés I negative
+en I negative
+gros I negative
 ) O none
 très O none
 sec O none
 , O none
 sans O none
-sauce O none
+sauce B negative
 , O none
 gambas O none
 pas O none
@@ -2715,7 +2715,7 @@ fraîches O none
 , O none
 une O none
 pauvre O none
-décoration O none
+décoration B positive
 superflue O none
 ... O none
 bref O none
@@ -2727,14 +2727,14 @@ La O none
 sauce B neutral
 envahissait O none
 le O none
-poisson O none
+poisson B neutral
 . O none
 
 1ère O none
 fois O none
 que O none
 le O none
-service O none
+service B positive
 n'est O none
 pas O none
 à O none
@@ -2742,7 +2742,7 @@ la O none
 hauteur O none
 de O none
 la O none
-cuisine O none
+cuisine B positive
 dans O none
 les O none
 restos O none
@@ -2775,19 +2775,19 @@ aimable O none
 
 Choix O none
 de O none
-plats O none
+plats B neutral
 très O none
 classique O none
 , O none
 et O none
 qualité O none
 des O none
-plats O none
+plats B neutral
 médiocre O none
 . O none
 
 Bons O none
-cocktails O none
+cocktails B positive
 et O none
 barman O none
 très O none
@@ -2821,7 +2821,7 @@ un O none
 cheveu O none
 sur O none
 la O none
-soupe O none
+soupe B neutral
 ! O none
 
 La O none
@@ -2856,7 +2856,7 @@ Elysée O none
 Comment O none
 peut-on O none
 dire O none
-cuisine O none
+cuisine B positive
 maison O none
 avec O none
 ces O none
@@ -2877,7 +2877,7 @@ escargots O none
 decongeles O none
 etc O none
 ... O none
-cuisine O none
+cuisine B positive
 française O none
 vraiment O none
 ? O none
@@ -2981,7 +2981,7 @@ ne O none
 conseillerais O none
 pas O none
 cet O none
-établissement O none
+établissement B neutral
 . O none
 
 Ca O none
@@ -3020,9 +3020,9 @@ et O none
 une O none
 part O none
 de O none
-tarte O none
-aux O none
-pommes O none
+tarte B negative
+aux I negative
+pommes O negative
 surgelée O none
 ( O none
 écrit O none
@@ -3030,7 +3030,7 @@ fait O none
 maison O none
 sur O none
 la O none
-carte O none
+carte B negative
 ) O none
 
 Bon O none
@@ -3124,7 +3124,7 @@ quartier O none
 Service B positive
 lamentable O none
 , O none
-viandes O none
+viandes B positive
 médiocres O none
 et O none
 note O none
@@ -3160,12 +3160,12 @@ en O none
 appétit O none
 et O none
 un O none
-accueil O none
+accueil B positive
 toujours O none
 très O none
 chaleureux O none
 du O none
-patron O none
+patron B positive
 et O none
 de O none
 sa O none
@@ -3173,7 +3173,7 @@ femme O none
 . O none
 
 Superbe O none
-accueil O none
+accueil B positive
 . O none
 
 Oui O none
@@ -3184,7 +3184,7 @@ frais O none
 Connaissant O none
 bien O none
 la O none
-cuisine O none
+cuisine B positive
 de O none
 son O none
 mari O none
@@ -3197,9 +3197,9 @@ de O none
 la O none
 qualité O none
 du O none
-plat O none
-du O none
-jour O none
+plat B positive
+du I positive
+jour I positive
 . O none
 
 Mais O none
@@ -3297,7 +3297,7 @@ menu O none
 n'inspirait O none
 pas O none
 une O none
-cuisine O none
+cuisine B positive
 raffinée O none
 ... O none
 mais O none
@@ -3359,7 +3359,7 @@ en O none
 tout O none
 début O none
 de O none
-service O none
+service B positive
 lorsque O none
 l'endroit O none
 est O none
@@ -3551,7 +3551,7 @@ le O none
 menu O none
 avec O none
 le O none
-responsable O none
+responsable B neutral
 et O none
 nous O none
 étions O none
@@ -3650,7 +3650,7 @@ déception O none
 Le O none
 contenu O none
 des O none
-assiettes O none
+assiettes B positive
 est O none
 tout O none
 aussi O none
@@ -3662,8 +3662,8 @@ très O none
 bon O none
 de O none
 l'entrée O none
-aux O none
-desserts O none
+aux O positive
+desserts B positive
 . O none
 
 Mais O none
@@ -3671,7 +3671,7 @@ après O none
 : O none
 
 Les O none
-plats B neutral
+plats B positive
 sont O none
 classiques O none
 mais O none
@@ -3685,7 +3685,7 @@ aussi.Vient O none
 ensuite O none
 l O none
 ' O none
-ambiance O none
+ambiance B positive
 musicale O none
 qui O none
 correspond O none
@@ -3701,10 +3701,10 @@ endroits O none
 . O none
 
 Le O none
-moelleux O none
-speculos O none
-/ O none
-chocolat O none
+moelleux B positive
+speculos I positive
+/ I positive
+chocolat I positive
 était O none
 a O none
 tom O none
@@ -3721,19 +3721,19 @@ restaurant O none
 
 Manifestement O none
 ce O none
-restaurant O none
+restaurant B positive
 a O none
 préféré O none
 tout O none
 miser O none
 sur O none
 le O none
-cadre O none
-au O none
-détriment O none
-de O none
+cadre B positive
+au I positive
+détriment I positive
+de I positive
 la O none
-cuisine O none
+cuisine B positive
 ! O none
 
 Carafe O none

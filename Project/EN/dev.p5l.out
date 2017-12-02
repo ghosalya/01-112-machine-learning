@@ -34,17 +34,17 @@ guests O none
 
 The O none
 tuna B positive
-and O none
-wasabe O none
-potatoes O none
+and I positive
+wasabe I positive
+potatoes I positive
 are O none
 excellent O none
 . O none
 
 My O none
 favortie O none
-pizza O none
-joint O none
+pizza B positive
+joint O positive
 in O none
 Seattle O none
 
@@ -67,7 +67,7 @@ restaurant O none
 isn't O none
 a O none
 fancy O none
-place O none
+place B neutral
 . O none
 
 – O none
@@ -109,7 +109,7 @@ restaurant O none
 It's O none
 a O none
 tiny O none
-place B neutral
+place B positive
 so O none
 if O none
 you O none
@@ -140,8 +140,8 @@ a O none
 seat O none
 at O none
 the O none
-sushi O none
-bar O none
+sushi B positive
+bar I positive
 . O none
 
 The O none
@@ -172,7 +172,7 @@ one O none
 of O none
 the O none
 best O none
-seafood O none
+seafood B positive
 restaurants O none
 in O none
 New O none
@@ -204,7 +204,7 @@ a O none
 variety O none
 of O none
 the O none
-beer O none
+beer B positive
 ( O none
 cold O none
 and O none
@@ -293,11 +293,11 @@ table O none
 . O none
 
 We O none
-concluded O none
-with O none
-tiramisu O none
-chocolate O none
-cake O none
+concluded B positive
+with I positive
+tiramisu I positive
+chocolate I positive
+cake I positive
 , O none
 both O none
 were O none
@@ -308,10 +308,10 @@ Not O none
 much O none
 of O none
 a O none
-selection O none
-of O none
-bottled O none
-beer O none
+selection B positive
+of I positive
+bottled I positive
+beer I positive
 either O none
 , O none
 we O none
@@ -327,7 +327,7 @@ is O none
 for O none
 the O none
 Southglen O none
-location O none
+location B positive
 which O none
 is O none
 not O none
@@ -350,7 +350,7 @@ to O none
 be O none
 addressed O none
 by O none
-management O none
+management B negative
 but O none
 Snooze O none
 has O none
@@ -370,9 +370,9 @@ overpriced O none
 restaurant O none
 with O none
 mediocre O none
-food O none
-and O none
-service O none
+food B positive
+and O positive
+service B positive
 , O none
 so O none
 this O none
@@ -387,7 +387,7 @@ ones O none
 for O none
 their O none
 Larimer O none
-location O none
+location B positive
 will O none
 go O none
 unaddressed O none
@@ -416,13 +416,13 @@ we O none
 were O none
 looking O none
 for O none
-regular B neutral
+regular B positive
 lettuce O none
 and O none
 some O none
 walnuts O none
 the O none
-salads O none
+salads B positive
 we O none
 got O none
 were O none
@@ -481,9 +481,9 @@ a O none
 cute O none
 interior B negative
 decor I negative
-and O none
-affordable O none
-city O none
+and I negative
+affordable I negative
+city I negative
 prices O none
 . O none
 
@@ -495,7 +495,7 @@ is O none
 Ok O none
 but O none
 the O none
-food O none
+food B positive
 is O none
 what O none
 makes O none
@@ -512,9 +512,9 @@ back O none
 home O none
 after O none
 visiting O none
-Casa O none
-La O none
-Femme O none
+Casa B negative
+La I negative
+Femme I negative
 and O none
 was O none
 so O none
@@ -605,7 +605,7 @@ It's O none
 definately O none
 not O none
 a O none
-place O none
+place B neutral
 to O none
 go O none
 if O none
@@ -626,7 +626,7 @@ of O none
 flavor O none
 , O none
 the O none
-dessert O none
+dessert B positive
 was O none
 divine O none
 ! O none
@@ -677,7 +677,7 @@ to O none
 do O none
 with O none
 the O none
-food O none
+food B positive
 anymore O none
 . O none
 
@@ -703,23 +703,23 @@ tomatoey O none
 . O none
 
 Fabulous O none
-food O none
+food B positive
 - O none
 if O none
 the O none
-front O none
-of O none
-house O none
-staff O none
+front B negative
+of I negative
+house I negative
+staff I negative
 don't O none
 put O none
 you O none
 off O none
 – O none
 
-Single O none
-Worst O none
-Restaurant O none
+Single B positive
+Worst I positive
+Restaurant I positive
 in O none
 Manhattan O none
 
@@ -770,7 +770,7 @@ place I positive
 or O none
 Spanish O none
 tapas O none
-place O none
+place B positive
 - O none
 this O none
 creation O none
@@ -829,7 +829,7 @@ was O none
 introduced O none
 to O none
 this O none
-place O none
+place B neutral
 and O none
 this O none
 is O none
@@ -891,7 +891,7 @@ The O none
 staff B positive
 offers O none
 impeccable O none
-service O none
+service B positive
 . O none
 
 Great O none
@@ -908,12 +908,12 @@ in O none
 Seattle O none
 , O none
 Mioposto's O none
-service O none
+service B positive
 was O none
 bad O none
 and O none
 the O none
-food O none
+food B positive
 was O none
 overpriced O none
 . O none
@@ -921,11 +921,11 @@ overpriced O none
 Great O none
 draft O none
 and O none
-bottle O none
-selection O none
+bottle B positive
+selection I positive
 and O none
 the O none
-pizza O none
+pizza B positive
 rocks O none
 . O none
 
@@ -1029,7 +1029,7 @@ some O none
 of O none
 the O none
 worst O none
-sushi O none
+sushi B neutral
 I O none
 have O none
 ever O none
@@ -1048,7 +1048,7 @@ do O none
 so O none
 for O none
 this O none
-place O none
+place B neutral
 . O none
 
 I O none
@@ -1089,8 +1089,8 @@ the O none
 exception O none
 of O none
 our O none
-lemon O none
-salad O none
+lemon B positive
+salad I positive
 that O none
 had O none
 so O none
@@ -1105,7 +1105,7 @@ started O none
 watering O none
 , O none
 the O none
-food O none
+food B positive
 here O none
 was O none
 decent O none
@@ -1137,8 +1137,8 @@ The O none
 rest O none
 of O none
 the O none
-dim O none
-sum O none
+dim B neutral
+sum I neutral
 , O none
 though O none
 pricey O none
@@ -1192,16 +1192,16 @@ is O none
 undoubtedly O none
 my O none
 favorite O none
-modern O none
-Japanese O none
-brasserie O none
-( O none
+modern B positive
+Japanese I positive
+brasserie I positive
+( I positive
 that O none
 don O none
 ’ O none
 t O none
 serve O none
-sushi O none
+sushi B positive
 ) O none
 , O none
 and O none
@@ -1256,7 +1256,7 @@ for O none
 sides O none
 which O none
 the O none
-waiter O none
+waiter B negative
 than O none
 admitted O none
 that O none
@@ -1416,12 +1416,12 @@ served O none
 with O none
 either O none
 a O none
-peppercorn O none
-sauce O none
-or O none
-red O none
-wine O none
-reduction O none
+peppercorn B positive
+sauce I positive
+or I positive
+red I positive
+wine I positive
+reduction I positive
 , O none
 though O none
 both O none
@@ -1515,7 +1515,7 @@ the O none
 donut O none
 like O none
 deep O none
-fried O none
+fried B positive
 dough O none
 they O none
 call O none
@@ -1527,29 +1527,29 @@ a O none
 delicious O none
 and O none
 sweet O none
-tasting O none
-bread O none
+tasting B positive
+bread I positive
 . O none
 
 Rather O none
 than O none
 preparing O none
-vegetarian O none
-dish O none
+vegetarian B negative
+dish I negative
 , O none
 the O none
-chef O none
+chef B negative
 presented O none
 me O none
 with O none
 a O none
-plate O none
-of O none
-steamed O none
-vegetables O none
-( O none
-minus O none
-sauce O none
+plate B negative
+of I negative
+steamed I negative
+vegetables I negative
+( I negative
+minus I negative
+sauce I negative
 , O none
 seasoning O none
 , O none
@@ -1620,14 +1620,14 @@ a O none
 lot O none
 of O none
 good O none
-dishes O none
+dishes B positive
 since O none
 we O none
 knew O none
 nothing O none
 about O none
-Indian O none
-food O none
+Indian O positive
+food B positive
 . O none
 
 Went O none
@@ -1647,14 +1647,14 @@ their O none
 favorite O none
 types O none
 of O none
-pizza O none
-and O none
-pizza O none
+pizza B positive
+and I positive
+pizza I positive
 places O none
 , O none
 but O none
 Mioposto's O none
-pizza O none
+pizza B positive
 lacks O none
 quality O none
 and O none
@@ -1842,7 +1842,7 @@ we O none
 got O none
 a O none
 snobby O none
-waiter O none
+waiter B negative
 wouldn't O none
 even O none
 take O none
@@ -1893,15 +1893,15 @@ us O none
 . O none
 
 The O none
-frizzy O none
-retro O none
-girl O none
-( O none
-with O none
-winged O none
-/ O none
-Dame O none
-Edna O none
+frizzy B neutral
+retro I neutral
+girl I neutral
+( I neutral
+with I neutral
+winged I neutral
+/ I neutral
+Dame I neutral
+Edna I neutral
 glasses O none
 ) O none
 will O none
@@ -1940,15 +1940,15 @@ one-two O none
 punch O none
 of O none
 classic O none
-Korean O none
-food O none
+Korean O negative
+food B negative
 and O none
 fusion O none
 twists O none
 like O none
-pork O none
-belly O none
-tacos O none
+pork B negative
+belly I negative
+tacos I negative
 . O none
 
 It O none
@@ -1995,7 +1995,7 @@ glad O none
 this O none
 was O none
 the O none
-place O none
+place B neutral
 it O none
 O O none
 trip O none
@@ -2045,7 +2045,7 @@ Raymond O none
 Most O none
 importantly O none
 , O none
-food O none
+food B positive
 is O none
 excellent O none
 . O none
@@ -2066,7 +2066,7 @@ rough O none
 - O none
 - O none
 the O none
-food O none
+food B positive
 is O none
 delicious O none
 and O none
@@ -2187,7 +2187,7 @@ Schooner O none
 or O none
 Later's O none
 charming O none
-location O none
+location B negative
 along O none
 the O none
 marina O none
@@ -2196,7 +2196,7 @@ Long O none
 Beach O none
 and O none
 average O none
-food O none
+food B positive
 does O none
 not O none
 , O none
@@ -2207,8 +2207,8 @@ for O none
 its O none
 very O none
 poor O none
-customer O none
-service O none
+customer B negative
+service I negative
 . O none
 
 The O none
@@ -2219,12 +2219,12 @@ reminescent O none
 of O none
 Baker's O none
 Beach O none
-pizza O none
+pizza B positive
 which O none
 occupied O none
 the O none
 the O none
-space O none
+space B negative
 years O none
 ago O none
 ( O none
@@ -2268,8 +2268,8 @@ entrees O none
 were O none
 served O none
 with O none
-miso O none
-soup O none
+miso B positive
+soup I positive
 and O none
 rice O none
 . O none
@@ -2426,7 +2426,7 @@ strikes O none
 you O none
 is O none
 the O none
-decor O none
+decor B positive
 ? O none
 ( O none
 not O none
@@ -2575,16 +2575,16 @@ it O none
 . O none
 
 This O none
-place B neutral
+place B positive
 has O none
 the O none
 the O none
 correct O none
-ambience O none
+ambience B positive
 and O none
 an O none
 excellent O none
-staff O none
+staff B positive
 to O none
 make O none
 you O none
@@ -2626,7 +2626,7 @@ can O none
 probably O none
 order O none
 more O none
-food O none
+food B positive
 than O none
 you O none
 can O none
@@ -2641,7 +2641,7 @@ just O none
 going O none
 off O none
 the O none
-menu O none
+menu B positive
 . O none
 
 Service B positive
@@ -2729,7 +2729,7 @@ so O none
 amazed O none
 at O none
 this O none
-place O none
+place B neutral
 . O none
 
 For O none
@@ -2741,12 +2741,12 @@ great O none
 food B positive
 plus O none
 great O none
-service O none
+service B positive
 , O none
 Roxy O none
 is O none
 a O none
-place O none
+place B positive
 to O none
 AVOID O none
 ! O none
@@ -2762,7 +2762,7 @@ down O none
 , O none
 the O none
 best O none
-tuna O none
+tuna B positive
 I O none
 have O none
 ever O none
@@ -2781,9 +2781,9 @@ calamari O none
 as O none
 were O none
 the O none
-filling O none
-pasta O none
-mains O none
+filling B positive
+pasta I positive
+mains I positive
 . O none
 
 Told O none
@@ -2821,15 +2821,15 @@ for O none
 the O none
 udon O none
 was O none
-soy O none
-sauce O none
+soy B positive
+sauce I positive
 and O none
 water O none
 . O none
 
 AVOID O none
 THE O none
-PLACE O none
+PLACE B positive
 
 It O none
 was O none
@@ -2874,7 +2874,7 @@ while O none
 their O none
 parents O none
 sipped O none
-wine O none
+wine B positive
 . O none
 
 I O none
@@ -2971,7 +2971,7 @@ and O none
 so O none
 was O none
 the O none
-dessert O none
+dessert B neutral
 ... O none
 definitely O none
 going O none
@@ -3064,7 +3064,7 @@ Indian O none
 restaurant O none
 but O none
 this O none
-place O none
+place B positive
 doesn't O none
 have O none
 an O none
@@ -3104,7 +3104,7 @@ NYU O none
 i O none
 need O none
 a O none
-place O none
+place B neutral
 to O none
 eat O none
 after O none
@@ -3164,9 +3164,9 @@ Rao's O none
 has O none
 the O none
 best O none
-service O none
-and O none
-atmosphere O none
+service B positive
+and O positive
+atmosphere B positive
 in O none
 NYC O none
 . O none
@@ -3204,7 +3204,7 @@ head O none
 I O none
 expect O none
 better O none
-service O none
+service B positive
 . O none
 
 This O none
@@ -3254,7 +3254,7 @@ to O none
 this O none
 somewhat O none
 hidden O none
-spot O none
+spot B positive
 , O none
 once O none
 you O none
@@ -3340,7 +3340,7 @@ stumbled O none
 onto O none
 this O none
 hopping O none
-place O none
+place B neutral
 the O none
 other O none
 night O none
@@ -3365,7 +3365,7 @@ is O none
 noisy O none
 and O none
 the O none
-waiters O none
+waiters B positive
 are O none
 literally O none
 walking O none
@@ -3408,7 +3408,7 @@ is O none
 one O none
 the O none
 nicest O none
-outdoor O none
+outdoor B positive
 restaurants O none
 I O none
 have O none
@@ -3421,7 +3421,7 @@ from O none
 Italy O none
 and O none
 this O none
-place O none
+place B positive
 rivals O none
 the O none
 ones O none
@@ -3443,7 +3443,7 @@ to O none
 open O none
 their O none
 own O none
-place O none
+place B neutral
 . O none
 
 A O none
@@ -3528,7 +3528,7 @@ it O none
 really O none
 hits O none
 the O none
-spot O none
+spot B positive
 on O none
 a O none
 Sunday O none
@@ -3541,7 +3541,7 @@ and O none
 I O none
 LOVE O none
 this O none
-place O none
+place B neutral
 . O none
 
 I O none
@@ -3582,8 +3582,8 @@ is O none
 the O none
 fantastic O none
 pork B negative
-croquette O none
-sandwich O none
+croquette I positive
+sandwich I positive
 , O none
 perfect O none
 on O none
@@ -3631,8 +3631,8 @@ the O none
 best O none
 Chinese B positive
 style I positive
-BBQ O none
-ribs O none
+BBQ I positive
+ribs I positive
 in O none
 the O none
 city O none
@@ -3685,7 +3685,7 @@ little O none
 tipsy O none
 from O none
 the O none
-sake O none
+sake B neutral
 but O none
 isn't O none
 that O none
@@ -3802,7 +3802,7 @@ Great O none
 financial O none
 district O none
 mexican O none
-spot O none
+spot B positive
 . O none
 
 I'll O none
@@ -3846,7 +3846,7 @@ got O none
 hair O none
 in O none
 my O none
-food O none
+food B positive
 2 O none
 times O none
 of O none
@@ -3860,7 +3860,7 @@ spreads O none
 and O none
 a O none
 good O none
-place O none
+place B positive
 to O none
 hang O none
 out O none
@@ -3893,14 +3893,14 @@ mash O none
 . O none
 
 Friendly O none
-staff O none
+staff B positive
 that O none
 actually O none
 lets O none
 you O none
 enjoy O none
 your O none
-meal O none
+meal B positive
 and O none
 the O none
 company O none
@@ -3926,16 +3926,16 @@ Here O none
 I O none
 ended O none
 the O none
-meal O none
+meal B positive
 with O none
 the O none
 unusual O none
-dessert O none
+dessert B positive
 of O none
 a O none
 port O none
 and O none
-chocolate O none
+chocolate O positive
 tasting O none
 ... O none
 yummy O none
@@ -3951,18 +3951,18 @@ ever O none
 had O none
 is O none
 the O none
-main O none
+main B negative
 thing O none
 . O none
 
 Baluchi's O none
 has O none
 solid O none
-food O none
+food B positive
 and O none
 a O none
 nice O none
-decor O none
+decor B positive
 at O none
 reasonable O none
 prices O none
@@ -3982,8 +3982,8 @@ my O none
 jem O none
 of O none
 a O none
-pizza O none
-place O none
+pizza B positive
+place O positive
 to O none
 become O none
 overcrowded O none
@@ -4000,7 +4000,7 @@ redeeming O none
 factor O none
 was O none
 the O none
-food O none
+food B positive
 , O none
 which O none
 was O none
@@ -4021,9 +4021,9 @@ Teodora O none
 . O none
 
 Terrible O none
-service O none
+service B positive
 , O none
-food O none
+food B positive
 ok O none
 , O none
 pricey O none
@@ -4098,7 +4098,7 @@ knew O none
 everything O none
 about O none
 the O none
-menu O none
+menu B positive
 and O none
 his O none
 recommendations O none
@@ -4109,14 +4109,14 @@ amazing O none
 Other O none
 guests O none
 enjoyed O none
-pizza O none
+pizza B positive
 , O none
-santa O none
-fe O none
-chopped O none
-salad O none
-and O none
-fish O none
+santa B positive
+fe I positive
+chopped I positive
+salad I positive
+and I positive
+fish I positive
 and O none
 chips O none
 . O none
@@ -4149,8 +4149,8 @@ top O none
 of O none
 my O none
 Manhattan O none
-restaurant O none
-list O none
+restaurant B positive
+list I positive
 . O none
 
 The O none
@@ -4205,13 +4205,13 @@ great O none
 . O none
 
 limited O none
-menu O none
+menu B positive
 , O none
 no-so-fresh O none
-ingredients O none
+ingredients B positive
 , O none
 thinly-sliced O none
-fish O none
+fish B positive
 , O none
 fall-apart O none
 rice O none
@@ -4307,6 +4307,6 @@ great O none
 Quick O none
 and O none
 friendly O none
-service O none
+service B positive
 . O none
 
