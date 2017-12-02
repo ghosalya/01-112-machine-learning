@@ -895,7 +895,7 @@ service O
 . O
 
 Great O
-Indian O
+Indian B-neutral
 Food O
 ! O
 
@@ -980,7 +980,7 @@ atmosphere O
 that O
 makes O
 me O
-come O
+come B-positive
 back O
 nearly O
 every O
@@ -1388,8 +1388,8 @@ the O
 fried O
 shrimp O
 which O
-are O
-huge O
+are I-neutral
+huge B-neutral
 and O
 loved O
 it O
@@ -1436,7 +1436,7 @@ food O
 was O
 absolutely O
 amazing O
-! O
+! B-positive
 ! O
 
 We O
@@ -1489,7 +1489,7 @@ good O
 , O
 nothing O
 spectacular O
-. O
+. B-neutral
 
 i O
 actually O
@@ -1724,14 +1724,14 @@ but O
 being O
 that O
 the O
-food O
+food B-positive
 was O
 so O
 good O
 makes O
 up O
 for O
-that O
+that B-negative
 . O
 
 We O
@@ -1757,7 +1757,7 @@ for O
 the O
 food O
 , O
-it O
+it B-positive
 will O
 not O
 be O
@@ -1823,7 +1823,7 @@ family O
 Service O
 is O
 average O
-. O
+. B-negative
 
 One O
 would O
@@ -2376,7 +2376,7 @@ to O
 order O
 the O
 appetizer O
-platter O
+platter B-positive
 since O
 we O
 were O
@@ -2506,7 +2506,7 @@ the O
 prices O
 are O
 very O
-reasonable O
+reasonable B-positive
 . O
 
 There O
@@ -2647,9 +2647,9 @@ menu O
 Service O
 , O
 however O
-, O
-was O
-excellent O
+, I-positive
+was I-positive
+excellent B-positive
 ... O
 and O
 I O
@@ -2660,7 +2660,7 @@ setting O
 atmosphere O
 a O
 lot O
-. O
+. B-negative
 
 This O
 establishment O
@@ -2900,7 +2900,7 @@ amazing O
 ... O
 food O
 was O
-delicious O
+delicious B-positive
 and O
 of O
 course O
@@ -3129,12 +3129,12 @@ by O
 Service O
 here O
 was O
-great O
+great B-positive
 , O
 food O
 was O
 fantastic O
-. O
+. B-negative
 
 I O
 wish O
@@ -3453,7 +3453,7 @@ with O
 great O
 food O
 , O
-and O
+and B-positive
 tons O
 of O
 excellent O
@@ -3701,14 +3701,14 @@ about O
 ? O
 
 A O
-restaurant O
+restaurant B-positive
 that O
 doesn't O
 try O
-to O
+to B-negative
 do O
 anything O
-except O
+except B-positive
 serve O
 great O
 food O
@@ -3913,7 +3913,7 @@ pizza O
 is O
 overpriced O
 and O
-soggy O
+soggy B-positive
 . O
 
 You O
@@ -4133,7 +4133,7 @@ it O
 . O
 
 love O
-the O
+the B-positive
 food O
 . O
 
@@ -4202,7 +4202,7 @@ prompt O
 friendly O
 and O
 great O
-. O
+. B-negative
 
 limited O
 menu O
@@ -4301,7 +4301,7 @@ salsa O
 The O
 food O
 was O
-great O
+great B-positive
 ! O
 
 Quick O

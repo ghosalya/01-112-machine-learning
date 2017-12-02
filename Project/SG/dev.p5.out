@@ -480,7 +480,7 @@ every O
 day O
 better O
 
-Moore O
+Moore B-positive
 : O
 role O
 of O
@@ -953,8 +953,8 @@ ever O
 just O
 find O
 someone's O
-facebook O
-account O
+facebook B-negative
+account I-negative
 then O
 want O
 to O
@@ -1121,7 +1121,7 @@ all O
 teams O
 in O
 the O
-NHL O
+NHL B-positive
 
 Want O
 to O
@@ -1167,7 +1167,7 @@ Cafe O
 https://t.co/sswsqRwQ2K O
 #photo O
 
-Ronda O
+Ronda B-neutral
 Rousey O
 to O
 fight O
@@ -1680,7 +1680,7 @@ https://t.co/AepM8FNPfN O
 
 Opened O
 up O
-Netflix O
+Netflix B-neutral
 and O
 started O
 watching O
@@ -1793,7 +1793,7 @@ What O
 a O
 night O
 , O
-JDT O
+JDT B-neutral
 is O
 on O
 the O
@@ -2275,8 +2275,8 @@ Mindhorn O
 
 @thehill O
 but O
-Paul O
-Ryan O
+Paul B-negative
+Ryan I-negative
 worships O
 Ayn O
 Rand O
@@ -2343,7 +2343,7 @@ the O
 first O
 season O
 .. O
-USA O
+USA B-neutral
 has O
 some O
 sick O
@@ -2859,9 +2859,9 @@ Adel O
 
 The O
 most O
-Emma O
+Emma B-neutral
 that O
-Emma O
+Emma B-neutral
 has O
 ever O
 been O
@@ -3067,8 +3067,8 @@ https://t.co/TEBV58RKHl O
 
 Join O
 the O
-Dollar O
-General O
+Dollar B-neutral
+General I-neutral
 team O
 ! O
 See O
@@ -3129,7 +3129,7 @@ and O
 a O
 home O
 in O
-France O
+France B-neutral
 . O
 It's O
 a O
@@ -3355,7 +3355,7 @@ https://t.co/fBnWroPigQ O
 U O
 don't O
 kiss O
-Clintons O
+Clintons B-negative
 rear O
 u O
 r O
@@ -5032,7 +5032,7 @@ I O
 praise O
 and O
 thank O
-God O
+God B-positive
 for O
 blessing O
 me O
@@ -5181,7 +5181,7 @@ what O
 was O
 left O
 of O
-Carolyn O
+Carolyn B-negative
 ' O
 s O
 music O
@@ -5239,7 +5239,7 @@ so O
 much O
 better O
 if O
-Harold O
+Harold B-negative
 Reynolds O
 talked O
 a O
@@ -5758,7 +5758,7 @@ newest O
 fan O
 , O
 baby O
-Charlie O
+Charlie B-neutral
 @mnwild O
 @mnwildPR O
 #mnwild O
@@ -6413,7 +6413,7 @@ ever O
 think O
 of O
 
-Northampton O
+Northampton B-positive
 family O
 desperate O
 to O
@@ -6614,10 +6614,10 @@ https://t.co/hxFkC8Gy6x O
 
 I'm O
 at O
-The O
-@Clementi_Mall O
+The B-neutral
+@Clementi_Mall I-neutral
 in O
-Singapore O
+Singapore B-neutral
 https://t.co/qeLOglv3rL O
 
 My O
@@ -6725,7 +6725,7 @@ this O
 morning O
 ! O
 @ O
-Port O
+Port B-neutral
 of O
 Halifax O
 https://t.co/elELY1VVt9 O
@@ -7160,13 +7160,13 @@ choices O
 
 I'm O
 at O
-Lot O
-One O
-Shoppers O
-' O
-Mall O
+Lot B-neutral
+One I-neutral
+Shoppers I-neutral
+' I-neutral
+Mall I-neutral
 in O
-Singapore O
+Singapore B-neutral
 https://t.co/4M5Bo3nlNs O
 
 Who O
@@ -7654,11 +7654,11 @@ Wallace O
 
 I'm O
 at O
-Yew O
-Tee O
-Point O
+Yew B-neutral
+Tee I-neutral
+Point I-neutral
 in O
-Singapore O
+Singapore B-neutral
 https://t.co/RW0A8Gc7yB O
 
 Get O
@@ -7815,7 +7815,7 @@ had O
 last O
 season O
 against O
-Arizona O
+Arizona B-neutral
 ! O
 Look O
 at O
@@ -9001,8 +9001,8 @@ I O
 can't O
 do O
 the O
-Drake O
-Birmingham O
+Drake B-negative
+Birmingham I-negative
 dates O
 and O
 decent O
@@ -9755,9 +9755,9 @@ https://t.co/9pJ4anGPPw O
 
 These O
 niggas O
-Call O
-of O
-Duty O
+Call B-neutral
+of I-neutral
+Duty I-neutral
 cause O
 their O
 killings O
@@ -10148,7 +10148,7 @@ night O
 . O
 Talk O
 to O
-Eric O
+Eric B-positive
 asap O
 . O
 https://t.co/El8Htl3aDt O
@@ -10179,7 +10179,7 @@ I O
 love O
 already O
 love O
-Backes O
+Backes B-negative
 
 aaa O
 ( O
@@ -10310,8 +10310,8 @@ finished O
 I O
 guess O
 the O
-Nobel B-neutral
-prize O
+Nobel B-negative
+prize I-negative
 ppl O
 thought O
 reading O
@@ -10608,7 +10608,7 @@ Also O
 highlights O
 risk O
 to O
-Ireland O
+Ireland B-neutral
 of O
 imports O
 channeled O
@@ -10650,7 +10650,7 @@ I O
 wonder O
 what O
 Honey B-positive
-G O
+G I-positive
 is O
 going O
 to O
@@ -10662,7 +10662,7 @@ Week O
 
 Nobody O
 from O
-Wisconsin O
+Wisconsin B-neutral
 follows O
 me O
 here O
@@ -11287,7 +11287,7 @@ career O
 #NHLandChill O
 
 these O
-Jessica O
+Jessica B-neutral
 Simpson O
 panties O
 my O
@@ -11755,7 +11755,7 @@ https://t.co/yLpIqFPiKr O
 Getting O
 dressed O
 for O
-Houston O
+Houston B-neutral
 ! O
 
 Wait O
@@ -13309,9 +13309,9 @@ Services I-positive
 We're O
 #hiring O
 in O
-#Olympia O
-, O
-WA O
+#Olympia B-neutral
+, I-neutral
+WA I-neutral
 ! O
 Click O
 for O
@@ -14084,7 +14084,7 @@ DOESNT O
 DESERVE O
 THIS O
 
-Captain O
+Captain B-negative
 crunch O
 berries O
 cereal O
@@ -14688,7 +14688,7 @@ UP O
 https://t.co/4wzfJTewHO O
 
 A O
-Ferrari O
+Ferrari B-negative
 crashed O
 into O
 the O
@@ -15479,7 +15479,7 @@ https://t.co/YgEvQhXp7i O
 
 Lights O
 by O
-Ellie O
+Ellie B-neutral
 Goulding O
 is O
 #nowplaying O
@@ -15556,7 +15556,7 @@ credits O
 … O
 https://t.co/TQT9pyDdda O
 
-Foley O
+Foley B-positive
 drew O
 lines O
 in O
@@ -15648,8 +15648,8 @@ trump O
 
 I'm O
 at O
-Nanyang O
-Academy O
+Nanyang B-neutral
+Academy I-neutral
 of O
 Fine O
 Arts O
@@ -15688,7 +15688,7 @@ you O
 see O
 stupidity O
 on O
-Facebook O
+Facebook B-neutral
 and O
 someone O
 tries O
@@ -15845,8 +15845,8 @@ Want O
 to O
 work O
 at O
-All O
-brands O
+All B-neutral
+brands I-neutral
 Logo O
 ? O
 We're O
@@ -16290,7 +16290,7 @@ me O
 
 I'm O
 at O
-Mount O
+Mount B-neutral
 Faber O
 Park O
 in O
@@ -16362,7 +16362,7 @@ telling O
 the O
 truth O
 . O
-Trump O
+Trump B-negative
 is O
 a O
 serial O
@@ -16699,8 +16699,8 @@ Nike O
 and O
 indra O
 at O
-Bugis O
-Street O
+Bugis B-neutral
+Street I-neutral
 ) O
 — O
 https://t.co/gG2Rtd19vN O

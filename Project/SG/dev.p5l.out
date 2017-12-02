@@ -480,7 +480,7 @@ every O none
 day O none
 better O none
 
-Moore O none
+Moore B positive
 : O none
 role O none
 of O none
@@ -953,8 +953,8 @@ ever O none
 just O none
 find O none
 someone's O none
-facebook O none
-account O none
+facebook B negative
+account I negative
 then O none
 want O none
 to O none
@@ -1121,7 +1121,7 @@ all O none
 teams O none
 in O none
 the O none
-NHL O none
+NHL B positive
 
 Want O none
 to O none
@@ -1167,7 +1167,7 @@ Cafe O none
 https://t.co/sswsqRwQ2K O none
 #photo O none
 
-Ronda O none
+Ronda B neutral
 Rousey O none
 to O none
 fight O none
@@ -1680,7 +1680,7 @@ https://t.co/AepM8FNPfN O none
 
 Opened O none
 up O none
-Netflix O none
+Netflix B neutral
 and O none
 started O none
 watching O none
@@ -1793,7 +1793,7 @@ What O none
 a O none
 night O none
 , O none
-JDT O none
+JDT B neutral
 is O none
 on O none
 the O none
@@ -2275,8 +2275,8 @@ Mindhorn O none
 
 @thehill O none
 but O none
-Paul O none
-Ryan O none
+Paul B negative
+Ryan I negative
 worships O none
 Ayn O none
 Rand O none
@@ -2343,7 +2343,7 @@ the O none
 first O none
 season O none
 .. O none
-USA O none
+USA B neutral
 has O none
 some O none
 sick O none
@@ -2859,9 +2859,9 @@ Adel O none
 
 The O none
 most O none
-Emma O none
+Emma B neutral
 that O none
-Emma O none
+Emma B neutral
 has O none
 ever O none
 been O none
@@ -3067,8 +3067,8 @@ https://t.co/TEBV58RKHl O none
 
 Join O none
 the O none
-Dollar O none
-General O none
+Dollar B neutral
+General I neutral
 team O none
 ! O none
 See O none
@@ -3129,7 +3129,7 @@ and O none
 a O none
 home O none
 in O none
-France O none
+France B neutral
 . O none
 It's O none
 a O none
@@ -3355,7 +3355,7 @@ https://t.co/fBnWroPigQ O none
 U O none
 don't O none
 kiss O none
-Clintons O none
+Clintons B negative
 rear O none
 u O none
 r O none
@@ -5032,7 +5032,7 @@ I O none
 praise O none
 and O none
 thank O none
-God O none
+God B positive
 for O none
 blessing O none
 me O none
@@ -5181,7 +5181,7 @@ what O none
 was O none
 left O none
 of O none
-Carolyn O none
+Carolyn B negative
 ' O none
 s O none
 music O none
@@ -5239,7 +5239,7 @@ so O none
 much O none
 better O none
 if O none
-Harold O none
+Harold B negative
 Reynolds O none
 talked O none
 a O none
@@ -5758,7 +5758,7 @@ newest O none
 fan O none
 , O none
 baby O none
-Charlie O none
+Charlie B neutral
 @mnwild O none
 @mnwildPR O none
 #mnwild O none
@@ -6413,7 +6413,7 @@ ever O none
 think O none
 of O none
 
-Northampton O none
+Northampton B positive
 family O none
 desperate O none
 to O none
@@ -6614,10 +6614,10 @@ https://t.co/hxFkC8Gy6x O none
 
 I'm O none
 at O none
-The O none
-@Clementi_Mall O none
+The B neutral
+@Clementi_Mall I neutral
 in O none
-Singapore O none
+Singapore B neutral
 https://t.co/qeLOglv3rL O none
 
 My O none
@@ -6725,9 +6725,9 @@ this O none
 morning O none
 ! O none
 @ O none
-Port O none
-of O none
-Halifax O none
+Port B neutral
+of O neutral
+Halifax O neutral
 https://t.co/elELY1VVt9 O none
 
 #favskincare O none
@@ -7160,13 +7160,13 @@ choices O none
 
 I'm O none
 at O none
-Lot O none
-One O none
-Shoppers O none
-' O none
-Mall O none
-in O none
-Singapore O none
+Lot B neutral
+One I neutral
+Shoppers I neutral
+' I neutral
+Mall I neutral
+in O neutral
+Singapore B neutral
 https://t.co/4M5Bo3nlNs O none
 
 Who O none
@@ -7654,11 +7654,11 @@ Wallace O none
 
 I'm O none
 at O none
-Yew O none
-Tee O none
-Point O none
-in O none
-Singapore O none
+Yew B neutral
+Tee I neutral
+Point I neutral
+in O neutral
+Singapore B neutral
 https://t.co/RW0A8Gc7yB O none
 
 Get O none
@@ -7815,7 +7815,7 @@ had O none
 last O none
 season O none
 against O none
-Arizona O none
+Arizona B neutral
 ! O none
 Look O none
 at O none
@@ -9001,8 +9001,8 @@ I O none
 can't O none
 do O none
 the O none
-Drake O none
-Birmingham O none
+Drake B negative
+Birmingham I negative
 dates O none
 and O none
 decent O none
@@ -9755,9 +9755,9 @@ https://t.co/9pJ4anGPPw O none
 
 These O none
 niggas O none
-Call O none
-of O none
-Duty O none
+Call B neutral
+of I neutral
+Duty I neutral
 cause O none
 their O none
 killings O none
@@ -10148,7 +10148,7 @@ night O none
 . O none
 Talk O none
 to O none
-Eric O none
+Eric B positive
 asap O none
 . O none
 https://t.co/El8Htl3aDt O none
@@ -10179,7 +10179,7 @@ I O none
 love O none
 already O none
 love O none
-Backes O none
+Backes B negative
 
 aaa O none
 ( O none
@@ -10310,8 +10310,8 @@ finished O none
 I O none
 guess O none
 the O none
-Nobel B neutral
-prize O none
+Nobel B negative
+prize I negative
 ppl O none
 thought O none
 reading O none
@@ -10608,7 +10608,7 @@ Also O none
 highlights O none
 risk O none
 to O none
-Ireland O none
+Ireland B neutral
 of O none
 imports O none
 channeled O none
@@ -10650,7 +10650,7 @@ I O none
 wonder O none
 what O none
 Honey B positive
-G O none
+G I positive
 is O none
 going O none
 to O none
@@ -10662,7 +10662,7 @@ Week O none
 
 Nobody O none
 from O none
-Wisconsin O none
+Wisconsin B neutral
 follows O none
 me O none
 here O none
@@ -11287,7 +11287,7 @@ career O none
 #NHLandChill O none
 
 these O none
-Jessica O none
+Jessica B neutral
 Simpson O none
 panties O none
 my O none
@@ -11755,7 +11755,7 @@ https://t.co/yLpIqFPiKr O none
 Getting O none
 dressed O none
 for O none
-Houston O none
+Houston B neutral
 ! O none
 
 Wait O none
@@ -13309,9 +13309,9 @@ Services I positive
 We're O none
 #hiring O none
 in O none
-#Olympia O none
-, O none
-WA O none
+#Olympia B neutral
+, I neutral
+WA I neutral
 ! O none
 Click O none
 for O none
@@ -14084,7 +14084,7 @@ DOESNT O none
 DESERVE O none
 THIS O none
 
-Captain O none
+Captain B negative
 crunch O none
 berries O none
 cereal O none
@@ -14688,7 +14688,7 @@ UP O none
 https://t.co/4wzfJTewHO O none
 
 A O none
-Ferrari O none
+Ferrari B negative
 crashed O none
 into O none
 the O none
@@ -15479,7 +15479,7 @@ https://t.co/YgEvQhXp7i O none
 
 Lights O none
 by O none
-Ellie O none
+Ellie B neutral
 Goulding O none
 is O none
 #nowplaying O none
@@ -15556,7 +15556,7 @@ credits O none
 … O none
 https://t.co/TQT9pyDdda O none
 
-Foley O none
+Foley B positive
 drew O none
 lines O none
 in O none
@@ -15648,8 +15648,8 @@ trump O none
 
 I'm O none
 at O none
-Nanyang O none
-Academy O none
+Nanyang B neutral
+Academy I neutral
 of O none
 Fine O none
 Arts O none
@@ -15688,7 +15688,7 @@ you O none
 see O none
 stupidity O none
 on O none
-Facebook O none
+Facebook B neutral
 and O none
 someone O none
 tries O none
@@ -15845,8 +15845,8 @@ Want O none
 to O none
 work O none
 at O none
-All O none
-brands O none
+All B neutral
+brands I neutral
 Logo O none
 ? O none
 We're O none
@@ -16290,7 +16290,7 @@ me O none
 
 I'm O none
 at O none
-Mount O none
+Mount B neutral
 Faber O none
 Park O none
 in O none
@@ -16362,7 +16362,7 @@ telling O none
 the O none
 truth O none
 . O none
-Trump O none
+Trump B negative
 is O none
 a O none
 serial O none
@@ -16699,8 +16699,8 @@ Nike O none
 and O none
 indra O none
 at O none
-Bugis O none
-Street O none
+Bugis B neutral
+Street I neutral
 ) O none
 — O none
 https://t.co/gG2Rtd19vN O none

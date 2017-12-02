@@ -552,10 +552,10 @@ c O none
 
 # B neutral
 扇贝 I neutral
-打卡 O none
-# O none
-扇贝 O none
-英语 O none
+打卡 I neutral
+# B neutral
+扇贝 I neutral
+英语 I neutral
 单词 O none
 特训 O none
 第 O none
@@ -2056,15 +2056,15 @@ http://t.cn/R2W6jjg O none
 荣耀 O none
 是 O none
 属于 O none
-付 O none
-王子 O none
+付 B positive
+王子 I positive
 的 O none
 ！ O none
 ！ O none
 去 O none
-上海 O none
+上海 B positive
 找 O none
-李易峰 O none
+李易峰 B positive
 一起 O none
 带 O none
 着 O none
@@ -2970,7 +2970,7 @@ http://t.cn/RcSYU1q O none
 老歌 O none
 
 # B neutral
-广州 O none
+广州 I neutral
 吃喝玩乐 O none
 # O none
 http O none
@@ -3099,7 +3099,7 @@ http://t.cn/ae2x3z O none
 喝酒 O none
 
 # B neutral
-广州 O none
+广州 I neutral
 吃喝玩乐 O none
 # O none
 http O none
@@ -4361,9 +4361,9 @@ http://t.cn/R2WxEa8 O none
 特别 O none
 值得 O none
 推荐 O none
-易 O none
-烊 O none
-千玺 O none
+易 B positive
+烊 I positive
+千玺 I positive
 
 # B positive
 阴阳师 I positive
@@ -4626,10 +4626,10 @@ http://t.cn/RVyKyWd（通过 O none
 
 # B neutral
 亚洲 I neutral
-好书 O none
-榜 O none
-# O none
-年度 O none
+好书 I neutral
+榜 I neutral
+# O neutral
+年度 O neutral
 最具 O none
 粉丝 O none
 影响力 O none
@@ -4640,9 +4640,9 @@ http://t.cn/RVyKyWd（通过 O none
 ！ O none
 我刚 O none
 为 O none
-# O none
-张艺兴 O none
-# O none
+# B positive
+张艺兴 I positive
+# O positive
 投了 O none
 宝贵 O none
 的 O none
@@ -5599,8 +5599,8 @@ Z O none
 ， O none
 特别 O none
 喜欢 O none
-李易峰 O none
-杨紫 O none
+李易峰 B positive
+杨紫 B positive
 的 O none
 表现 O none
 真的 O none
@@ -5883,8 +5883,8 @@ http://t.cn/R66puQY O none
 着 O none
 热气 O none
 的 O none
-红油 O none
-抄手 O none
+红油 B positive
+抄手 I positive
 ， O none
 足以 O none
 对抗 O none
@@ -5897,8 +5897,8 @@ http://t.cn/R66puQY O none
 。 O none
 — O none
 — O none
-沈 O none
-熹微 O none
+沈 B neutral
+熹微 I neutral
 《 O none
 在 O none
 人群 O none

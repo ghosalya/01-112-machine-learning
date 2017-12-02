@@ -1,7 +1,7 @@
 La O
 décoration O
 est O
-horrible O
+horrible B-positive
 . O
 
 Assiettes O
@@ -1043,7 +1043,7 @@ Les O
 produits O
 sont O
 de O
-saison O
+saison B-positive
 . O
 
 Service O
@@ -1062,7 +1062,7 @@ joliment O
 présentés O
 et O
 très O
-bons O
+bons B-positive
 . O
 
 Le O
@@ -1595,7 +1595,7 @@ sympas O
 Accueil O
 très O
 sympathique O
-. O
+. B-negative
 
 Des O
 serveurs O
@@ -1729,10 +1729,10 @@ restaurant O
 Le O
 cadre O
 et O
-le O
+le B-positive
 personnel O
 sont O
-agréables O
+agréables B-positive
 . O
 
 Très O
@@ -1804,7 +1804,7 @@ j'ai O
 pris O
 bavette O
 avec O
-des O
+des B-negative
 frites O
 ! O
 
@@ -1822,9 +1822,9 @@ dîner O
 . O
 
 L O
-' O
-entrée O
-pas O
+' I-neutral
+entrée I-neutral
+pas B-neutral
 bonne O
 , O
 plus O
@@ -1946,7 +1946,7 @@ amis O
 . O
 
 C'est O
-la O
+la B-negative
 fin O
 de O
 service O
@@ -2024,7 +2024,7 @@ bonne O
 mais O
 servie O
 sans O
-couverts O
+couverts B-negative
 ? O
 
 situé O
@@ -2246,7 +2246,7 @@ belle O
 carte O
 pleine O
 de O
-bonnes O
+bonnes B-positive
 surprises O
 . O
 
@@ -2441,12 +2441,12 @@ salle O
 
 La O
 cuisine O
-était O
+était B-positive
 correcte O
 l O
 ' O
 ambiance O
-sympa O
+sympa B-positive
 . O
 
 Le O
@@ -2673,7 +2673,7 @@ patients O
 La O
 carte O
 est O
-généreuse O
+généreuse B-positive
 . O
 
 Plats O
@@ -2762,7 +2762,7 @@ ou O
 passer O
 une O
 agréable O
-soirée O
+soirée B-positive
 ! O
 
 Attente O
@@ -2771,7 +2771,7 @@ interminable O
 
 Service O
 aimable O
-. O
+. B-positive
 
 Choix O
 de O
@@ -3037,9 +3037,9 @@ Bon O
 accueil O
 mais O
 service O
-un O
+un B-negative
 peu O
-long O
+long B-positive
 . O
 
 Assis O
@@ -3540,7 +3540,7 @@ passer O
 mais O
 rien O
 ne O
-se O
+se B-positive
 passe O
 . O
 
@@ -3605,7 +3605,7 @@ restaurant O
 
 La O
 nourriture O
-est O
+est B-negative
 moyenne O
 
 Le O

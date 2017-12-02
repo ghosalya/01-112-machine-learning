@@ -91,7 +91,7 @@ coin O none
 
 Ensuite O none
 les O none
-plats O none
+plats B neutral
 ... O none
 pas O none
 de O none
@@ -139,7 +139,7 @@ certainement O none
 un O none
 des O none
 meilleurs O none
-bistrot O none
+bistrot B neutral
 parisien O none
 . O none
 
@@ -654,7 +654,7 @@ la O none
 remarque O none
 à O none
 la O none
-serveuse O none
+serveuse B negative
 qui O none
 a O none
 transmis O none
@@ -967,7 +967,7 @@ sourire O none
 Tout O none
 d'abord O none
 un O none
-serveur O none
+serveur B negative
 nous O none
 a O none
 littéralement O none
@@ -1802,10 +1802,10 @@ d'entreprise O none
 
 j'ai O none
 pris O none
-bavette O none
+bavette B negative
 avec O none
 des O none
-frites O none
+frites B negative
 ! O none
 
 A O none
@@ -2155,7 +2155,7 @@ a O none
 tester O none
 . O none
 
-Personnel O none
+Personnel B positive
 très O none
 gentil O none
 et O none
@@ -2676,7 +2676,7 @@ est O none
 généreuse O none
 . O none
 
-Plats O none
+Plats B neutral
 bien O none
 exécutés O none
 , O none
@@ -3103,12 +3103,12 @@ cela O none
 . O none
 
 Des O none
-plats B neutral
+plats B negative
 correctement O none
 servis O none
 , O none
 un O none
-pavé O none
+pavé B negative
 de O none
 turbot O none
 excellent O none

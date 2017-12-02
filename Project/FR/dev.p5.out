@@ -91,7 +91,7 @@ coin O
 
 Ensuite O
 les O
-plats O
+plats B-neutral
 ... O
 pas O
 de O
@@ -139,7 +139,7 @@ certainement O
 un O
 des O
 meilleurs O
-bistrot O
+bistrot B-neutral
 parisien O
 . O
 
@@ -654,7 +654,7 @@ la O
 remarque O
 à O
 la O
-serveuse O
+serveuse B-negative
 qui O
 a O
 transmis O
@@ -967,7 +967,7 @@ sourire O
 Tout O
 d'abord O
 un O
-serveur O
+serveur B-negative
 nous O
 a O
 littéralement O
@@ -1802,10 +1802,10 @@ d'entreprise O
 
 j'ai O
 pris O
-bavette O
+bavette B-negative
 avec O
 des O
-frites O
+frites B-negative
 ! O
 
 A O
@@ -2155,7 +2155,7 @@ a O
 tester O
 . O
 
-Personnel O
+Personnel B-positive
 très O
 gentil O
 et O
@@ -2676,7 +2676,7 @@ est O
 généreuse O
 . O
 
-Plats O
+Plats B-neutral
 bien O
 exécutés O
 , O
@@ -3103,12 +3103,12 @@ cela O
 . O
 
 Des O
-plats B-neutral
+plats B-negative
 correctement O
 servis O
 , O
 un O
-pavé O
+pavé B-negative
 de O
 turbot O
 excellent O

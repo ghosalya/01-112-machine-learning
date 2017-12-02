@@ -416,7 +416,7 @@ we O none
 were O none
 looking O none
 for O none
-regular O none
+regular B neutral
 lettuce O none
 and O none
 some O none
@@ -475,12 +475,12 @@ important O none
 
 this O none
 little O none
-place B neutral
+place B negative
 has O none
 a O none
 cute O none
-interior O none
-decor O none
+interior B negative
+decor I negative
 and O none
 affordable O none
 city O none
@@ -540,13 +540,13 @@ time O none
 . O none
 
 The O none
-place B neutral
+place B positive
 itself O none
 is O none
 beautiful O none
 the O none
-bar O none
-scene O none
+bar O positive
+scene B positive
 seems O none
 to O none
 be O none
@@ -617,7 +617,7 @@ someone O none
 . O none
 
 The O none
-lamb O none
+lamb B positive
 was O none
 tender O none
 so O none
@@ -2115,7 +2115,7 @@ the O none
 entire O none
 time O none
 a O none
-place O none
+place B neutral
 is O none
 open O none
 , O none
@@ -2132,7 +2132,7 @@ generally O none
 happy O none
 with O none
 their O none
-food O none
+food B positive
 , O none
 except O none
 my O none
@@ -2376,7 +2376,7 @@ to O none
 order O none
 the O none
 appetizer B positive
-platter O none
+platter I positive
 since O none
 we O none
 were O none
@@ -2987,7 +2987,7 @@ Yes O none
 I O none
 ate O none
 the O none
-food O none
+food B positive
 , O none
 but O none
 I O none
@@ -3039,7 +3039,7 @@ the O none
 price O none
 ( O none
 just O none
-chicken O none
+chicken B positive
 tikka O none
 masala O none
 - O none
@@ -3287,13 +3287,13 @@ city O none
 Even O none
 though O none
 the O none
-place O none
+place B positive
 is O none
 not O none
 beautiful O none
 , O none
 the O none
-food O none
+food B positive
 speaks O none
 for O none
 itself O none
@@ -3457,7 +3457,7 @@ and O none
 tons O none
 of O none
 excellent O none
-beer O none
+beer B positive
 . O none
 
 She O none
@@ -3564,8 +3564,8 @@ odd O none
 . O none
 
 The O none
-hot O none
-dogs O none
+hot B positive
+dogs I positive
 are O none
 good O none
 , O none
@@ -3581,7 +3581,7 @@ here O none
 is O none
 the O none
 fantastic O none
-pork O none
+pork B negative
 croquette O none
 sandwich O none
 , O none

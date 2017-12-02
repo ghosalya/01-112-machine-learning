@@ -552,10 +552,10 @@ c O
 
 # B-neutral
 扇贝 I-neutral
-打卡 O
-# O
-扇贝 O
-英语 O
+打卡 I-neutral
+# B-neutral
+扇贝 I-neutral
+英语 I-neutral
 单词 O
 特训 O
 第 O
@@ -2056,15 +2056,15 @@ http://t.cn/R2W6jjg O
 荣耀 O
 是 O
 属于 O
-付 O
-王子 O
+付 B-positive
+王子 I-positive
 的 O
 ！ O
 ！ O
 去 O
-上海 O
+上海 B-positive
 找 O
-李易峰 O
+李易峰 B-positive
 一起 O
 带 O
 着 O
@@ -2970,7 +2970,7 @@ http://t.cn/RcSYU1q O
 老歌 O
 
 # B-neutral
-广州 O
+广州 I-neutral
 吃喝玩乐 O
 # O
 http O
@@ -3099,7 +3099,7 @@ http://t.cn/ae2x3z O
 喝酒 O
 
 # B-neutral
-广州 O
+广州 I-neutral
 吃喝玩乐 O
 # O
 http O
@@ -4361,9 +4361,9 @@ http://t.cn/R2WxEa8 O
 特别 O
 值得 O
 推荐 O
-易 O
-烊 O
-千玺 O
+易 B-positive
+烊 I-positive
+千玺 I-positive
 
 # B-positive
 阴阳师 I-positive
@@ -4626,8 +4626,8 @@ http://t.cn/RVyKyWd（通过 O
 
 # B-neutral
 亚洲 I-neutral
-好书 O
-榜 O
+好书 I-neutral
+榜 I-neutral
 # O
 年度 O
 最具 O
@@ -4640,8 +4640,8 @@ http://t.cn/RVyKyWd（通过 O
 ！ O
 我刚 O
 为 O
-# O
-张艺兴 O
+# B-positive
+张艺兴 I-positive
 # O
 投了 O
 宝贵 O
@@ -5599,8 +5599,8 @@ Z O
 ， O
 特别 O
 喜欢 O
-李易峰 O
-杨紫 O
+李易峰 B-positive
+杨紫 B-positive
 的 O
 表现 O
 真的 O
@@ -5883,8 +5883,8 @@ http://t.cn/R66puQY O
 着 O
 热气 O
 的 O
-红油 O
-抄手 O
+红油 B-positive
+抄手 I-positive
 ， O
 足以 O
 对抗 O
@@ -5897,8 +5897,8 @@ http://t.cn/R66puQY O
 。 O
 — O
 — O
-沈 O
-熹微 O
+沈 B-neutral
+熹微 I-neutral
 《 O
 在 O
 人群 O
