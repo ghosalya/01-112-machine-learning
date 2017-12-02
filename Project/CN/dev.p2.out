@@ -18,7 +18,7 @@
 的 I-negative
 #UNK# O
 #UNK# O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -52,7 +52,7 @@
 [ O
 摊手 O
 ] O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -135,7 +135,7 @@
 #UNK# O
 感觉 O
 的 I-negative
-#UNK# O
+
 #UNK# O
 杯 B-neutral
 ～ O
@@ -149,7 +149,7 @@
 好 I-neutral
 喜欢 I-negative
 ] O
-#UNK# O
+
 #UNK# O
 #UNK# O
 的 I-negative
@@ -177,7 +177,7 @@
 令人 O
 #UNK# O
 。 O
-#UNK# O
+
 # B-positive
 易 I-positive
 烊 I-positive
@@ -198,7 +198,7 @@
 [ O
 吃货 I-neutral
 ] O
-#UNK# O
+
 《 B-positive
 《 B-positive
 #UNK# O
@@ -232,7 +232,7 @@ cn O
 喜马拉雅 I-neutral
 #UNK# O
 ） I-positive
-#UNK# O
+
 自己 O
 老婆 B-positive
 被 O
@@ -243,7 +243,7 @@ cn O
 还 O
 #UNK# O
 说 O
-#UNK# O
+
 我 B-negative
 觉得 O
 你们 O
@@ -261,7 +261,7 @@ cn O
 [ O
 微笑 I-neutral
 ] O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -287,7 +287,7 @@ cn O
 ？ O
 ” I-negative
 #UNK# O
-#UNK# O
+
 【 O
 #UNK# O
 #UNK# O
@@ -300,7 +300,7 @@ cn O
 ！ O
 】 O
 #UNK# O
-#UNK# O
+
 # B-positive
 阴阳师 I-positive
 手游 I-neutral
@@ -321,7 +321,7 @@ cn O
 害怕 O
 ！ O
 http://t.cn/Rcrp17I O
-#UNK# O
+
 我 B-negative
 在 O
 # B-positive
@@ -348,7 +348,7 @@ http://t.cn/Rcrp17I O
 吧 O
 ！ O
 #UNK# O
-#UNK# O
+
 # B-positive
 SNH48 I-positive
 公主 I-positive
@@ -383,7 +383,7 @@ SNH B-positive
 [ O
 #UNK# O
 ] O
-#UNK# O
+
 # B-positive
 隐藏 B-positive
 的 I-negative
@@ -437,7 +437,7 @@ ali O
 #UNK# O
 啊 I-positive
 。 O
-#UNK# O
+
 【 O
 #UNK# O
 #UNK# O
@@ -512,7 +512,7 @@ W I-positive
 亮相 O
 #UNK# O
 。 O
-#UNK# O
+
 苹果 B-negative
 收藏 O
 ： I-positive
@@ -521,7 +521,7 @@ W I-positive
 / O
 c O
 。 O
-#UNK# O
+
 # B-positive
 #UNK# O
 食谱 I-neutral
@@ -549,7 +549,7 @@ c O
 挺不错 O
 的 I-negative
 。 O
-#UNK# O
+
 # B-positive
 扇贝 B-positive
 #UNK# O
@@ -578,7 +578,7 @@ t O
 cn O
 / O
 #UNK# O
-#UNK# O
+
 #UNK# O
 16 I-positive
 秋冬 B-neutral
@@ -627,7 +627,7 @@ cn O
 35 I-neutral
 - I-positive
 40 B-neutral
-#UNK# O
+
 我 B-negative
 参与 O
 了 O
@@ -666,7 +666,7 @@ cn O
 吧 O
 ~ O
 #UNK# O
-#UNK# O
+
 # B-positive
 阴阳师 I-positive
 手游 I-neutral
@@ -701,7 +701,7 @@ SAMA I-positive
 ） I-positive
 #UNK# O
 http://t.cn/RcXXIsB O
-#UNK# O
+
 那 O
 就是 O
 #UNK# O
@@ -733,7 +733,7 @@ http://t.cn/RcXXIsB O
 ~ O
 ~ O
 #UNK# O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -750,7 +750,7 @@ http://t.cn/RcXXIsB O
 都 O
 是 O
 #UNK# O
-#UNK# O
+
 “ I-negative
 #UNK# O
 ， O
@@ -825,7 +825,7 @@ http://t.cn/RcXXIsB O
 #UNK# O
 。 O
 ” I-negative
-#UNK# O
+
 #UNK# O
 , O
 #UNK# O
@@ -882,7 +882,7 @@ of O
 《 B-positive
 红豆 B-negative
 》 I-positive
-#UNK# O
+
 # B-positive
 土豪 I-positive
 闺蜜 I-positive
@@ -901,7 +901,7 @@ of O
 的 I-negative
 土豪 I-positive
 #UNK# O
-#UNK# O
+
 连 O
 我 B-negative
 #UNK# O
@@ -924,7 +924,7 @@ of O
 好 I-neutral
 用 O
 、 I-negative
-#UNK# O
+
 【 O
 #UNK# O
 #UNK# O
@@ -995,7 +995,7 @@ of O
 的 I-negative
 健康 I-neutral
 。 O
-#UNK# O
+
 我 B-negative
 参与 O
 了 O
@@ -1032,7 +1032,7 @@ QQ B-neutral
 吧 O
 ~ O
 #UNK# O
-#UNK# O
+
 #UNK# O
 ： I-positive
 吃 O
@@ -1101,7 +1101,7 @@ QQ B-neutral
 的 I-negative
 地方 O
 。 O
-#UNK# O
+
 #UNK# O
 ♫ O
 我 B-negative
@@ -1135,7 +1135,7 @@ QQ B-neutral
 升 O
 ！ O
 ) O
-#UNK# O
+
 我们 O
 很 O
 可以 O
@@ -1174,7 +1174,7 @@ lt O
 [ O
 怒 O
 ] O
-#UNK# O
+
 #UNK# O
 的 I-negative
 微 B-positive
@@ -1202,7 +1202,7 @@ lt O
 ” I-negative
 ! O
 #UNK# O
-#UNK# O
+
 #UNK# O
 的 I-negative
 #UNK# O
@@ -1272,7 +1272,7 @@ lt O
 # B-positive
 拍摄 O
 ） I-positive
-#UNK# O
+
 如果 B-positive
 给 O
 我 B-negative
@@ -1305,7 +1305,7 @@ lt O
 之一 O
 #UNK# O
 #UNK# O
-#UNK# O
+
 全世界 I-negative
 都 O
 有 B-negative
@@ -1336,7 +1336,7 @@ lt O
 。 O
 。 O
 ） I-positive
-#UNK# O
+
 #UNK# O
 的 I-negative
 10 O
@@ -1383,7 +1383,7 @@ lt O
 的 I-negative
 习惯 I-neutral
 。 O
-#UNK# O
+
 想 O
 让 O
 #UNK# O
@@ -1439,7 +1439,7 @@ lt O
 完成 O
 #UNK# O
 。 O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -1522,7 +1522,7 @@ lt O
 #UNK# O
 感觉 O
 的 I-negative
-#UNK# O
+
 我 B-negative
 参与 O
 了 O
@@ -1577,7 +1577,7 @@ lt O
 吧 O
 ~ O
 #UNK# O
-#UNK# O
+
 【 O
 #UNK# O
 又 I-neutral
@@ -1596,7 +1596,7 @@ lt O
 [ O
 鼓掌 O
 ] O
-#UNK# O
+
 为什么 O
 都 O
 说 O
@@ -1622,7 +1622,7 @@ lt O
 #UNK# O
 真的 O
 #UNK# O
-#UNK# O
+
 分享 O
 @ B-positive
 TFBOYS I-positive
@@ -1631,7 +1631,7 @@ TFBOYS I-positive
 的 I-negative
 歌曲 B-neutral
 #UNK# O
-#UNK# O
+
 我 B-negative
 真的 O
 不 O
@@ -1675,7 +1675,7 @@ TFBOYS I-positive
 的 I-negative
 #UNK# O
 。 O
-#UNK# O
+
 #UNK# O
 ， O
 10 O
@@ -1694,7 +1694,7 @@ TFBOYS I-positive
 ： I-positive
 良 O
 。 O
-#UNK# O
+
 # B-positive
 爱上 I-neutral
 宜昌 B-positive
@@ -1747,7 +1747,7 @@ TFBOYS I-positive
 #UNK# O
 #UNK# O
 ] O
-#UNK# O
+
 #UNK# O
 #UNK# O
 人 I-negative
@@ -1772,7 +1772,7 @@ TFBOYS I-positive
 过 I-neutral
 #UNK# O
 。 O
-#UNK# O
+
 # B-positive
 偶滴 I-positive
 歌神 I-positive
@@ -1792,7 +1792,7 @@ TFBOYS I-positive
 啊 I-positive
 》 I-positive
 。 O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -1825,7 +1825,7 @@ TFBOYS I-positive
 [ O
 色 O
 ] O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -1852,7 +1852,7 @@ TFBOYS I-positive
 #UNK# O
 #UNK# O
 ） I-positive
-#UNK# O
+
 # B-positive
 微笑 I-neutral
 童行 I-neutral
@@ -1871,7 +1871,7 @@ TFBOYS I-positive
 好 I-neutral
 喜欢 I-negative
 。 O
-#UNK# O
+
 今天 O
 又 I-neutral
 被 O
@@ -1955,7 +1955,7 @@ TFBOYS I-positive
 哟 I-positive
 ! O
 #UNK# O
-#UNK# O
+
 #UNK# O
 #UNK# O
 今天 O
@@ -1985,7 +1985,7 @@ TFBOYS I-positive
 给 O
 我 B-negative
 ～ O
-#UNK# O
+
 这 O
 就是 O
 我 B-negative
@@ -2035,7 +2035,7 @@ QQ B-neutral
 升 O
 ！ O
 ) O
-#UNK# O
+
 我 B-negative
 发表 O
 了 O
@@ -2052,7 +2052,7 @@ QQ B-neutral
 》 I-positive
 #UNK# O
 #UNK# O
-#UNK# O
+
 #UNK# O
 是 O
 #UNK# O
@@ -2079,7 +2079,7 @@ QQ B-neutral
 ~ O
 ~ O
 ~ O
-#UNK# O
+
 # B-positive
 微笑 I-neutral
 童行 I-neutral
@@ -2101,7 +2101,7 @@ QQ B-neutral
 厉害 O
 极了 O
 。 O
-#UNK# O
+
 # B-positive
 #UNK# O
 路上 O
@@ -2123,23 +2123,13 @@ QQ B-neutral
 #UNK# O
 #UNK# O
 。 O
-#UNK# O
+
 # B-positive
 张艺兴 B-positive
 #UNK# O
 生日快乐 O
 # B-positive
-#UNK# O
-#UNK# O
-： I-positive
-#UNK# O
-— O
-— O
-#UNK# O
-#UNK# O
-的 I-negative
-整个 O
-太阳 B-positive
+
 #UNK# O
 ： I-positive
 #UNK# O
@@ -2151,7 +2141,17 @@ QQ B-neutral
 整个 O
 太阳 B-positive
 #UNK# O
+： I-positive
 #UNK# O
+— O
+— O
+#UNK# O
+#UNK# O
+的 I-negative
+整个 O
+太阳 B-positive
+#UNK# O
+
 # B-positive
 鹿晗 I-positive
 ## B-positive
@@ -2187,7 +2187,7 @@ QQ B-neutral
 爱 I-positive
 你 I-negative
 ] O
-#UNK# O
+
 # B-positive
 湄公河 B-positive
 行动 I-positive
@@ -2201,7 +2201,7 @@ QQ B-neutral
 @ B-positive
 #UNK# O
 #UNK# O
-#UNK# O
+
 # B-positive
 李纯 B-positive
 软萌 O
@@ -2263,7 +2263,7 @@ lxhx O
 #UNK# O
 #UNK# O
 。 O
-#UNK# O
+
 【 O
 最 O
 爱 I-positive
@@ -2323,7 +2323,7 @@ lxhx O
 ] O
 #UNK# O
 。 O
-#UNK# O
+
 姨妈 B-neutral
 #UNK# O
 时 O
@@ -2392,7 +2392,7 @@ lxhx O
 #UNK# O
 气息 O
 。 O
-#UNK# O
+
 分享 O
 LAY B-positive
 的 I-negative
@@ -2404,7 +2404,7 @@ need I-neutral
 ? I-neutral
 》 I-positive
 #UNK# O
-#UNK# O
+
 2016 B-neutral
 / O
 10 O
@@ -2424,7 +2424,7 @@ need I-neutral
 #UNK# O
 #UNK# O
 #UNK# O
-#UNK# O
+
 【 O
 #UNK# O
 】 O
@@ -2480,7 +2480,7 @@ need I-neutral
 5 B-neutral
 #UNK# O
 。 O
-#UNK# O
+
 # B-positive
 易 I-positive
 烊 I-positive
@@ -2508,7 +2508,7 @@ need I-neutral
 的 I-negative
 哈 O
 。 O
-#UNK# O
+
 很多 O
 人 I-negative
 由于 O
@@ -2588,7 +2588,7 @@ need I-neutral
 #UNK# O
 #UNK# O
 。 O
-#UNK# O
+
 # B-positive
 电影 I-positive
 圆梦 B-positive
@@ -2621,12 +2621,12 @@ ppb O
 ， O
 太棒了 O
 。 O
-#UNK# O
+
 为了 O
 吃 O
 #UNK# O
 #UNK# O
-#UNK# O
+
 ） I-positive
 ） I-positive
 ） I-positive
@@ -2672,7 +2672,7 @@ wuli B-positive
 帅气 O
 气 O
 #UNK# O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -2685,7 +2685,7 @@ wuli B-positive
 #UNK# O
 10 O
 #UNK# O
-#UNK# O
+
 终于 O
 想 O
 起来 O
@@ -2714,7 +2714,7 @@ wuli B-positive
 # B-positive
 #UNK# O
 #UNK# O
-#UNK# O
+
 主持人 O
 我 B-negative
 还是 O
@@ -2745,7 +2745,7 @@ wuli B-positive
 [ O
 哈哈 O
 ] O
-#UNK# O
+
 # B-positive
 阴阳师 I-positive
 手游 I-neutral
@@ -2780,7 +2780,7 @@ SAMA I-positive
 ） I-positive
 #UNK# O
 http://t.cn/RcSYU1q O
-#UNK# O
+
 【 O
 #UNK# O
 大峡谷 I-positive
@@ -2846,7 +2846,7 @@ http://t.cn/RcSYU1q O
 #UNK# O
 ” I-negative
 。 O
-#UNK# O
+
 【 O
 #UNK# O
 #UNK# O
@@ -2931,7 +2931,7 @@ http://t.cn/RcSYU1q O
 #UNK# O
 即可 O
 。 O
-#UNK# O
+
 老婆 B-positive
 我 B-negative
 #UNK# O
@@ -2942,7 +2942,7 @@ http://t.cn/RcSYU1q O
 了 O
 … O
 … O
-#UNK# O
+
 晚上 O
 自己 O
 #UNK# O
@@ -2968,7 +2968,7 @@ http://t.cn/RcSYU1q O
 一 I-neutral
 晚上 O
 #UNK# O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -2982,7 +2982,7 @@ t O
 cn O
 / O
 #UNK# O
-#UNK# O
+
 # B-positive
 疯狂 I-positive
 召 I-positive
@@ -3008,7 +3008,7 @@ G I-positive
 #UNK# O
 的 I-negative
 。 O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -3059,7 +3059,7 @@ G I-positive
 吧 O
 ~ O
 #UNK# O
-#UNK# O
+
 # B-positive
 你 I-negative
 从 I-negative
@@ -3082,7 +3082,7 @@ G I-positive
 唱 I-positive
 将 I-positive
 猜猜猜 I-positive
-#UNK# O
+
 #UNK# O
 #UNK# O
 我 B-negative
@@ -3097,7 +3097,7 @@ G I-positive
 . I-neutral
 没 O
 #UNK# O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -3111,7 +3111,7 @@ t O
 cn O
 / O
 #UNK# O
-#UNK# O
+
 #UNK# O
 ， O
 #UNK# O
@@ -3128,7 +3128,7 @@ cn O
 的 I-negative
 #UNK# O
 。 O
-#UNK# O
+
 #UNK# O
 #UNK# O
 着 O
@@ -3138,7 +3138,7 @@ cn O
 快乐 O
 。 O
 #UNK# O
-#UNK# O
+
 10 O
 / O
 10 O
@@ -3233,7 +3233,7 @@ cry O
 被 O
 抽到 O
 哇 O
-#UNK# O
+
 我 B-negative
 刚刚 O
 #UNK# O
@@ -3282,7 +3282,7 @@ cry O
 #UNK# O
 吧 O
 ... O
-#UNK# O
+
 做 O
 一次 B-positive
 #UNK# O
@@ -3299,7 +3299,7 @@ cry O
 #UNK# O
 #UNK# O
 #UNK# O
-#UNK# O
+
 # B-positive
 王源 I-positive
 ## B-positive
@@ -3338,7 +3338,7 @@ t O
 cn O
 / O
 #UNK# O
-#UNK# O
+
 # B-positive
 360 I-neutral
 #UNK# O
@@ -3379,7 +3379,7 @@ cn O
 吧 O
 ！ O
 #UNK# O
-#UNK# O
+
 # B-positive
 峰会 I-neutral
 又 I-neutral
@@ -3417,7 +3417,7 @@ cn O
 ！ O
 #UNK# O
 #UNK# O
-#UNK# O
+
 # B-positive
 龙珠 I-positive
 Z I-positive
@@ -3448,7 +3448,7 @@ z I-positive
 咯 O
 ~ O
 ~ O
-#UNK# O
+
 【 O
 #UNK# O
 #UNK# O
@@ -3521,7 +3521,7 @@ LED O
 有 B-negative
 #UNK# O
 。 O
-#UNK# O
+
 # B-positive
 #UNK# O
 经济 O
@@ -3590,7 +3590,7 @@ LED O
 领先 O
 。 O
 #UNK# O
-#UNK# O
+
 #UNK# O
 不是 O
 把 O
@@ -3631,7 +3631,7 @@ LED O
 #UNK# O
 #UNK# O
 》 I-positive
-#UNK# O
+
 # B-positive
 疯狂 I-positive
 召 I-positive
@@ -3658,7 +3658,7 @@ G I-positive
 [ O
 哈哈 O
 ] O
-#UNK# O
+
 # B-positive
 阴阳师 I-positive
 手游 I-neutral
@@ -3695,7 +3695,7 @@ R I-neutral
 ] O
 ۶ O
 http://t.cn/RcSYU1q O
-#UNK# O
+
 发表 O
 了 O
 一篇 O
@@ -3716,7 +3716,7 @@ http://t.cn/RcSYU1q O
 了解 I-neutral
 》 I-positive
 #UNK# O
-#UNK# O
+
 【 O
 香菇 B-positive
 #UNK# O
@@ -3787,7 +3787,7 @@ http://t.cn/RcSYU1q O
 #UNK# O
 #UNK# O
 。 O
-#UNK# O
+
 我 B-negative
 #UNK# O
 #UNK# O
@@ -3837,7 +3837,7 @@ http://t.cn/RcSYU1q O
 直播 I-neutral
 平台 O
 ！ O
-#UNK# O
+
 # B-positive
 易 I-positive
 烊 I-positive
@@ -3863,10 +3863,10 @@ http://t.cn/RcSYU1q O
 易 I-positive
 烊 I-positive
 千玺 I-positive
+
 #UNK# O
 #UNK# O
-#UNK# O
-#UNK# O
+
 #UNK# O
 的 I-negative
 看 O
@@ -3888,7 +3888,7 @@ http://t.cn/RcSYU1q O
 觉得 O
 #UNK# O
 美 B-positive
-#UNK# O
+
 # B-positive
 疯狂 I-positive
 电影城 I-neutral
@@ -3922,7 +3922,7 @@ G I-positive
 看 O
 啊 I-positive
 #UNK# O
-#UNK# O
+
 湄公河 B-positive
 行动 I-positive
 ！ O
@@ -3985,7 +3985,7 @@ G I-positive
 #UNK# O
 #UNK# O
 ！ O
-#UNK# O
+
 # B-positive
 阴阳师 I-positive
 手游 I-neutral
@@ -4018,7 +4018,7 @@ G I-positive
 ] O
 ۶ O
 http://t.cn/RqsYJde O
-#UNK# O
+
 # B-positive
 一 I-neutral
 #UNK# O
@@ -4045,7 +4045,7 @@ http://t.cn/RqsYJde O
 你 I-negative
 ] O
 #UNK# O
-#UNK# O
+
 经典 I-positive
 #UNK# O
 500 B-positive
@@ -4114,7 +4114,7 @@ http://t.cn/RqsYJde O
 戳 O
 #UNK# O
 #UNK# O
-#UNK# O
+
 我 B-negative
 在 O
 中国 I-neutral
@@ -4157,7 +4157,7 @@ http://t.cn/RqsYJde O
 #UNK# O
 。 O
 #UNK# O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -4172,7 +4172,7 @@ http://t.cn/RqsYJde O
 哈哈 O
 ~ O
 ~ O
-#UNK# O
+
 # B-positive
 疯狂 I-positive
 召 I-positive
@@ -4193,7 +4193,7 @@ G I-positive
 去 O
 看 O
 下 O
-#UNK# O
+
 # B-positive
 赵丽颖 B-positive
 记忆 I-neutral
@@ -4216,7 +4216,7 @@ G I-positive
 到 O
 了 O
 。 O
-#UNK# O
+
 发布 O
 了 O
 头条 B-neutral
@@ -4231,7 +4231,7 @@ G I-positive
 #UNK# O
 》 I-positive
 #UNK# O
-#UNK# O
+
 # B-positive
 你 I-negative
 从 I-negative
@@ -4260,7 +4260,7 @@ G I-positive
 果然 O
 强大 O
 ！ O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -4287,7 +4287,7 @@ G I-positive
 [ O
 二哈 B-positive
 ] O
-#UNK# O
+
 我 B-negative
 正在 O
 看 O
@@ -4311,7 +4311,7 @@ G I-positive
 #UNK# O
 ！ O
 #UNK# O
-#UNK# O
+
 @ B-positive
 TFBOYS I-positive
 - I-positive
@@ -4344,7 +4344,7 @@ TFBOYS I-positive
 ！ O
 #UNK# O
 #UNK# O
-#UNK# O
+
 # B-positive
 易 I-positive
 烊 I-positive
@@ -4364,7 +4364,7 @@ TFBOYS I-positive
 易 I-positive
 烊 I-positive
 千玺 I-positive
-#UNK# O
+
 # B-positive
 阴阳师 I-positive
 手游 I-neutral
@@ -4398,7 +4398,7 @@ SAMA I-positive
 ） I-positive
 #UNK# O
 http://t.cn/RcXXIsB O
-#UNK# O
+
 在 O
 韩国 B-negative
 吃 O
@@ -4456,7 +4456,7 @@ cry O
 [ O
 二哈 B-positive
 ] O
-#UNK# O
+
 # B-positive
 #UNK# O
 分享 O
@@ -4483,7 +4483,7 @@ cry O
 #UNK# O
 推荐 O
 # B-positive
-#UNK# O
+
 # B-positive
 电影 I-positive
 圆梦 B-positive
@@ -4512,7 +4512,7 @@ cry O
 非常 O
 #UNK# O
 。 O
-#UNK# O
+
 我 B-negative
 有 B-negative
 一个 O
@@ -4525,7 +4525,7 @@ cry O
 [ O
 微笑 I-neutral
 ] O
-#UNK# O
+
 来 O
 看看 O
 我 B-negative
@@ -4572,7 +4572,7 @@ cry O
 # B-positive
 拍摄 O
 ） I-positive
-#UNK# O
+
 # B-positive
 一句 B-positive
 顶 I-positive
@@ -4606,7 +4606,7 @@ cry O
 釜山 B-positive
 行 I-positive
 。 O
-#UNK# O
+
 # B-positive
 偶滴 I-positive
 歌神 I-positive
@@ -4623,7 +4623,7 @@ cry O
 滴 O
 样子 O
 。 O
-#UNK# O
+
 # B-positive
 亚洲 B-neutral
 #UNK# O
@@ -4673,7 +4673,7 @@ cry O
 > O
 > O
 #UNK# O
-#UNK# O
+
 #UNK# O
 玩 O
 #UNK# O
@@ -4695,7 +4695,7 @@ cry O
 ！ O
 #UNK# O
 关注 O
-#UNK# O
+
 # B-positive
 向 B-positive
 全世界 I-negative
@@ -4735,7 +4735,7 @@ cry O
 ！ O
 ！ O
 #UNK# O
-#UNK# O
+
 # B-positive
 小 B-negative
 #UNK# O
@@ -4815,7 +4815,7 @@ cry O
 给 O
 你 I-negative
 发红包 O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -4908,7 +4908,7 @@ cry O
 志 I-positive
 #UNK# O
 #UNK# O
-#UNK# O
+
 # B-positive
 电影 I-positive
 圆梦 B-positive
@@ -4942,7 +4942,7 @@ ppb O
 #UNK# O
 的 I-negative
 电影 I-positive
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -4961,7 +4961,7 @@ ppb O
 #UNK# O
 #UNK# O
 的 I-negative
-#UNK# O
+
 # B-positive
 鹿晗 I-positive
 ## B-positive
@@ -4992,7 +4992,7 @@ ppb O
 M I-positive
 #UNK# O
 M I-positive
-#UNK# O
+
 # B-positive
 带 I-positive
 着 O
@@ -5044,7 +5044,7 @@ M I-positive
 吧 O
 。 O
 #UNK# O
-#UNK# O
+
 " O
 #UNK# O
 的 I-negative
@@ -5074,7 +5074,7 @@ M I-positive
 # B-positive
 录制 O
 ） I-positive
-#UNK# O
+
 #UNK# O
 #UNK# O
 ： I-positive
@@ -5097,7 +5097,7 @@ M I-positive
 可 O
 #UNK# O
 #UNK# O
-#UNK# O
+
 # B-positive
 神奇 I-positive
 动物 I-negative
@@ -5123,7 +5123,7 @@ M I-positive
 期待 O
 电影 I-positive
 。 O
-#UNK# O
+
 听 O
 #UNK# O
 的 I-negative
@@ -5135,7 +5135,7 @@ M I-positive
 哭 O
 #UNK# O
 真的 O
-#UNK# O
+
 #UNK# O
 年 O
 4 I-neutral
@@ -5192,12 +5192,12 @@ M I-positive
 的 I-negative
 #UNK# O
 。 O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
 ​ O
-#UNK# O
+
 给 O
 #UNK# O
 么 O
@@ -5210,7 +5210,7 @@ M I-positive
 #UNK# O
 #UNK# O
 #UNK# O
-#UNK# O
+
 #UNK# O
 #UNK# O
 小 B-negative
@@ -5299,7 +5299,7 @@ M I-positive
 #UNK# O
 号 O
 微信 B-negative
-#UNK# O
+
 # B-positive
 一句 B-positive
 顶 I-positive
@@ -5352,7 +5352,7 @@ M I-positive
 了 O
 … O
 … O
-#UNK# O
+
 这么 I-neutral
 #UNK# O
 的 I-negative
@@ -5365,7 +5365,7 @@ M I-positive
 #UNK# O
 有趣 O
 。 O
-#UNK# O
+
 #UNK# O
 大 B-neutral
 了 O
@@ -5395,7 +5395,7 @@ M I-positive
 [ O
 #UNK# O
 ] O
-#UNK# O
+
 # B-positive
 一场 O
 #UNK# O
@@ -5459,7 +5459,7 @@ M I-positive
 行 I-positive
 ） I-positive
 #UNK# O
-#UNK# O
+
 做 O
 #UNK# O
 #UNK# O
@@ -5476,7 +5476,7 @@ M I-positive
 #UNK# O
 #UNK# O
 #UNK# O
-#UNK# O
+
 【 O
 #UNK# O
 带 I-positive
@@ -5549,7 +5549,7 @@ M I-positive
 死 O
 ” I-negative
 。 O
-#UNK# O
+
 # B-positive
 龙珠 I-positive
 Z I-positive
@@ -5584,7 +5584,7 @@ Z I-positive
 [ O
 #UNK# O
 ] O
-#UNK# O
+
 # B-positive
 青云 I-positive
 志 I-positive
@@ -5611,7 +5611,7 @@ Z I-positive
 可以 O
 可以 O
 。 O
-#UNK# O
+
 # B-positive
 赵丽颖 B-positive
 赵丽颖 B-positive
@@ -5654,7 +5654,7 @@ Z I-positive
 ！ O
 ！ O
 ！ O
-#UNK# O
+
 看 O
 我 B-negative
 牛 O
@@ -5709,7 +5709,7 @@ Z I-positive
 #UNK# O
 ] O
 ​ O
-#UNK# O
+
 # B-positive
 阴阳师 I-positive
 手游 I-neutral
@@ -5726,7 +5726,7 @@ Z I-positive
 ！ O
 #UNK# O
 ​ O
-#UNK# O
+
 【 O
 #UNK# O
 #UNK# O
@@ -5789,7 +5789,7 @@ Z I-positive
 #UNK# O
 #UNK# O
 。 O
-#UNK# O
+
 朋友 B-neutral
 家 I-neutral
 的 I-negative
@@ -5806,7 +5806,7 @@ Z I-positive
 #UNK# O
 。 O
 #UNK# O
-#UNK# O
+
 我 B-negative
 #UNK# O
 问 I-neutral
@@ -5858,7 +5858,7 @@ Z I-positive
 [ O
 怒 O
 ] O
-#UNK# O
+
 没有 O
 什么 O
 东西 B-negative
@@ -5907,7 +5907,7 @@ Z I-positive
 的 I-negative
 日子 I-neutral
 》 I-positive
-#UNK# O
+
 【 O
 #UNK# O
 】 O
@@ -5981,7 +5981,7 @@ Z I-positive
 的 I-negative
 心 I-neutral
 … O
-#UNK# O
+
 我 B-negative
 和 O
 #UNK# O
@@ -6012,7 +6012,7 @@ Z I-positive
 唱 I-positive
 吧 O
 ) O
-#UNK# O
+
 就是 O
 眼睛 O
 #UNK# O
@@ -6045,7 +6045,7 @@ Z I-positive
 #UNK# O
 #UNK# O
 #UNK# O
-#UNK# O
+
 # B-positive
 一句 B-positive
 顶 I-positive
@@ -6082,7 +6082,7 @@ Z I-positive
 很 O
 高 I-neutral
 。 O
-#UNK# O
+
 他 I-negative
 是 O
 #UNK# O
@@ -6156,7 +6156,7 @@ Z I-positive
 #UNK# O
 他 I-negative
 。 O
-#UNK# O
+
 # B-positive
 易 I-positive
 烊 I-positive
@@ -6184,7 +6184,7 @@ Z I-positive
 你 I-negative
 一个 O
 #UNK# O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -6201,7 +6201,7 @@ Z I-positive
 #UNK# O
 。 O
 。 O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -6213,7 +6213,7 @@ Z I-positive
 过 I-neutral
 #UNK# O
 #UNK# O
-#UNK# O
+
 这么 I-neutral
 #UNK# O
 #UNK# O
@@ -6222,7 +6222,7 @@ Z I-positive
 @ B-positive
 #UNK# O
 #UNK# O
-#UNK# O
+
 #UNK# O
 历史 O
 今日 I-neutral
@@ -6296,7 +6296,7 @@ Z I-positive
 #UNK# O
 #UNK# O
 #UNK# O
-#UNK# O
+
 【 O
 #UNK# O
 小时 O
@@ -6344,7 +6344,7 @@ Z I-positive
 的 I-negative
 #UNK# O
 。 O
-#UNK# O
+
 #UNK# O
 今天 O
 ( O
@@ -6384,7 +6384,7 @@ Z I-positive
 心情 I-neutral
 ) O
 #UNK# O
-#UNK# O
+
 #UNK# O
 2015 O
 款 I-neutral
@@ -6457,7 +6457,7 @@ G I-positive
 #UNK# O
 #UNK# O
 #UNK# O
-#UNK# O
+
 【 O
 #UNK# O
 #UNK# O
@@ -6547,7 +6547,7 @@ G I-positive
 去 O
 选择 O
 。 O
-#UNK# O
+
 分享 O
 LAY B-positive
 的 I-negative
@@ -6559,7 +6559,7 @@ need I-neutral
 ? I-neutral
 》 I-positive
 #UNK# O
-#UNK# O
+
 #UNK# O
 这些 O
 人 I-negative
@@ -6569,7 +6569,7 @@ need I-neutral
 我 B-negative
 叫 O
 #UNK# O
-#UNK# O
+
 觉得 O
 有 B-negative
 #UNK# O
@@ -6583,7 +6583,7 @@ need I-neutral
 乔任 B-neutral
 梁 I-neutral
 ， O
-#UNK# O
+
 【 O
 #UNK# O
 #UNK# O
@@ -6673,7 +6673,7 @@ need I-neutral
 水 I-positive
 #UNK# O
 。 O
-#UNK# O
+
 【 O
 #UNK# O
 食物 O
@@ -6756,7 +6756,7 @@ need I-neutral
 #UNK# O
 焦虑 O
 。 O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -6788,7 +6788,7 @@ need I-neutral
 @ B-positive
 手机 B-neutral
 #UNK# O
-#UNK# O
+
 # B-positive
 #UNK# O
 #UNK# O
@@ -6813,7 +6813,7 @@ need I-neutral
 #UNK# O
 ！ O
 #UNK# O
-#UNK# O
+
 越 O
 #UNK# O
 越 O
@@ -6837,7 +6837,7 @@ need I-neutral
 去 O
 旅行 O
 ] O
-#UNK# O
+
 # B-positive
 微博 B-neutral
 头像 I-positive
@@ -6870,7 +6870,7 @@ kkw O
 ！ O
 #UNK# O
 ​ O
-#UNK# O
+
 如果 B-positive
 以后 O
 我 B-negative
@@ -6895,7 +6895,7 @@ kkw O
 ～ O
 #UNK# O
 . I-neutral
-#UNK# O
+
 # B-positive
 偶滴 I-positive
 歌神 I-positive
@@ -6931,7 +6931,7 @@ kkw O
 是 O
 期待 O
 呢 I-neutral
-#UNK# O
+
 因为 O
 我 B-negative
 有 B-negative
@@ -6956,7 +6956,7 @@ kkw O
 @ B-positive
 玫瑰 B-neutral
 #UNK# O
-#UNK# O
+
 # B-positive
 你 I-negative
 从 I-negative
@@ -6974,7 +6974,7 @@ kkw O
 #UNK# O
 呀 O
 ？ O
-#UNK# O
+
 # B-positive
 #UNK# O
 路过 I-negative
@@ -7015,7 +7015,7 @@ kkw O
 #UNK# O
 。 O
 ​ O
-#UNK# O
+
 @ B-positive
 #UNK# O
 已经 O
@@ -7045,7 +7045,7 @@ kkw O
 哒 O
 ！ O
 #UNK# O
-#UNK# O
+
 【 O
 老 B-positive
 #UNK# O
@@ -7128,7 +7128,7 @@ kkw O
 [ O
 #UNK# O
 ] O
-#UNK# O
+
 孩子 I-neutral
 ， O
 #UNK# O
@@ -7137,7 +7137,7 @@ kkw O
 #UNK# O
 么 O
 ？ O
-#UNK# O
+
 我 B-negative
 正在 O
 使用 O
@@ -7176,7 +7176,7 @@ kkw O
 官方 B-positive
 微博 B-neutral
 ） I-positive
-#UNK# O
+
 # B-positive
 网红 O
 #UNK# O
@@ -7197,7 +7197,7 @@ kkw O
 #UNK# O
 #UNK# O
 。 O
-#UNK# O
+
 【 O
 （ I-positive
 分享 O
@@ -7276,7 +7276,7 @@ kkw O
 。 O
 ... O
 #UNK# O
-#UNK# O
+
 #UNK# O
 #UNK# O
 6 I-neutral
@@ -7299,7 +7299,7 @@ kkw O
 #UNK# O
 #UNK# O
 》 I-positive
-#UNK# O
+
 生活 I-neutral
 要 O
 用 O
@@ -7354,7 +7354,7 @@ kkw O
 幸福 O
 #UNK# O
 。 O
-#UNK# O
+
 # B-positive
 #UNK# O
 背单词 I-neutral
@@ -7397,7 +7397,7 @@ kkw O
 #UNK# O
 》 I-positive
 #UNK# O
-#UNK# O
+
 - I-positive
 #UNK# O
 #UNK# O
@@ -7429,7 +7429,7 @@ kkw O
 — O
 — O
 #UNK# O
-#UNK# O
+
 #UNK# O
 #UNK# O
 #UNK# O
@@ -7438,4 +7438,4 @@ kkw O
 ， O
 ￥ O
 #UNK# O
-#UNK# O
+
