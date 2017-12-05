@@ -28,9 +28,9 @@ bas O
 . O
 
 Le O
-plat B-neutral
-du I-neutral
-jour I-neutral
+plat B-negative
+du I-negative
+jour I-negative
 comme O
 son O
 nom O
@@ -61,7 +61,7 @@ limite O
 à O
 savoir O
 des O
-pâtes B-neutral
+pâtes B-negative
 desséchées O
 et O
 froides O
@@ -1461,7 +1461,7 @@ pressé O
 de O
 finir O
 son O
-service B-positive
+service B-negative
 et O
 qui O
 est O
@@ -1672,10 +1672,10 @@ rdv O
 
 Pas O
 de O
-responsable B-neutral
+responsable B-negative
 dans O
 le O
-restaurant B-neutral
+restaurant B-negative
 pour O
 répondre O
 à O
@@ -1949,7 +1949,7 @@ C'est O
 la O
 fin O
 de O
-service B-positive
+service B-negative
 . O
 
 Salle O
@@ -2343,8 +2343,8 @@ d'un O
 magret B-positive
 de I-positive
 canard I-positive
-miel I-negative
-/ I-negative
+miel I-positive
+/ I-positive
 citron I-negative
 accompagné I-negative
 de I-negative
@@ -2954,9 +2954,9 @@ avons O
 satisfait O
 . O
 
-Accueil B-negative
+Accueil B-neutral
 et O
-service B-positive
+service B-neutral
 sont O
 agréables O
 et O
@@ -3036,7 +3036,7 @@ carte B-negative
 Bon O
 accueil B-positive
 mais O
-service B-positive
+service B-negative
 un O
 peu O
 long O
@@ -3347,9 +3347,9 @@ touristes O
 
 - O
 Des O
-serveuses B-negative
+serveuses B-neutral
 / O
-serveurs B-negative
+serveurs B-neutral
 sous O
 pression O
 ( O
@@ -3359,7 +3359,7 @@ en O
 tout O
 début O
 de O
-service B-positive
+service B-neutral
 lorsque O
 l'endroit O
 est O

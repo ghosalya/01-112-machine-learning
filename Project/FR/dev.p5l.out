@@ -28,9 +28,9 @@ bas O none
 . O none
 
 Le O none
-plat B neutral
-du I neutral
-jour I neutral
+plat B negative
+du I negative
+jour I negative
 comme O none
 son O none
 nom O none
@@ -61,7 +61,7 @@ limite O none
 à O none
 savoir O none
 des O none
-pâtes B neutral
+pâtes B negative
 desséchées O none
 et O none
 froides O none
@@ -847,7 +847,7 @@ on O none
 vous O none
 sert O none
 une O none
-bouteille O none
+bouteille O negative
 de O none
 1 O none
 litre O none
@@ -855,7 +855,7 @@ de O none
 rhum O none
 et O none
 une O none
-bouteille O none
+bouteille O negative
 de O none
 sucre O none
 canne O none
@@ -1461,7 +1461,7 @@ pressé O none
 de O none
 finir O none
 son O none
-service B positive
+service B negative
 et O none
 qui O none
 est O none
@@ -1672,10 +1672,10 @@ rdv O none
 
 Pas O none
 de O none
-responsable B neutral
+responsable B negative
 dans O none
 le O none
-restaurant B neutral
+restaurant B negative
 pour O none
 répondre O none
 à O none
@@ -1836,7 +1836,7 @@ jour I neutral
 
 Arrivages O none
 de O none
-poissons O none
+poissons O positive
 journalier O none
 , O none
 donc O none
@@ -1949,7 +1949,7 @@ C'est O none
 la O none
 fin O none
 de O none
-service B positive
+service B negative
 . O none
 
 Salle O none
@@ -2343,8 +2343,8 @@ d'un O none
 magret B positive
 de I positive
 canard I positive
-miel I negative
-/ I negative
+miel I positive
+/ I positive
 citron I negative
 accompagné I negative
 de I negative
@@ -2865,7 +2865,7 @@ en O none
 boite O none
 , O none
 son O none
-boeuf O none
+boeuf O negative
 bourguignon O none
 rempli O none
 de O none
@@ -2954,9 +2954,9 @@ avons O none
 satisfait O none
 . O none
 
-Accueil B negative
+Accueil B neutral
 et O none
-service B positive
+service B neutral
 sont O none
 agréables O none
 et O none
@@ -3036,7 +3036,7 @@ carte B negative
 Bon O none
 accueil B positive
 mais O none
-service B positive
+service B negative
 un O none
 peu O none
 long O none
@@ -3347,9 +3347,9 @@ touristes O none
 
 - O none
 Des O none
-serveuses B negative
+serveuses B neutral
 / O none
-serveurs B negative
+serveurs B neutral
 sous O none
 pression O none
 ( O none
@@ -3359,7 +3359,7 @@ en O none
 tout O none
 début O none
 de O none
-service B positive
+service B neutral
 lorsque O none
 l'endroit O none
 est O none
@@ -3662,7 +3662,7 @@ très O none
 bon O none
 de O none
 l'entrée O none
-aux O positive
+aux O none
 desserts B positive
 . O none
 

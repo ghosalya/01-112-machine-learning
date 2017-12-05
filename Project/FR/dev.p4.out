@@ -1,12 +1,12 @@
 La O
-décoration O
+décoration B-positive
 est O
-horrible B-positive
+horrible O
 . O
 
 Assiettes O
 de O
-tapas O
+tapas B-positive
 ridicules O
 . O
 
@@ -20,7 +20,7 @@ autres O
 personnes O
 par O
 la O
-terrasse O
+terrasse B-positive
 et O
 les O
 prix O
@@ -28,9 +28,9 @@ bas O
 . O
 
 Le O
-plat O
-du O
-jour O
+plat B-neutral
+du I-neutral
+jour I-neutral
 comme O
 son O
 nom O
@@ -61,7 +61,7 @@ limite O
 à O
 savoir O
 des O
-pâtes O
+pâtes B-negative
 desséchées O
 et O
 froides O
@@ -73,7 +73,7 @@ bistrot O
 . O
 
 Des O
-pizzas O
+pizzas B-positive
 locales O
 que O
 vous O
@@ -108,7 +108,7 @@ maison O
 
 Reste O
 le O
-service O
+service B-negative
 , O
 sympathique O
 mais O
@@ -171,7 +171,7 @@ l O
 ' O
 entrée O
 ( O
-moules O
+moules B-negative
 gratinées O
 ) O
 qui O
@@ -180,7 +180,7 @@ trop O
 petite O
 tant O
 les O
-moules O
+moules B-negative
 étaient O
 bonnes O
 . O
@@ -204,19 +204,19 @@ marché O
 , O
 l O
 ' O
-ambiance O
+ambiance B-positive
 est O
 garantie O
 . O
 
 Le O
-cadre O
+cadre B-positive
 est O
 vraiment O
 sympathique O
 et O
 la O
-déco O
+déco B-positive
 très O
 agréable O
 ce O
@@ -228,7 +228,7 @@ peu O
 d'amabilité O
 d'une O
 des O
-serveuses O
+serveuses B-negative
 assez O
 désagréable O
 et O
@@ -245,10 +245,10 @@ la O
 clientèle O
 . O
 
-accueil O
+accueil B-positive
 sympathique O
 , O
-cuisine O
+cuisine B-positive
 de O
 très O
 bonne O
@@ -330,7 +330,7 @@ supplément O
 
 L O
 ' O
-assiette O
+assiette B-negative
 est O
 parfaite O
 de O
@@ -415,7 +415,7 @@ impeccables O
 . O
 
 Une O
-serveuse O
+serveuse B-negative
 nous O
 rattrapera O
 à O
@@ -446,7 +446,7 @@ dans O
 " O
 
 Une O
-serveuse O
+serveuse B-negative
 qui O
 s O
 ’ O
@@ -530,7 +530,7 @@ prix O
 ! O
 
 Le O
-personnel O
+personnel B-positive
 est O
 très O
 prévenant O
@@ -654,7 +654,7 @@ la O
 remarque O
 à O
 la O
-serveuse O
+serveuse B-negative
 qui O
 a O
 transmis O
@@ -664,17 +664,17 @@ cuisinier O
 
 Vraiment O
 une O
-adresse O
+adresse B-positive
 à O
 retenir O
 pour O
 les O
 amateurs O
 de O
-viande O
+viande B-negative
 , O
 une O
-entrecôte O
+entrecôte B-negative
 qui O
 fond O
 dans O
@@ -682,16 +682,16 @@ la O
 bouche O
 , O
 une O
-sauce O
+sauce B-negative
 simple O
 mais O
 goûteuses O
 et O
 un O
-verre O
-de O
-vin O
-de O
+verre B-negative
+de I-negative
+vin I-negative
+de I-negative
 bonne O
 qualité O
 . O
@@ -714,7 +714,7 @@ si O
 ' O
 l O
 ' O
-accueil O
+accueil B-positive
 est O
 sympa O
 et O
@@ -764,7 +764,7 @@ plancha O
 . O
 
 La O
-musique O
+musique B-negative
 était O
 vraiment O
 très O
@@ -811,13 +811,13 @@ bref O
 la O
 qualité O
 du O
-service O
+service B-negative
 est O
 un O
 comble O
 pour O
 un O
-établissement O
+établissement B-negative
 mettant O
 en O
 avant O
@@ -847,7 +847,7 @@ on O
 vous O
 sert O
 une O
-bouteille O
+bouteille B-negative
 de O
 1 O
 litre O
@@ -855,15 +855,15 @@ de O
 rhum O
 et O
 une O
-bouteille O
-de O
+bouteille B-negative
+de I-negative
 sucre O
 canne O
 liquide O
 . O
 
 Un O
-cadre O
+cadre B-positive
 simple O
 mais O
 pourtant O
@@ -885,7 +885,7 @@ goût O
 . O
 
 Une O
-bière O
+bière B-negative
 pression O
 à O
 3,7 O
@@ -899,7 +899,7 @@ d'eau O
 , O
 bref O
 une O
-bière O
+bière B-negative
 coupée O
 à O
 l'eau O
@@ -921,14 +921,14 @@ les O
 papilles O
 avec O
 des O
-produits O
+produits B-positive
 très O
 bien O
 cuisinés O
 . O
 
 Une O
-adresse O
+adresse B-positive
 à O
 garder O
 pour O
@@ -951,14 +951,14 @@ des O
 baies O
 vitrées O
 la O
-cuisine O
+cuisine B-positive
 et O
 bonne O
 et O
 en O
 plus O
 le O
-service O
+service B-negative
 est O
 avec O
 le O
@@ -967,7 +967,7 @@ sourire O
 Tout O
 d'abord O
 un O
-serveur O
+serveur B-negative
 nous O
 a O
 littéralement O
@@ -977,7 +977,7 @@ lorsque O
 nous O
 lisions O
 la O
-carte O
+carte B-positive
 , O
 malgré O
 cette O
@@ -988,7 +988,7 @@ le O
 contenu O
 de O
 la O
-carte O
+carte B-positive
 avait O
 l'air O
 pas O
@@ -1011,7 +1011,7 @@ choix O
 , O
 l O
 ' O
-attente O
+attente B-negative
 a O
 été O
 longue O
@@ -1019,7 +1019,7 @@ longue O
 heureusement O
 l'égarement O
 d'une O
-serveuse O
+serveuse B-negative
 avec O
 ses O
 assiettes O
@@ -1040,13 +1040,13 @@ peine O
 . O
 
 Les O
-produits O
+produits B-positive
 sont O
 de O
-saison B-positive
+saison O
 . O
 
-Service O
+Service B-positive
 gentil O
 . O
 
@@ -1054,7 +1054,7 @@ Ah O
 ! O
 
 Des O
-produits O
+produits B-positive
 , O
 frais O
 , O
@@ -1062,7 +1062,7 @@ joliment O
 présentés O
 et O
 très O
-bons B-positive
+bons O
 . O
 
 Le O
@@ -1107,7 +1107,7 @@ fois O
 
 1 O
 ticket O
-Resto O
+Resto B-positive
 par O
 personne O
 
@@ -1137,7 +1137,7 @@ donc O
 je O
 pense O
 les O
-serveurs O
+serveurs B-negative
 fatigués O
 . O
 
@@ -1156,7 +1156,7 @@ parisiennes O
 dîner O
 dans O
 cet O
-établissement O
+établissement B-positive
 bien O
 situé O
 . O
@@ -1206,7 +1206,7 @@ grand O
 remerciement O
 pour O
 cette O
-cuisine O
+cuisine B-positive
 riche O
 moderne O
 et O
@@ -1219,9 +1219,9 @@ merci O
 à O
 l O
 ' O
-accueil O
+accueil B-positive
 au O
-service O
+service B-negative
 , O
 la O
 gentillesse O
@@ -1229,7 +1229,7 @@ et O
 le O
 professionnalisme O
 du O
-personnel O
+personnel B-positive
 merci O
 et O
 merci O
@@ -1271,7 +1271,7 @@ a O
 même O
 vu O
 une O
-serveuse O
+serveuse B-negative
 fumer O
 en O
 cuise O
@@ -1287,7 +1287,7 @@ un O
 vin O
 irréprochable O
 , O
-service O
+service B-negative
 impeccable O
 . O
 
@@ -1330,7 +1330,7 @@ gâteau O
 
 un O
 des O
-serveurs O
+serveurs B-negative
 a O
 le O
 physique O
@@ -1347,13 +1347,13 @@ sympa O
 . O
 
 Une O
-équipe O
+équipe B-positive
 aimable O
 , O
 de O
 la O
 vraie O
-nourriture O
+nourriture B-negative
 traditionnelle O
 française O
 , O
@@ -1377,7 +1377,7 @@ recettes O
 de O
 bon O
 petits O
-vins O
+vins B-positive
 , O
 franchement O
 , O
@@ -1431,7 +1431,7 @@ tristesse O
 
 Très O
 belle O
-ambiance O
+ambiance B-positive
 si O
 vous O
 aimez O
@@ -1455,13 +1455,13 @@ peu O
 accéléré O
 par O
 un O
-serveur O
+serveur B-negative
 visiblement O
 pressé O
 de O
 finir O
 son O
-service O
+service B-negative
 et O
 qui O
 est O
@@ -1553,12 +1553,12 @@ casserole O
 de O
 puré O
 de O
-pommes O
-de O
-terre O
+pommes B-negative
+de I-negative
+terre I-negative
 comme O
 une O
-soupe O
+soupe B-positive
 amère O
 . O
 
@@ -1592,22 +1592,22 @@ plus O
 sympas O
 . O
 
-Accueil O
+Accueil B-negative
 très O
 sympathique O
-. B-negative
+. O
 
 Des O
-serveurs O
+serveurs B-negative
 antipathiques O
 au O
 possible O
 . O
 
 Un O
-tartare O
+tartare B-neutral
 de O
-saumon O
+saumon I-neutral
 avec O
 trop O
 d'oignons O
@@ -1632,11 +1632,11 @@ de O
 la O
 recette O
 des O
-moules O
+moules B-negative
 marinières O
 . O
 
-Accueil O
+Accueil B-negative
 très O
 très O
 sympa O
@@ -1650,7 +1650,7 @@ bien O
 mangé O
 avec O
 des O
-plats O
+plats B-negative
 traditionnels O
 comme O
 à O
@@ -1672,7 +1672,7 @@ rdv O
 
 Pas O
 de O
-responsable O
+responsable B-negative
 dans O
 le O
 restaurant O
@@ -1727,12 +1727,12 @@ restaurant O
 ! O
 
 Le O
-cadre O
+cadre B-positive
 et O
-le B-positive
-personnel O
+le O
+personnel B-positive
 sont O
-agréables B-positive
+agréables O
 . O
 
 Très O
@@ -1757,11 +1757,11 @@ ne O
 souhaite O
 manger O
 ces O
-moules O
+moules B-negative
 douteuses O
 . O
 
-Service O
+Service B-positive
 superbe O
 et O
 très O
@@ -1789,7 +1789,7 @@ Mais O
 dans O
 l'assiette O
 aucune O
-cuisine O
+cuisine B-positive
 , O
 du O
 réchauffé O
@@ -1802,9 +1802,9 @@ d'entreprise O
 
 j'ai O
 pris O
-bavette O
+bavette B-negative
 avec O
-des B-negative
+des O
 frites O
 ! O
 
@@ -1822,21 +1822,21 @@ dîner O
 . O
 
 L O
-' I-neutral
-entrée I-neutral
-pas B-neutral
+' O
+entrée O
+pas O
 bonne O
 , O
 plus O
 de O
-plat O
-du O
-jour O
+plat B-neutral
+du I-neutral
+jour I-neutral
 . O
 
 Arrivages O
 de O
-poissons O
+poissons B-positive
 journalier O
 , O
 donc O
@@ -1849,7 +1849,7 @@ plaisir O
 dés O
 l O
 ' O
-accueil O
+accueil B-positive
 , O
 ce O
 grand O
@@ -1893,7 +1893,7 @@ parisienne O
 qui O
 achète O
 ses O
-produits O
+produits B-positive
 de O
 basse O
 qualité O
@@ -1917,17 +1917,17 @@ sur O
 le O
 choix O
 du O
-lieu O
+lieu B-positive
 , O
 un O
 bon O
-verre O
-de O
-vin O
+verre B-negative
+de I-negative
+vin I-negative
 , O
 des O
 bons O
-tapas O
+tapas B-positive
 de O
 qualité O
 engloutis O
@@ -1946,10 +1946,10 @@ amis O
 . O
 
 C'est O
-la B-negative
+la O
 fin O
 de O
-service O
+service B-negative
 . O
 
 Salle O
@@ -1986,7 +1986,7 @@ prix O
 Je O
 demande O
 au O
-serveur O
+serveur B-negative
 s'il O
 n'y O
 a O
@@ -1996,7 +1996,7 @@ souci O
 . O
 
 Le O
-cadre O
+cadre B-positive
 , O
 dîner O
 au O
@@ -2007,7 +2007,7 @@ piscine O
 . O
 
 Un O
-serveur O
+serveur B-negative
 sympathique O
 mais O
 c'est O
@@ -2018,13 +2018,13 @@ positif O
 . O
 
 une O
-pizza O
+pizza B-negative
 assez O
 bonne O
 mais O
 servie O
 sans O
-couverts B-negative
+couverts O
 ? O
 
 situé O
@@ -2033,7 +2033,7 @@ la O
 petite O
 Venise O
 avec O
-terrasse O
+terrasse B-positive
 au O
 bord O
 de O
@@ -2041,7 +2041,7 @@ l'eau O
 , O
 l O
 ' O
-endroit O
+endroit B-positive
 semblait O
 idéal O
 pour O
@@ -2055,12 +2055,12 @@ Colmar O
 Excellent O
 dîner O
 , O
-serveuse O
+serveuse B-negative
 très O
 aimable O
 , O
 et O
-ambiance O
+ambiance B-positive
 tamisée O
 .. O
 Nous O
@@ -2094,7 +2094,7 @@ temps O
 . O
 
 Le O
-service O
+service B-negative
 est O
 très O
 correct O
@@ -2111,7 +2111,7 @@ vous O
 recommandons O
 l O
 ' O
-endroit O
+endroit B-positive
 . O
 
 Le O
@@ -2155,7 +2155,7 @@ a O
 tester O
 . O
 
-Personnel O
+Personnel B-positive
 très O
 gentil O
 et O
@@ -2243,10 +2243,10 @@ affreux O
 
 Une O
 belle O
-carte O
+carte B-positive
 pleine O
 de O
-bonnes B-positive
+bonnes O
 surprises O
 . O
 
@@ -2284,7 +2284,7 @@ proposé O
 ! O
 
 La O
-déco O
+déco B-positive
 est O
 bas O
 de O
@@ -2295,7 +2295,7 @@ clinquante O
 
 Lorsque O
 le O
-serveur O
+serveur B-negative
 nous O
 demande O
 si O
@@ -2307,7 +2307,7 @@ lui O
 dis O
 que O
 la O
-viande O
+viande B-negative
 était O
 bonne O
 mais O
@@ -2333,22 +2333,22 @@ votre O
 chemin O
 . O
 
-Entrée O
-au O
-chèvre O
-chaud O
+Entrée B-negative
+au I-negative
+chèvre I-negative
+chaud I-negative
 , O
 suivi O
 d'un O
-magret O
-de O
-canard O
-miel O
+magret B-positive
+de I-positive
+canard I-positive
+miel I-positive
 / O
 citron O
 accompagné O
 de O
-pommes O
+pommes B-negative
 sautées O
 , O
 un O
@@ -2357,7 +2357,7 @@ délice O
 ! O
 
 La O
-carte O
+carte B-positive
 pourtant O
 est O
 bien O
@@ -2366,7 +2366,7 @@ et O
 alléchante O
 . O
 
-Service O
+Service B-positive
 très O
 perfectible O
 ( O
@@ -2395,7 +2395,7 @@ des O
 ordres O
 aux O
 autres O
-serveurs O
+serveurs B-negative
 . O
 
 Les O
@@ -2411,7 +2411,7 @@ chauds O
 . O
 
 Des O
-produits O
+produits B-positive
 frais O
 avec O
 des O
@@ -2420,7 +2420,7 @@ positions O
 de O
 l O
 ' O
-équipe O
+équipe B-positive
 qui O
 est O
 au O
@@ -2433,20 +2433,20 @@ Après O
 mais O
 une O
 certaine O
-ambiance O
+ambiance B-positive
 dans O
 la O
 salle O
 . O
 
 La O
-cuisine O
-était B-positive
+cuisine B-positive
+était O
 correcte O
 l O
 ' O
-ambiance O
-sympa B-positive
+ambiance B-positive
+sympa O
 . O
 
 Le O
@@ -2462,7 +2462,7 @@ eu O
 droit O
 à O
 une O
-pizza O
+pizza B-negative
 gratuite O
 sans O
 rien O
@@ -2485,10 +2485,10 @@ celui O
 de O
 l'huile O
 , O
-bière O
+bière B-negative
 chaude O
 ... O
-service O
+service B-negative
 assez O
 sympathique O
 et O
@@ -2508,7 +2508,7 @@ soirée O
 . O
 
 Côté O
-cuisine O
+cuisine B-positive
 , O
 un O
 manque O
@@ -2604,14 +2604,14 @@ délicieux O
 ) O
 et O
 une O
-sorte O
-de O
-canard O
-confis O
+sorte B-negative
+de I-negative
+canard I-negative
+confis I-negative
 en O
 gelée O
 avec O
-noix O
+noix B-positive
 et O
 poires O
 ( O
@@ -2640,7 +2640,7 @@ dégustant O
 une O
 très O
 bonne O
-cuisine O
+cuisine B-positive
 de O
 saison O
 . O
@@ -2662,7 +2662,7 @@ plaisir O
 ! O
 
 Les O
-serveurs O
+serveurs B-negative
 sont O
 très O
 souriants O
@@ -2671,17 +2671,17 @@ patients O
 . O
 
 La O
-carte O
+carte B-positive
 est O
-généreuse B-positive
+généreuse O
 . O
 
-Plats O
+Plats B-neutral
 bien O
 exécutés O
 , O
 les O
-sauces O
+sauces B-negative
 sont O
 également O
 bonnes O
@@ -2694,11 +2694,11 @@ passion O
 vaisselle O
 cassée O
 , O
-plat O
-du O
-jour O
+plat B-neutral
+du I-neutral
+jour I-neutral
 ( O
-riz O
+riz B-negative
 crustacés O
 en O
 gros O
@@ -2707,7 +2707,7 @@ très O
 sec O
 , O
 sans O
-sauce O
+sauce B-negative
 , O
 gambas O
 pas O
@@ -2715,7 +2715,7 @@ fraîches O
 , O
 une O
 pauvre O
-décoration O
+décoration B-positive
 superflue O
 ... O
 bref O
@@ -2724,7 +2724,7 @@ goût O
 . O
 
 La O
-sauce O
+sauce B-negative
 envahissait O
 le O
 poisson O
@@ -2734,7 +2734,7 @@ poisson O
 fois O
 que O
 le O
-service O
+service B-negative
 n'est O
 pas O
 à O
@@ -2742,7 +2742,7 @@ la O
 hauteur O
 de O
 la O
-cuisine O
+cuisine B-positive
 dans O
 les O
 restos O
@@ -2756,22 +2756,22 @@ dommage O
 . O
 
 Un O
-lieu O
+lieu B-positive
 simple O
 ou O
 passer O
 une O
 agréable O
-soirée B-positive
+soirée O
 ! O
 
 Attente O
 interminable O
 ! O
 
-Service O
+Service B-positive
 aimable O
-. B-positive
+. O
 
 Choix O
 de O
@@ -2787,7 +2787,7 @@ médiocre O
 . O
 
 Bons O
-cocktails O
+cocktails B-positive
 et O
 barman O
 très O
@@ -2801,7 +2801,7 @@ fraisier O
 ( O
 plutot O
 une O
-mousse O
+mousse B-negative
 décoré O
 de O
 quelques O
@@ -2821,16 +2821,16 @@ un O
 cheveu O
 sur O
 la O
-soupe O
+soupe B-positive
 ! O
 
 La O
-cuisine O
+cuisine B-positive
 est O
 excellente O
 dans O
 un O
-cadre O
+cadre B-positive
 original O
 dans O
 lequel O
@@ -2856,7 +2856,7 @@ Elysée O
 Comment O
 peut-on O
 dire O
-cuisine O
+cuisine B-positive
 maison O
 avec O
 ces O
@@ -2865,7 +2865,7 @@ en O
 boite O
 , O
 son O
-boeuf O
+boeuf B-negative
 bourguignon O
 rempli O
 de O
@@ -2877,7 +2877,7 @@ escargots O
 decongeles O
 etc O
 ... O
-cuisine O
+cuisine B-positive
 française O
 vraiment O
 ? O
@@ -2924,7 +2924,7 @@ copieuses O
 . O
 
 La O
-cuisine O
+cuisine B-positive
 qui O
 mériterait O
 largement O
@@ -2981,7 +2981,7 @@ ne O
 conseillerais O
 pas O
 cet O
-établissement O
+établissement B-positive
 . O
 
 Ca O
@@ -3020,8 +3020,8 @@ et O
 une O
 part O
 de O
-tarte O
-aux O
+tarte B-positive
+aux I-positive
 pommes O
 surgelée O
 ( O
@@ -3030,16 +3030,16 @@ fait O
 maison O
 sur O
 la O
-carte O
+carte B-positive
 ) O
 
 Bon O
-accueil O
+accueil B-positive
 mais O
-service O
-un B-negative
+service B-negative
+un O
 peu O
-long B-positive
+long O
 . O
 
 Assis O
@@ -3095,7 +3095,7 @@ vient O
 pas O
 à O
 un O
-buffet O
+buffet B-negative
 à O
 volonté O
 pour O
@@ -3108,7 +3108,7 @@ correctement O
 servis O
 , O
 un O
-pavé O
+pavé B-negative
 de O
 turbot O
 excellent O
@@ -3121,10 +3121,10 @@ le O
 quartier O
 . O
 
-Service O
+Service B-positive
 lamentable O
 , O
-viandes O
+viandes B-negative
 médiocres O
 et O
 note O
@@ -3160,20 +3160,20 @@ en O
 appétit O
 et O
 un O
-accueil O
+accueil B-positive
 toujours O
 très O
 chaleureux O
 du O
-patron O
-et O
-de O
+patron B-negative
+et I-negative
+de I-negative
 sa O
 femme O
 . O
 
 Superbe O
-accueil O
+accueil B-positive
 . O
 
 Oui O
@@ -3184,7 +3184,7 @@ frais O
 Connaissant O
 bien O
 la O
-cuisine O
+cuisine B-positive
 de O
 son O
 mari O
@@ -3197,9 +3197,9 @@ de O
 la O
 qualité O
 du O
-plat O
-du O
-jour O
+plat B-neutral
+du I-neutral
+jour I-neutral
 . O
 
 Mais O
@@ -3297,7 +3297,7 @@ menu O
 n'inspirait O
 pas O
 une O
-cuisine O
+cuisine B-positive
 raffinée O
 ... O
 mais O
@@ -3478,7 +3478,7 @@ depuis O
 longtemps O
 
 Le O
-cadre O
+cadre B-positive
 est O
 somptueux O
 , O
@@ -3504,12 +3504,12 @@ deux O
 desserts O
 à O
 la O
-carte O
+carte B-positive
 avec O
 une O
-bouteille O
-de O
-vin O
+bouteille B-negative
+de I-negative
+vin I-negative
 nous O
 avons O
 trouvé O
@@ -3527,7 +3527,7 @@ Castelnaudary O
 
 L O
 ’ O
-accueil O
+accueil B-positive
 laisse O
 à O
 penser O
@@ -3540,7 +3540,7 @@ passer O
 mais O
 rien O
 ne O
-se B-positive
+se O
 passe O
 . O
 
@@ -3551,7 +3551,7 @@ le O
 menu O
 avec O
 le O
-responsable O
+responsable B-negative
 et O
 nous O
 étions O
@@ -3584,7 +3584,7 @@ satisfait O
 . O
 
 Une O
-cuisine O
+cuisine B-positive
 savoureuse O
 faite O
 avec O
@@ -3604,12 +3604,12 @@ vrai O
 restaurant O
 
 La O
-nourriture O
-est B-negative
+nourriture B-negative
+est O
 moyenne O
 
 Le O
-service O
+service B-negative
 est O
 correct O
 poli O
@@ -3685,7 +3685,7 @@ aussi.Vient O
 ensuite O
 l O
 ' O
-ambiance O
+ambiance B-positive
 musicale O
 qui O
 correspond O
@@ -3728,12 +3728,12 @@ tout O
 miser O
 sur O
 le O
-cadre O
-au O
-détriment O
+cadre B-positive
+au I-positive
+détriment I-positive
 de O
 la O
-cuisine O
+cuisine B-positive
 ! O
 
 Carafe O
@@ -3767,7 +3767,7 @@ Bretagne O
 Et O
 l O
 ' O
-équipe O
+équipe B-positive
 est O
 adorable O
 ! O

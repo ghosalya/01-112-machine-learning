@@ -102,10 +102,10 @@ make O none
 the O none
 show O none
 . O none
-Amy B negative
-, I negative
-LaRoyce I negative
-, I negative
+Amy B neutral
+, I neutral
+LaRoyce I neutral
+, I neutral
 Burgess O none
 ... O none
 
@@ -186,7 +186,7 @@ past O none
 , O none
 it's O none
 about O none
-America B negative
+America B neutral
 ' O none
 s O none
 future O none
@@ -199,7 +199,7 @@ you O none
 have O none
 a O none
 Google B positive
-Chromecast O positive
+Chromecast O none
 ? O none
 Microsoft O none
 Edge O none
@@ -270,7 +270,7 @@ FOCUSED O none
 AND O none
 FROSTY O none
 MR O none
-TRUMP B negative
+TRUMP B neutral
 YOU O none
 CAN O none
 DO O none
@@ -325,9 +325,9 @@ Trump B neutral
 Tower I neutral
 ⒉ O neutral
 #DolceAmoreParentsTrap⒊ O neutral
-#gold⒋ O neutral
-#rpcf⒌ O neutral
-#UEFASuperCup2016 O neutral
+#gold⒋ O none
+#rpcf⒌ O none
+#UEFASuperCup2016 O none
 /8 O none
 / O none
 11 O none
@@ -413,7 +413,7 @@ chingchong O none
 " O none
 into O none
 Google B positive
-Translate O positive
+Translate O none
 ... O none
 nothing O none
 . O none
@@ -423,7 +423,7 @@ Check O none
 this---accusers O none
 work O none
 for O none
-Clinton B negative
+Clinton B neutral
 https://t.co/8rxoboNy58 O none
 
 I'm O none
@@ -529,7 +529,7 @@ https://t.co/3Yzhsm61nC O none
 Oh O none
 god O none
 . O none
-Pokemon B positive
+Pokemon B neutral
 Go O none
 is O none
 stretching O none
@@ -549,9 +549,9 @@ do O none
 this O none
 
 ⒍ O none
-Joseph O neutral
-Schooling O neutral
-⒎ O neutral
+Joseph O none
+Schooling O none
+⒎ O none
 #gold⒏ O neutral
 National B neutral
 Day⒐ I neutral
@@ -591,8 +591,8 @@ World I neutral
 : O none
 Where B neutral
 Art I neutral
-Meets O neutral
-Science O neutral
+Meets O none
+Science O none
 https://t.co/wZDWSaPgpM O none
 
 Fast B neutral
@@ -628,8 +628,8 @@ https://t.co/bXOP9XVZ2B O none
 I'm O none
 at O none
 Club B neutral
-Tryst O neutral
-in O neutral
+Tryst O none
+in O none
 Singapore B neutral
 w O none
 / O none
@@ -684,7 +684,7 @@ FFP O none
 * O none
 Sync O none
 this O none
-iPhone B positive
+iPhone B neutral
 over O none
 wifi O none
 * O none
@@ -703,10 +703,10 @@ Toronto B neutral
 https://t.co/WGbyDScJF0 O none
 
 Our O none
-Blues B positive
-Brothers I positive
-Chocolate I positive
-Brownie O positive
+Blues B neutral
+Brothers I neutral
+Chocolate I neutral
+Brownie O none
 goes O none
 crunchy O none
 ! O none
@@ -730,7 +730,7 @@ They O none
 both O none
 suck O none
 . O none
-America B positive
+America B neutral
 needs O none
 to O none
 Vote O none
@@ -756,12 +756,12 @@ https://t.co/nIVs7dbz6T O none
 
 I'm O none
 at O none
-Swee O neutral
-Choon O neutral
+Swee O none
+Choon O none
 Tim B neutral
 Sum I neutral
 Restaurant I neutral
-in O neutral
+in O none
 Singapore B neutral
 w O none
 / O none
@@ -916,7 +916,7 @@ feed O none
 @ O none
 Lester's B neutral
 Farm I neutral
-Chalet O neutral
+Chalet O none
 https://t.co/IHy2sZa5u7 O none
 
 congrats O none
@@ -1027,7 +1027,7 @@ h O none
 https://t.co/dIlG22WzCK O none
 
 @chanceig O none
-@Beniesta_ O none
+@Beniesta_ O negative
 Bill B negative
 la I negative
 , I negative
@@ -1038,7 +1038,7 @@ money O none
 ? O none
 Eh O none
 , O none
-Bill B negative
+Bill B neutral
 ? O none
 
 @ChurchofCrowley O none
@@ -1087,7 +1087,7 @@ tooth O none
 and O none
 nail O none
 against O none
-Hillary B negative
+Hillary B neutral
 #VOTEBLUE O none
 
 If O none
@@ -1159,7 +1159,7 @@ Wit O none
 by O none
 @MKEbrewco O none
 @ O none
-Bier O neutral
+Bier O none
 Zot O neutral
 Beer B neutral
 Cafe I neutral
@@ -1168,7 +1168,7 @@ https://t.co/sswsqRwQ2K O none
 #photo O none
 
 Ronda B neutral
-Rousey O neutral
+Rousey O none
 to O none
 fight O none
 @Amanda_Leoa O none
@@ -1232,8 +1232,8 @@ home O none
 @ O none
 West B neutral
 Coast I neutral
-Billiards O neutral
-in O neutral
+Billiards O none
+in O none
 Singapore B neutral
 ) O none
 https://t.co/EMYFJm59mt O none
@@ -1304,8 +1304,8 @@ boat O none
 tour O none
 and O none
 Chicago B neutral
-360 O neutral
-observatory O neutral
+360 O none
+observatory O none
 , O none
 and O none
 see O none
@@ -1348,15 +1348,15 @@ UPDATED O none
 : O none
 Intersection O none
 of O none
-Hammonds O neutral
+Hammonds O none
 Plains B neutral
 Road I neutral
 and I neutral
 Lucasville I neutral
 Road I neutral
 – O none
-Road O neutral
-Construction O neutral
+Road O none
+Construction O none
 https://t.co/MEz6Z5bS5C O none
 
 I'm O none
@@ -1384,12 +1384,12 @@ thinks O none
 Bob B positive
 Dylan I positive
 massively O positive
-over-rated O positive
+over-rated O none
 ? O none
 
-Krugman's O negative
-Nobel B negative
-prize I negative
+Krugman's O none
+Nobel B neutral
+prize I neutral
 ( O none
 for O none
 trade O none
@@ -1476,14 +1476,14 @@ https://t.co/lSeiHX4fDH O none
 https://t.co/2mW4gxW8Av O none
 
 Apple B neutral
-Discontinues O neutral
-The O neutral
-$ O neutral
-10k O neutral
-Gold O neutral
+Discontinues O none
+The O none
+$ O none
+10k O none
+Gold O none
 Apple B neutral
 Watch I neutral
-Edition O neutral
+Edition O none
 ; O none
 Replaced O none
 w O none
@@ -1608,8 +1608,8 @@ it O none
 
 Join O none
 the O none
-TJX O neutral
-Canada B neutral
+TJX O none
+Canada B positive
 team O none
 ! O none
 See O none
@@ -1632,7 +1632,7 @@ removal O none
 of O none
 Unilever B neutral
 brands I neutral
-by O neutral
+by O none
 Tesco B neutral
 is O none
 a O none
@@ -1665,15 +1665,15 @@ for O none
 this O none
 #job O none
 ? O none
-Certified B positive
-Medical I positive
+Certified B neutral
+Medical I neutral
 Assistant O none
 - O none
-Happy B positive
-Valley I positive
-Immediate I positive
-Care I positive
-Clinic I positive
+Happy B neutral
+Valley I neutral
+Immediate I neutral
+Care I neutral
+Clinic I neutral
 ... O none
 - O none
 https://t.co/AepM8FNPfN O none
@@ -1715,8 +1715,8 @@ his O none
 way O none
 . O none
 
-@realDonaldTrump O negative
-Trump B negative
+@realDonaldTrump O none
+Trump B neutral
 you O none
 suck O none
 oops O none
@@ -1843,7 +1843,7 @@ NUS B neutral
 Bukit I neutral
 Timah I neutral
 Campus I neutral
-in O neutral
+in O none
 Singapore B neutral
 ) O none
 https://t.co/dcaAEWouBg O none
@@ -1892,7 +1892,7 @@ and O none
 a O none
 Long B neutral
 Island I neutral
-accent O neutral
+accent O none
 just O none
 came O none
 in O none
@@ -1929,7 +1929,7 @@ Eastlink B neutral
 Mall I neutral
 Food I neutral
 Court I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/mgOfDe8iwp O none
 
@@ -2120,7 +2120,7 @@ Eastlink B neutral
 Mall I neutral
 Food I neutral
 Court I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/mgOfDe8iwp O none
 
@@ -2129,14 +2129,14 @@ People O none
 have O none
 a O none
 new O none
-album O neutral
+album O none
 iTunes B neutral
-/ O neutral
+/ O none
 Amazon B neutral
 / O none
 Bandcamp O none
 / O none
-Spotify B positive
+Spotify B neutral
 tomorrow O none
 . O none
 Album O none
@@ -2201,8 +2201,8 @@ Dagger O none
 rings O none
 in O none
 the O none
-Windy B negative
-City I negative
+Windy B neutral
+City I neutral
 
 Zoey O none
 just O none
@@ -2215,8 +2215,8 @@ Rex O none
 
 Woohoo O none
 ! O none
-Farm O neutral
-Spirit O neutral
+Farm O none
+Spirit O none
 ! O none
 ! O none
 ! O none
@@ -2354,11 +2354,11 @@ people O none
 
 Headlines O none
 | O none
-Dartmouth B negative
-North I negative
+Dartmouth B neutral
+North I neutral
 organizing O none
-Voting B negative
-Parade I negative
+Voting B neutral
+Parade I neutral
 this O none
 Saturday O none
 https://t.co/9W1b6yXtZV O none
@@ -2407,9 +2407,9 @@ oops O none
 I O none
 prefer O none
 the O none
-Larry O positive
-David B positive
-Holiday O positive
+Larry O none
+David B neutral
+Holiday O none
 version O none
 . O none
 https://t.co/VjPvvZQFat O none
@@ -2423,8 +2423,8 @@ heart O none
 is O none
 longing O none
 for O none
-Paris B positive
-, I positive
+Paris B neutral
+, I neutral
 the O none
 Eiffel O none
 … O none
@@ -2437,7 +2437,7 @@ news O none
 on O none
 Steins O none
 ; O none
-Gate O neutral
+Gate O none
 0 O none
 be O none
 like O none
@@ -2512,7 +2512,7 @@ I'm O none
 at O none
 K B neutral
 Box I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/oCAWxJyIMv O none
 
@@ -2614,19 +2614,19 @@ am O none
 https://t.co/JBGm2DUpFn O none
 
 I O none
-fw O positive
-Jill B positive
-Scottt O positive
+fw O none
+Jill B neutral
+Scottt O none
 https://t.co/SFQ1yoJWl2 O none
 
 :) O none
 ( O none
 @ O none
-k.cook O neutral
+k.cook O none
 korean B neutral
 BBQ I neutral
-buffet O neutral
-in O neutral
+buffet O none
+in O none
 Singapore B neutral
 , I neutral
 ORCHARD O none
@@ -2699,15 +2699,15 @@ improved O none
 
 Fall O none
 in O none
-Vermont B negative
+Vermont B neutral
 is O none
 unreal O none
 https://t.co/2t9KeK7rTS O none
 
 All O none
-Ireland B positive
-championship O positive
-Leinster O positive
+Ireland B neutral
+championship O none
+Leinster O none
 first O none
 round O none
 draw O none
@@ -2715,9 +2715,9 @@ has O none
 been O none
 made O none
 its O none
-a B positive
+a B neutral
 Midlands I neutral
-rivalry O neutral
+rivalry O none
 with O none
 Offaly O none
 v O none
@@ -2737,11 +2737,11 @@ bro O none
 
 Fmr O none
 . O none
-Wells O positive
-Fargo O positive
-CEO O positive
-John B positive
-Stumpf O positive
+Wells O none
+Fargo O none
+CEO O none
+John B neutral
+Stumpf O none
 pay O none
 package O none
 erodes O none
@@ -2875,7 +2875,7 @@ a O none
 common O none
 low O none
 lifeLike O none
-Trump B negative
+Trump B neutral
 or O none
 any O none
 follower O none
@@ -2892,7 +2892,7 @@ babyyy O none
 
 I'm O none
 at O none
-Colosseum O neutral
+Colosseum O none
 Esport B neutral
 Club I neutral
 https://t.co/44KQPinIKy O none
@@ -3051,7 +3051,7 @@ I'm B neutral
 at I neutral
 Gateway I neutral
 West I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/zJ8GLkGB3u O none
 
@@ -3061,7 +3061,7 @@ White B neutral
 Sands I neutral
 Shopping I neutral
 Centre I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/TEBV58RKHl O none
 
@@ -3151,8 +3151,8 @@ region O none
 is O none
 in O none
 the O none
-English B negative
-Midlands I negative
+English B neutral
+Midlands I neutral
 by O none
 this O none
 . O none
@@ -3189,7 +3189,7 @@ screen O none
 I'm O none
 at O none
 VivoCity B neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/At0tEqzzSy O none
 
@@ -3200,7 +3200,7 @@ Stop I neutral
 76211 I neutral
 ( I neutral
 Blk I neutral
-449 O neutral
+449 O none
 ) O none
 in O none
 Singapore B neutral
@@ -3257,7 +3257,7 @@ we O none
 play O none
 the O none
 stinking O none
-Blues B negative
+Blues B neutral
 ... O none
 like O none
 tonight O none
@@ -3356,7 +3356,7 @@ U O none
 don't O none
 kiss O none
 Clintons B negative
-rear O none
+rear O negative
 u O none
 r O none
 dirt O none
@@ -3441,7 +3441,7 @@ many O none
 years O none
 Ken B positive
 Livingstone O positive
-claimed O positive
+claimed O none
 to O none
 be O none
 a O none
@@ -3581,7 +3581,7 @@ Family O none
 Day O none
 ✨ O none
 @ O none
-Tung O neutral
+Tung O none
 Lok B neutral
 Seafood I neutral
 at O none
@@ -3593,9 +3593,9 @@ https://t.co/P1fWzphskR O none
 Brunchin O none
 ' O none
 on O none
-grilled O positive
-chicken B positive
-sandwich O positive
+grilled O none
+chicken B neutral
+sandwich O none
 and O none
 fresh O none
 brewed O none
@@ -3604,7 +3604,7 @@ coffee O none
 @ O none
 Starbucks B neutral
 Coffee I neutral
-in O neutral
+in O none
 Singapore B neutral
 , I neutral
 Sembawang O none
@@ -3739,7 +3739,7 @@ anecdote O none
 that O none
 didn't O none
 make O none
-KL B positive
+KL B neutral
 story O none
 : O none
 An O none
@@ -3788,7 +3788,7 @@ easily O none
 lol O none
 same O none
 Mr B positive
-Darcy O positive
+Darcy O none
 . O none
 I O none
 feel O none
@@ -3885,7 +3885,7 @@ https://t.co/m3gfQQqDR6 O none
 
 Idk O none
 you O none
-trump B negative
+trump B neutral
 but O none
 president O none
 isn't O none
@@ -3979,7 +3979,7 @@ growing O none
 I'm O none
 at O none
 nex B neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/1WtGMFQByu O none
 
@@ -4068,7 +4068,7 @@ Gu B neutral
 Thai I neutral
 Noodle I neutral
 Cafe I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/Hoo2mn2MDo O none
 
@@ -4077,7 +4077,7 @@ you O none
 ask O none
 for O none
 sweet O none
-tea O none
+tea O positive
 and O none
 get O none
 Dr.Pepper O none
@@ -4115,7 +4115,7 @@ latest O none
 opening O none
 here O none
 : O none
-https://t.co/hi25QOZFvM O neutral
+https://t.co/hi25QOZFvM O none
 #HR O neutral
 #Boston B neutral
 , I neutral
@@ -4226,7 +4226,7 @@ Hotel B neutral
 81 I neutral
 - I neutral
 Palace I neutral
-in O neutral
+in O none
 Singapore B neutral
 ) O none
 https://t.co/HEiq56jupY O none
@@ -4235,7 +4235,7 @@ I'm O none
 at O none
 Bugis B neutral
 Junction I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/Gb5mIS8OA2 O none
 
@@ -4353,8 +4353,8 @@ overslept O none
 ( O none
 @ O none
 Sushi B neutral
-Tei O neutral
-in O neutral
+Tei O none
+in O none
 Singapore B neutral
 ) O none
 https://t.co/JqiIcfL2De O none
@@ -4409,9 +4409,9 @@ discrimination O none
 
 I'm O none
 at O none
-https://t.co/yKbGoA9wjY O neutral
+https://t.co/yKbGoA9wjY O none
 Singapore B neutral
-in O neutral
+in O none
 Singapore B neutral
 w O none
 / O none
@@ -4421,7 +4421,7 @@ https://t.co/nOVBTfERUA O none
 I'm O none
 at O none
 Hougang B neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/dV0J4gmtpd O none
 
@@ -4479,19 +4479,19 @@ YOU O none
 BACK O none
 
 " O none
-Putin B negative
-, I negative
+Putin B neutral
+, I neutral
 the O none
 guy O none
 from O none
-China B positive
-, I negative
+China B neutral
+, I neutral
 the O none
 guy O none
 from O none
 North B neutral
 Korea I neutral
-, I negative
+, I neutral
 they're O none
 gonna O none
 be O none
@@ -4499,7 +4499,7 @@ afraid O none
 of O none
 him O none
 [ O none
-Trump B negative
+Trump B neutral
 ] O none
 . O none
 " O none
@@ -4628,8 +4628,8 @@ YG O none
 concert O none
 man O none
 
-Trump B negative
-supporters O negative
+Trump B neutral
+supporters O none
 really O none
 are O none
 batshit O none
@@ -4637,7 +4637,7 @@ crazy O none
 . O none
 https://t.co/Ii92c8K2i5 O none
 
-Leafs B positive
+Leafs B neutral
 fans O none
 are O none
 pretty O none
@@ -4694,9 +4694,9 @@ There O none
 & O none
 here O none
 in O none
-#Winnipeg B positive
-#manitoba O positive
-tooAs O positive
+#Winnipeg B neutral
+#manitoba O none
+tooAs O none
 a O none
 mom O none
 its O none
@@ -4767,7 +4767,7 @@ Federalize O none
 the O none
 Michigan B neutral
 National I neutral
-Guard O neutral
+Guard O none
 . O none
 " O none
 #DesignatedSurvivor O none
@@ -4820,7 +4820,7 @@ on O none
 35E O none
 SB O none
 at O none
-Manana O neutral
+Manana O none
 Dr B neutral
 , I neutral
 stop O none
@@ -4832,7 +4832,7 @@ to O none
 Hwy B neutral
 121 I neutral
 Sam B neutral
-Rayburn O neutral
+Rayburn O none
 Tollway O none
 
 Zero O none
@@ -4907,11 +4907,11 @@ https://t.co/oxwvoSG97S O none
 I'm O none
 at O none
 Super O none
-Stop O neutral
-& O neutral
-Shop O neutral
-in O neutral
-North O neutral
+Stop O none
+& O none
+Shop O none
+in O none
+North O none
 Providence B neutral
 , I neutral
 RI I neutral
@@ -5021,9 +5021,9 @@ mdfleetweek O none
 … O none
 https://t.co/ri1xzjYjKp O none
 
-Mrs B positive
-. I positive
-J I negative
+Mrs B neutral
+. I neutral
+J I neutral
 please O none
 explain O none
 https://t.co/qjUJc2cNSK O none
@@ -5032,7 +5032,7 @@ I O none
 praise O none
 and O none
 thank O none
-God B positive
+God B neutral
 for O none
 blessing O none
 me O none
@@ -5067,7 +5067,7 @@ October O none
 2016 O none
 https://t.co/BUHRIcbAVG O none
 
-Kent O negative
+Kent O none
 Bazemore O none
 for O none
 threeeeeeeeeee O none
@@ -5181,7 +5181,7 @@ what O none
 was O none
 left O none
 of O none
-Carolyn B negative
+Carolyn B neutral
 ' O none
 s O none
 music O none
@@ -5204,10 +5204,10 @@ Trump B neutral
 Tower I neutral
 ⒉ O neutral
 #DolceAmoreParentsTrap O neutral
-⒊ O neutral
-#gold⒋ O neutral
-#rpcf⒌ O neutral
-#UEFASuperCup2016 O neutral
+⒊ O none
+#gold⒋ O none
+#rpcf⒌ O none
+#UEFASuperCup2016 O none
 /8 O none
 / O none
 11 O none
@@ -5239,7 +5239,7 @@ so O none
 much O none
 better O none
 if O none
-Harold B negative
+Harold B neutral
 Reynolds O none
 talked O none
 a O none
@@ -5317,7 +5317,7 @@ I'm O none
 at O none
 Orchard B neutral
 Plaza I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/fIUlQLnJFG O none
 
@@ -5600,7 +5600,7 @@ the O none
 Year O none
 , O none
 and O none
-Clayton O neutral
+Clayton O none
 Kershaw B neutral
 Most O none
 Clutch O none
@@ -5697,7 +5697,7 @@ it's O none
 also O none
 premiering O none
 on O none
-Canadian O neutral
+Canadian O none
 Netflix B neutral
 ! O none
 ? O none
@@ -5717,7 +5717,7 @@ https://t.co/yXaIUyekWL O none
 " O none
 " O none
 DONALD O none
-TRUMP B negative
+TRUMP B neutral
 https://t.co/liHecqRSIn O none
 
 Is O none
@@ -5759,17 +5759,17 @@ fan O none
 , O none
 baby O none
 Charlie B neutral
-@mnwild O neutral
-@mnwildPR O neutral
-#mnwild O neutral
-#NHL O neutral
-#MINvsSTL O neutral
+@mnwild O none
+@mnwildPR O none
+#mnwild O none
+#NHL O none
+#MINvsSTL O none
 https://t.co/hsPW3y5iyX O none
 
 @frangeladuo O none
 @SMShow O none
 Did O none
-Trump B negative
+Trump B neutral
 provide O none
 sound O none
 effects O none
@@ -5797,8 +5797,8 @@ suburb O none
 of O none
 Milwaukee O none
 
-@jonfavs O negative
-TRUMP B negative
+@jonfavs O none
+TRUMP B neutral
 is O none
 furious O none
 about O none
@@ -5880,7 +5880,7 @@ at O none
 Changi B neutral
 Business I neutral
 Park I neutral
-in O neutral
+in O none
 Singapore B neutral
 , I neutral
 SG I neutral
@@ -5896,7 +5896,7 @@ completed O none
 #ArmyHalfMarathon O none
 #safra O none
 @ O none
-Safra O neutral
+Safra O none
 Singapore B neutral
 Bay I neutral
 Run O none
@@ -6010,8 +6010,8 @@ sleep O none
 on O none
 @YoungMAMusic O none
 
-#OtherHarryPotterSpells O negative
-Putin B negative
+#OtherHarryPotterSpells O none
+Putin B neutral
 becomes O none
 a O none
 pussy O none
@@ -6093,7 +6093,7 @@ cloud O none
 #MySingaStory O none
 @ O none
 Singapore B neutral
-Flyer O neutral
+Flyer O none
 https://t.co/rPKMLCPzj3 O none
 
 Each O none
@@ -6146,7 +6146,7 @@ https://t.co/0sheQqKDrs O none
 
 Karlos B positive
 Williams I positive
-huh O positive
+huh O none
 ? O none
 Why O none
 the O none
@@ -6187,7 +6187,7 @@ at O none
 Raffles B neutral
 Town I neutral
 Club I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/zIng3JlduY O none
 
@@ -6242,7 +6242,7 @@ I'm O none
 at O none
 Jurong B neutral
 Point I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/KxgKlpIbJ1 O none
 
@@ -6276,7 +6276,7 @@ what O none
 you O none
 did O none
 Mr B positive
-Savage O positive
+Savage O none
 and O none
 win O none
 the O none
@@ -6303,11 +6303,11 @@ do O none
 prefer O none
 a O none
 nice O none
-glass B positive
-of I positive
-Jackson I positive
-Triggs O positive
-CSV O positive
+glass B neutral
+of I neutral
+Jackson I neutral
+Triggs O none
+CSV O none
 every O none
 once O none
 in O none
@@ -6395,12 +6395,12 @@ Sri O none
 https://t.co/lkqgxVNhGc O none
 
 JK O none
-Rowling O neutral
-retweeting O neutral
+Rowling O none
+retweeting O none
 The B neutral
 Black I neutral
 Madonna O neutral
-AKA O neutral
+AKA O none
 the O none
 most O none
 irritating O none
@@ -6413,7 +6413,7 @@ ever O none
 think O none
 of O none
 
-Northampton B positive
+Northampton B neutral
 family O none
 desperate O none
 to O none
@@ -6565,11 +6565,11 @@ Clementi I neutral
 West I neutral
 Street I neutral
 2 I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/wmzmD3BeQD O none
 
-Trump B negative
+Trump B neutral
 has O none
 really O none
 amped O none
@@ -6586,11 +6586,11 @@ polls O none
 . O none
 https://t.co/rmH6YW0JGi O none
 
-Bob B positive
-Dylan I positive
+Bob B neutral
+Dylan I neutral
 wins O none
-Nobel B negative
-Prize I negative
+Nobel B neutral
+Prize I neutral
 in O none
 Literaturehttps O none
 :/ O none
@@ -6598,8 +6598,8 @@ Literaturehttps O none
 t.co/ioSZHfM1lZShared O none
 via O none
 the O none
-CBC O neutral
-News O neutral
+CBC O none
+News O none
 Android B neutral
 App O none
 
@@ -6642,7 +6642,7 @@ https://t.co/Aj7wFWuRFL O none
 Congrats O none
 Bay B neutral
 St I neutral
-. O neutral
+. O none
 George B neutral
 Long I neutral
 Term I neutral
@@ -6691,9 +6691,9 @@ award O none
 3 O none
 winners O none
 ! O none
-Andrew B positive
-McCrimmon I positive
-, I positive
+Andrew B neutral
+McCrimmon I neutral
+, I neutral
 Nihara O none
 Krause O none
 & O none
@@ -6726,8 +6726,8 @@ morning O none
 ! O none
 @ O none
 Port B neutral
-of O neutral
-Halifax O neutral
+of O none
+Halifax O none
 https://t.co/elELY1VVt9 O none
 
 #favskincare O none
@@ -6821,7 +6821,7 @@ I'm O none
 at O none
 FairPrice B neutral
 Hub I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/47IMuxQE3A O none
 
@@ -6888,16 +6888,16 @@ is O none
 beautiful O none
 
 Seriously O none
-Auston B positive
-Matthews I positive
+Auston B neutral
+Matthews I neutral
 has O none
 a O none
 hat O none
 trick O none
 in O none
 his O none
-NHL B positive
-Debut O positive
+NHL B neutral
+Debut O none
 .. O none
 in O none
 the O none
@@ -6954,7 +6954,7 @@ Satay B neutral
 By I neutral
 The I neutral
 Bay I neutral
-in O neutral
+in O none
 Singapore B neutral
 , I neutral
 Marina I neutral
@@ -7025,13 +7025,13 @@ Email O none
 Leak O none
 Reveals O none
 More O none
-Collusion O neutral
+Collusion O none
 Between B neutral
 State I neutral
 Department I neutral
-And O neutral
+And O none
 Hillary B neutral
-Campaign O neutral
+Campaign O none
 | O none
 Zero O none
 Hedge O none
@@ -7083,7 +7083,7 @@ or O none
 cry O none
 forever O none
 
-@TreyJamesFarley O negative
+@TreyJamesFarley O none
 trump B negative
 lies O none
 
@@ -7165,7 +7165,7 @@ One I neutral
 Shoppers I neutral
 ' I neutral
 Mall I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/4M5Bo3nlNs O none
 
@@ -7173,9 +7173,9 @@ Who O none
 would O none
 have O none
 thought O none
-Ken B positive
-and O positive
-David B positive
+Ken B neutral
+and O none
+David B neutral
 would O none
 be O none
 who O none
@@ -7192,7 +7192,7 @@ YESSSS O none
 #Survivor O none
 
 Because O none
-Bill B negative
+Bill B neutral
 actually O none
 has O none
 assaulted O none
@@ -7207,12 +7207,12 @@ again O none
 # O none
 https://t.co/IjOWwvRSRE O none
 
-Nobel B negative
-Prize I negative
+Nobel B neutral
+Prize I neutral
 winner O none
 , O none
-Bob B positive
-Dylan I positive
+Bob B neutral
+Dylan I neutral
 . O none
 https://t.co/DMebyLQkVa O none
 
@@ -7300,8 +7300,8 @@ asap O none
 I'm O none
 at O none
 Boat B neutral
-Noodle O neutral
-in O neutral
+Noodle O none
+in O none
 Skudai B neutral
 https://t.co/xobKviLtAK O none
 
@@ -7396,7 +7396,7 @@ will O none
 you O none
 answer O none
 if O none
-God B positive
+God B neutral
 ask O none
 " O none
 What O none
@@ -7425,8 +7425,8 @@ the O none
 radio O none
 stations O none
 are O none
-Dylan B positive
-FM O positive
+Dylan B neutral
+FM O none
 today O none
 . O none
 It's O none
@@ -7453,8 +7453,8 @@ am O none
 a O none
 friend O none
 of O none
-Tom B positive
-Reilly O positive
+Tom B neutral
+Reilly O none
 and O none
 I O none
 would O none
@@ -7600,8 +7600,8 @@ Blk B neutral
 828 I neutral
 Tampines I neutral
 Street I neutral
-81 O neutral
-in O neutral
+81 O none
+in O none
 Singapore B neutral
 https://t.co/e37ej8XS6k O none
 
@@ -7612,7 +7612,7 @@ about O none
 " O none
 Daughters O none
 and O none
-Trumps B negative
+Trumps B neutral
 " O none
 , O none
 you O none
@@ -7620,7 +7620,7 @@ should O none
 be O none
 terrified O none
 of O none
-#Hillary B negative
+#Hillary B neutral
 . O none
 #Google O none
 it O none
@@ -7649,7 +7649,7 @@ meant O none
 to O none
 say O none
 Chris B neutral
-Wallace O neutral
+Wallace O none
 ! O none
 
 I'm O none
@@ -7657,7 +7657,7 @@ at O none
 Yew B neutral
 Tee I neutral
 Point I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/RW0A8Gc7yB O none
 
@@ -7683,10 +7683,10 @@ ton O none
 … O none
 https://t.co/JzgTVOBo8o O none
 
-Dr B positive
+Dr B neutral
 . O none
 Margaret B neutral
-Brooks O neutral
+Brooks O none
 was O none
 honored O none
 to O none
@@ -7697,7 +7697,7 @@ at O none
 @BridgeStateU O none
 about O none
 Women's B neutral
-Perspectives O neutral
+Perspectives O none
 on O none
 Financial O none
 Lite O none
@@ -7788,7 +7788,7 @@ Commercial O none
 / O none
 industrial O none
 - O none
-Rosebank O neutral
+Rosebank O none
 Dr B neutral
 b O none
 / O none
@@ -7841,7 +7841,7 @@ Masal B neutral
 Johor I neutral
 , I neutral
 Johor I neutral
-Bharu O neutral
+Bharu O none
 ) O none
 https://t.co/RUXmPAAQAv O none
 
@@ -7852,8 +7852,8 @@ save O none
 Derbyshire B neutral
 County I neutral
 Council I neutral
-cash O neutral
-https://t.co/zt7pNEJHog O neutral
+cash O none
+https://t.co/zt7pNEJHog O none
 #Derbyshire O none
 https://t.co/dBk0rqY3W0 O none
 
@@ -7921,7 +7921,7 @@ here O none
 : O none
 https://t.co/7HwXAgHjT4 O none
 #HospitalJobs O none
-#Detroit O none
+#Detroit O neutral
 #Rochester O none
 , O none
 MI O none
@@ -7947,7 +7947,7 @@ with O none
 Whitney B neutral
 at O none
 Loka B neutral
-Suara O neutral
+Suara O none
 ) O none
 [ O none
 pic O none
@@ -8008,7 +8008,7 @@ Treasured O none
 Soul O none
 by O none
 Michael B neutral
-Calfan O neutral
+Calfan O none
 is O none
 #nowplaying O none
 in O none
@@ -8045,15 +8045,15 @@ is O none
 Beyoncé O none
 but O none
 
-Tom B positive
-Hanks O positive
+Tom B neutral
+Hanks O none
 and O none
 Gregory O none
 Porter O none
 on O none
 the O none
-One B positive
-Show I positive
+One B neutral
+Show I neutral
 tonight O none
 , O none
 SO O none
@@ -8114,8 +8114,8 @@ issue O none
 retraction O none
 demanded O none
 by O none
-Donald B negative
-Trump I negative
+Donald B neutral
+Trump I neutral
 ; O none
 ' O none
 we O none
@@ -8237,17 +8237,17 @@ them O none
 to O none
 FB O none
 
-Berkeley B positive
-Castle I positive
+Berkeley B neutral
+Castle I neutral
 was O none
 constructed O none
 in O none
 1885 O none
 by O none
-Samuel B positive
-Taylor I negative
-Suit I positive
-, I positive
+Samuel B neutral
+Taylor I neutral
+Suit I neutral
+, I neutral
 President O none
 of O none
 the O none
@@ -8279,7 +8279,7 @@ at O none
 Singapore B neutral
 Botanic I neutral
 Gardens I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/YbXPk50hpd O none
 
@@ -8295,7 +8295,7 @@ episode O none
 . O none
 Off O none
 to O none
-Cornwall B positive
+Cornwall B neutral
 soon O none
 . O none
 mustn't O none
@@ -8374,7 +8374,7 @@ in O none
 Malaysia B neutral
 ! O none
 Hello O none
-Malaysia B neutral
+Malaysia B positive
 
 The O none
 GBP O none
@@ -8501,7 +8501,7 @@ I'm O none
 at O none
 Compass B neutral
 One I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/VQhiToU2TI O none
 
@@ -8634,8 +8634,8 @@ in O none
 Singapore B neutral
 https://t.co/8E2X9rx741 O none
 
-@runboyrun35 O positive
-@TailwindUK O positive
+@runboyrun35 O none
+@TailwindUK O none
 @gotailwind O positive
 Ryan B positive
 , I positive
@@ -8654,7 +8654,7 @@ I'm O none
 at O none
 Singapore B neutral
 ITE I neutral
-headquarters O neutral
+headquarters O none
 https://t.co/UmFzeUDZKS O none
 
 I O none
@@ -8767,13 +8767,13 @@ follow O none
 Rhinoceros O none
 Leopard O none
 51 O none
-Singapore's O neutral
+Singapore's O none
 Wildest B neutral
 Parade I neutral
 Singapore I neutral
-Zoo O neutral
-Mandai O neutral
-RoadSingapore O neutral
+Zoo O none
+Mandai O none
+RoadSingapore O none
 … O none
 https://t.co/L3sCaorTMG O none
 
@@ -8815,10 +8815,10 @@ Sinatra O none
 
 I'm O none
 at O none
-Lifelong O neutral
+Lifelong O none
 Learning B neutral
 Institute I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/Gm5t4blnBu O none
 
@@ -8910,11 +8910,11 @@ comments O none
 … O none
 https://t.co/52e2qpHAG0 O none
 
-New B negative
+New B neutral
 study O none
 finds O none
-Hillary B negative
-Clinton I negative
+Hillary B neutral
+Clinton I neutral
 ' O none
 s O none
 tax O none
@@ -8977,7 +8977,7 @@ https://t.co/rXVqHZgGnY O none
 
 Proof O none
 of O none
-Tommy B positive
+Tommy B neutral
 ’ O none
 s O none
 employment O none
@@ -8990,7 +8990,7 @@ Alpha O none
 COY B neutral
 1 I neutral
 SIR I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/CphiiuFQUj O none
 
@@ -9001,8 +9001,8 @@ I O none
 can't O none
 do O none
 the O none
-Drake B negative
-Birmingham I negative
+Drake B positive
+Birmingham I positive
 dates O none
 and O none
 decent O none
@@ -9024,7 +9024,7 @@ make O none
 of O none
 the O none
 Bentley B positive
-porsche O positive
+porsche O none
 and O none
 jaguars O none
 in O none
@@ -9092,7 +9092,7 @@ an O none
 candidate O none
 tell O none
 Lord B positive
-Sugar O positive
+Sugar O none
 that O none
 the O none
 deadlines O none
@@ -9191,7 +9191,7 @@ in I neutral
 Nusajaya I neutral
 , I neutral
 Johor I neutral
-https://t.co/ovSWUucJ2Z O neutral
+https://t.co/ovSWUucJ2Z O none
 https://t.co/mjI0ghgK7U O none
 
 Sup O none
@@ -9287,7 +9287,7 @@ the O none
 bridge O none
 The O none
 History O none
-Boys O none
+Boys O positive
 The O none
 Merchant O none
 of O none
@@ -9334,7 +9334,7 @@ at O none
 McDonald's B neutral
 / I neutral
 McCafé I neutral
-in O neutral
+in O none
 Masai B neutral
 , I neutral
 Johor I neutral
@@ -9460,7 +9460,7 @@ the O none
 day O none
 before O none
 Wisconsin B neutral
-Adidas O neutral
+Adidas O none
 Invite O none
 
 * O none
@@ -9511,7 +9511,7 @@ I'm O none
 at O none
 City B neutral
 Plaza I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/9PCKpMO3pv O none
 
@@ -9522,7 +9522,7 @@ super O none
 bummed O none
 about O none
 Dylan B positive
-Rieder O positive
+Rieder O none
 passing O none
 . O none
 This O none
@@ -9668,7 +9668,7 @@ in O none
 radionomy O none
 . O none
 Cya O none
-Eric O none
+Eric O positive
 
 Wish O none
 I O none
@@ -9817,7 +9817,7 @@ Satay O none
 baby O none
 ! O none
 @ O none
-Makansutra O neutral
+Makansutra O none
 Gluttons B neutral
 Bay I neutral
 , I neutral
@@ -9963,7 +9963,7 @@ I'm O none
 at O none
 @Cineleisure B neutral
 Orchard I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/kK0JPjWO8b O none
 
@@ -10148,8 +10148,8 @@ night O none
 . O none
 Talk O none
 to O none
-Eric B positive
-asap O positive
+Eric B neutral
+asap O none
 . O none
 https://t.co/El8Htl3aDt O none
 
@@ -10158,7 +10158,7 @@ at O none
 Formula B neutral
 1 I neutral
 Grand I neutral
-Prix O neutral
+Prix O none
 Then O none
 Queen O none
 is O none
@@ -10197,12 +10197,12 @@ attention O none
 to O none
 #YEMEN O none
 a O none
-UK O neutral
+UK O none
 USA B neutral
-sponsored O neutral
-#KILLINGFIELD O neutral
-unlike O neutral
-#SYRIA O neutral
+sponsored O none
+#KILLINGFIELD O none
+unlike O none
+#SYRIA O none
 with O none
 " O none
 Bad O none
@@ -10353,7 +10353,7 @@ TP O none
 , O none
 as O none
 " O none
-John B neutral
+John B positive
 Wayne O none
 " O none
 , O none
@@ -10420,7 +10420,7 @@ somethingfoodrelated O none
 @ O none
 Kings B neutral
 Park I neutral
-Skatepark O neutral
+Skatepark O none
 https://t.co/OIo0c8SdMz O none
 
 Rt O none
@@ -10450,7 +10450,7 @@ doing O none
 #crossfit O none
 ! O none
 
-Kershaw B positive
+Kershaw B neutral
 is O none
 THAT O none
 DUDE O none
@@ -10469,10 +10469,10 @@ https://t.co/8LiQuMJ4Je O none
 
 I'm O none
 at O none
-Punggol O neutral
+Punggol O none
 Waterway B neutral
 Park I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/r8OXhqpMZa O none
 
@@ -10551,7 +10551,7 @@ Waterfall O none
 ' O none
 - O none
 Robert B neutral
-Gober O neutral
+Gober O none
 @ O none
 HM O none
 Prison O none
@@ -10561,11 +10561,11 @@ https://t.co/vfXsX9beK1 O none
 Bothell O none
 fumbles O none
 the O none
-ball B positive
-, I positive
-Jackson I positive
-Dean O positive
-recovers O positive
+ball B neutral
+, I neutral
+Jackson I neutral
+Dean O neutral
+recovers O none
 . O none
 Skyline O none
 starts O none
@@ -10663,7 +10663,7 @@ Week O none
 Nobody O none
 from O none
 Wisconsin B neutral
-follows O neutral
+follows O none
 me O none
 here O none
 p O none
@@ -10728,15 +10728,15 @@ campus O none
 @ O none
 Microsoft O none
 , O none
-Redmond O neutral
+Redmond O none
 Seattle B neutral
 https://t.co/bGsTdD70WL O none
 
 Random B positive
 Radio I positive
 Poll O positive
-Question O positive
-relating O positive
+Question O none
+relating O none
 to O none
 D O none
 / O none
@@ -10810,7 +10810,7 @@ chose O none
 #Charleston B neutral
 | I neutral
 SC I neutral
-| O neutral
+| O none
 USA B neutral
 . O none
 @readySC O none
@@ -10826,20 +10826,20 @@ again O none
 . O none
 Kensington O none
 , O none
-Piccadilly O neutral
-, O neutral
+Piccadilly O none
+, O none
 Covent B neutral
 Garden I neutral
 , I neutral
-Holborn O neutral
-, O neutral
-Euston O neutral
-, O neutral
+Holborn O none
+, O none
+Euston O none
+, O none
 Holborn B neutral
 & I neutral
 Shepherd's I neutral
 Bush I neutral
-loop O neutral
+loop O none
 18km O none
 
 Y'all O none
@@ -10954,8 +10954,8 @@ win O none
 the O none
 trip O none
 to O none
-Bangkok O positive
-Thailand B positive
+Bangkok O none
+Thailand B neutral
 . O none
 Larry O none
 or O none
@@ -10987,7 +10987,7 @@ assault O none
 i O none
 ­ O none
 n O none
-Dartmouth B negative
+Dartmouth B neutral
 yesterday O none
 https://t.co/kiid8yjnDh O none
 https://t.co/xvxfEfzEVq O none
@@ -11015,7 +11015,7 @@ I'm O none
 at O none
 Waterway B neutral
 Point I neutral
-in O neutral
+in O none
 Singapore B neutral
 w O none
 / O none
@@ -11111,7 +11111,7 @@ of O none
 the O none
 Christian O neutral
 church O neutral
-in O neutral
+in O none
 America B neutral
 keeps O none
 so O none
@@ -11134,7 +11134,7 @@ to O none
 my O none
 Sellers O none
 on O none
-1968 O neutral
+1968 O none
 Old B neutral
 Sambro I neutral
 Rd I neutral
@@ -11169,10 +11169,10 @@ Guckenheimer O none
 #Dallas B neutral
 , I neutral
 TX I neutral
-https://t.co/hNkGIatdwL O neutral
-#empleo O neutral
-#Hospitalidad O neutral
-#Empleos O neutral
+https://t.co/hNkGIatdwL O none
+#empleo O none
+#Hospitalidad O none
+#Empleos O none
 #Contratar O none
 
 Hillary B negative
@@ -11207,11 +11207,11 @@ on O none
 the O none
 ever O none
 popular O none
-Combat O positive
-brand O positive
-harrington O positive
-jackets O positive
-https://t.co/tdmOFKRZBj O positive
+Combat O none
+brand O none
+harrington O none
+jackets O none
+https://t.co/tdmOFKRZBj O none
 https://t.co/MyZebEP5cg O none
 
 Would O none
@@ -11244,9 +11244,9 @@ love O none
 going O none
 on O none
 the O none
-Disney B neutral
-Weddings I neutral
-website I neutral
+Disney B positive
+Weddings I positive
+website I positive
 and O none
 planning O none
 my O none
@@ -11267,12 +11267,12 @@ Whoops O none
 . O none
 
 First O none
-NHL B positive
+NHL B neutral
 game O none
 for O none
-Auston B positive
-Matthews I positive
-& I positive
+Auston B neutral
+Matthews I neutral
+& I neutral
 he O none
 already O none
 has O none
@@ -11288,8 +11288,8 @@ career O none
 
 these O none
 Jessica B neutral
-Simpson O neutral
-panties O neutral
+Simpson O none
+panties O none
 my O none
 grandma O none
 bought O none
@@ -11338,11 +11338,11 @@ Rawlings O none
 From O none
 his O none
 office O none
-Bill B negative
-Cosby O negative
-endorses O negative
-Donald B negative
-Trump I negative
+Bill B neutral
+Cosby O none
+endorses O none
+Donald B neutral
+Trump I neutral
 . O none
 #billcosby O none
 https://t.co/myqoh90gxn O none
@@ -11439,14 +11439,14 @@ Fall O none
 in O none
 Love O none
 with O none
-Bay O positive
-Roberts O positive
-#sunrise O positive
-@AnthonyGermain O positive
-@VOCMOpenline O positive
-@weathernetwork O positive
-@cbncompass O positive
-@BR_Mayor O positive
+Bay O none
+Roberts O none
+#sunrise O none
+@AnthonyGermain O none
+@VOCMOpenline O none
+@weathernetwork O none
+@cbncompass O none
+@BR_Mayor O none
 … O none
 https://t.co/rtOdq8sfAs O none
 
@@ -11729,7 +11729,7 @@ any O none
 it O none
 changes O none
 into O none
-Amy B negative
+Amy B neutral
 lmaoooo O none
 
 " O none
@@ -11776,7 +11776,7 @@ page O none
 off O none
 
 ⒍ O none
-#Google O neutral
+#Google O none
 ⒎ O neutral
 Russia B neutral
 ⒏ I neutral
@@ -11784,9 +11784,9 @@ New I neutral
 York I neutral
 ⒐ I neutral
 Philippines I neutral
-⒑ I neutral
-Paris I neutral
-2016/10 O neutral
+⒑ I positive
+Paris I positive
+2016/10 O none
 / O none
 5 O none
 20:54 O none
@@ -11835,7 +11835,7 @@ plans O none
 to O none
 release O none
 an O none
-NHL B positive
+NHL B neutral
 app O none
 for O none
 Samsung B neutral
@@ -11855,7 +11855,7 @@ it O none
 ( O none
 @ O none
 Johnny B neutral
-Rockets O neutral
+Rockets O none
 in O none
 Toluca O none
 , O none
@@ -12015,9 +12015,9 @@ agitated O none
 
 I'm O none
 at O none
-Saudagar O neutral
-Shisha O neutral
-Zam-Zam O neutral
+Saudagar O none
+Shisha O none
+Zam-Zam O none
 Aft B neutral
 Corner I neutral
 in I neutral
@@ -12191,8 +12191,8 @@ parties O none
 while O none
 Brad O none
 plays O none
-Molly B positive
-Cyrus O positive
+Molly B neutral
+Cyrus O none
 and O none
 give O none
 alco O none
@@ -12226,7 +12226,7 @@ loot O none
 boxes O none
 on O none
 overwatch O none
-, O none
+, O neutral
 Xbox B neutral
 one O none
 tah O none
@@ -12257,7 +12257,7 @@ Church B neutral
 of I neutral
 St I neutral
 . O none
-Anthony B positive
+Anthony B neutral
 ( O none
 of O none
 Padua O none
@@ -12309,7 +12309,7 @@ Johor I neutral
 Bahru I neutral
 , I neutral
 Johor I neutral
-https://t.co/O8ZawLx2pw O neutral
+https://t.co/O8ZawLx2pw O none
 https://t.co/j6N1J4yt03 O none
 
 @foxandfriends O none
@@ -12332,7 +12332,7 @@ NFL B neutral
 games I neutral
 has O none
 Jim B neutral
-Nantz O neutral
+Nantz O none
 watched O none
 ? O none
 Would O none
@@ -12349,7 +12349,7 @@ opinion O none
 @SuttonSuzy O none
 @realDonaldTrump O none
 AMERICAN O none
-TRUMP B negative
+TRUMP B neutral
 IS O none
 A O none
 PATRIOT O none
@@ -12403,8 +12403,8 @@ you O none
 sleep O none
 . O none
 
-Auston B positive
-Matthews I positive
+Auston B neutral
+Matthews I neutral
 may O none
 just O none
 make O none
@@ -12420,7 +12420,7 @@ craig O none
 He O none
 is O none
 my O none
-God B positive
+God B neutral
 ! O none
 ! O none
 Dr B neutral
@@ -12528,7 +12528,7 @@ Skylark O none
 It O none
 was O none
 a O none
-Blue O none
+Blue O neutral
 Chevelle O none
 and O none
 I O none
@@ -12566,11 +12566,11 @@ I'm O none
 at O none
 Bus B neutral
 Stop I neutral
-21651 O neutral
-( O neutral
-Opp O neutral
-Chinese O neutral
-Gdn O neutral
+21651 O none
+( O none
+Opp O none
+Chinese O none
+Gdn O none
 ) O none
 in O none
 Singapore B neutral
@@ -12579,10 +12579,10 @@ https://t.co/gabN7ejLq7 O none
 Going O none
 to O none
 the O none
-Washington B positive
-Space I positive
-Business I positive
-Roundtable O positive
+Washington B neutral
+Space I neutral
+Business I neutral
+Roundtable O none
 this O none
 week O none
 . O none
@@ -12656,12 +12656,12 @@ all O none
 trash O none
 . O none
 
-Lemon O negative
+Lemon O none
 peppa O none
 wangz O none
 * O none
-Rick B positive
-Ross I positive
+Rick B neutral
+Ross I neutral
 voice O none
 * O none
 https://t.co/FnBU3qpmd4 O none
@@ -12707,9 +12707,9 @@ love O none
 you O none
 ma O none
 @ O none
-La B positive
-Famiglia O positive
-Giorgio's O positive
+La B neutral
+Famiglia O none
+Giorgio's O none
 https://t.co/GvJDZt4nCV O none
 
 I'm O none
@@ -12717,7 +12717,7 @@ at O none
 East B neutral
 Coast I neutral
 Park I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/URTdDYHfQa O none
 
@@ -12725,7 +12725,7 @@ Are O none
 there O none
 more O none
 damaging O none
-Trump B negative
+Trump B neutral
 tapes O none
 out O none
 there O none
@@ -12843,7 +12843,7 @@ any O none
 other O none
 evil O none
 , O none
-embrace O positive
+embrace O none
 God B positive
 ' O none
 s O none
@@ -12880,7 +12880,7 @@ and I neutral
 Drive I neutral
 you O none
 to O none
-Mexico B negative
+Mexico B neutral
 ! O none
 Oh O none
 wait O none
@@ -12928,7 +12928,7 @@ I'm O none
 at O none
 Millenium B neutral
 Sports I neutral
-in O neutral
+in O none
 Skudai B neutral
 , I neutral
 Johor I neutral
@@ -13232,16 +13232,16 @@ Resorts I neutral
 World I neutral
 , I neutral
 Sentosa I neutral
-- O neutral
+- O none
 Singapore B neutral
 https://t.co/1txGL7bxu0 O none
 
 2 O none
 goals O none
 for O none
-Austin B positive
-Douglas O positive
-#therinktrained O positive
+Austin B neutral
+Douglas O none
+#therinktrained O none
 https://t.co/R0SB2SjYer O none
 
 1 O none
@@ -13369,8 +13369,8 @@ masterchef O none
 this O none
 shit O none
 
-Justin B positive
-Serra O positive
+Justin B neutral
+Serra O none
 : O none
 “ O none
 Very O none
@@ -13387,9 +13387,9 @@ shells O none
 . O none
 ” O none
 " O none
-Saw O neutral
+Saw O none
 Jon B neutral
-& I positive
+& I neutral
 the O none
 other O none
 guy O none
@@ -13480,7 +13480,7 @@ meds O none
 
 @MarketOne_Intl O none
 Awesome O none
-Sam B positive
+Sam B neutral
 https://t.co/ZZkdOCdJ22 O none
 
 I'm O none
@@ -13647,7 +13647,7 @@ _ O none
 @ O none
 Shaw B neutral
 Theatres I neutral
-LIDO O neutral
+LIDO O none
 https://t.co/zzAdGmTHql O none
 
 I O none
@@ -13675,7 +13675,7 @@ am O none
 I'm O none
 at O none
 VivoCity B neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/EaPIvgh4jw O none
 
@@ -13760,7 +13760,7 @@ Want O none
 to O none
 work O none
 at O none
-Standard O neutral
+Standard O none
 Chartered B neutral
 Bank I neutral
 ? O none
@@ -13785,9 +13785,9 @@ go O none
 to O none
 FSU O none
 
-Michael B positive
-Lewis O positive
-interviewed O positive
+Michael B neutral
+Lewis O none
+interviewed O none
 by O none
 @queenasookkim O none
 https://t.co/ZjcuSAY3dN O none
@@ -13835,7 +13835,7 @@ And O none
 is O none
 right O none
 ; O none
-Charles B positive
+Charles B neutral
 ' O none
 new O none
 recording O none
@@ -13903,7 +13903,7 @@ gila O none
 ! O none
 ! O none
 @ O none
-LEGOLAND O neutral
+LEGOLAND O none
 Malaysia B neutral
 , I neutral
 Johor I neutral
@@ -13954,8 +13954,8 @@ https://t.co/gCP4d2Csfz O none
 I'm O none
 at O none
 Dhoby B neutral
-Xchange O neutral
-in O neutral
+Xchange O none
+in O none
 Singapore B neutral
 https://t.co/vVpxuujeZa O none
 
@@ -13974,7 +13974,7 @@ why O none
 people O none
 like O none
 this O none
-snapchat B negative
+snapchat B neutral
 thing O none
 . O none
 These O none
@@ -14013,7 +14013,7 @@ month O none
 " O none
 — O none
 Matt B neutral
-Given O neutral
+Given O none
 of O none
 @Intelivideo O none
 
@@ -14037,8 +14037,8 @@ Oct O none
 #Exhibition O none
 https://t.co/W8S1KC7lH0 O none
 
-Hillary B negative
-Clinton I negative
+Hillary B neutral
+Clinton I neutral
 has O none
 lost O none
 control O none
@@ -14084,7 +14084,7 @@ DOESNT O none
 DESERVE O none
 THIS O none
 
-Captain B negative
+Captain B neutral
 crunch O none
 berries O none
 cereal O none
@@ -14164,9 +14164,9 @@ I'm O none
 at O none
 University B neutral
 Club I neutral
-of O neutral
+of O none
 Chicago B neutral
-in O neutral
+in O none
 Chicago B neutral
 , I neutral
 IL I neutral
@@ -14245,7 +14245,7 @@ undefeated O none
 @Gmcswineyyy O none
 @trevdick O none
 and O none
-Theresa B negative
+Theresa B neutral
 Mays O none
 
 @KaceyMusgraves O none
@@ -14450,7 +14450,7 @@ of I neutral
 United I neutral
 Premier I neutral
 League I neutral
-fixture O neutral
+fixture O none
 changes O none
 in O none
 December O none
@@ -14528,7 +14528,7 @@ and O none
 North B neutral
 Palm I neutral
 Beach I neutral
-areas O neutral
+areas O none
 - O none
 https://t.co/ZhnWPNZC3u O none
 #Job O none
@@ -14536,8 +14536,8 @@ https://t.co/ZhnWPNZC3u O none
 
 I'm O none
 at O none
-Coral O neutral
-Edge O neutral
+Coral O none
+Edge O none
 LRT B neutral
 Station I neutral
 ( O none
@@ -14619,7 +14619,7 @@ September O none
 27th O none
 2016 O none
 | O none
-Nate B positive
+Nate B neutral
 liked O none
 x21 O none
 https://t.co/mKMnCfUkMF O none
@@ -14688,7 +14688,7 @@ UP O none
 https://t.co/4wzfJTewHO O none
 
 A O none
-Ferrari B negative
+Ferrari B neutral
 crashed O none
 into O none
 the O none
@@ -14777,11 +14777,11 @@ statue O none
 #nannystate O none
 https://t.co/0Z9tfTICUF O none
 
-The O negative
-Samsung B negative
-Galaxy I negative
-Note I negative
-7 I negative
+The O none
+Samsung B neutral
+Galaxy I neutral
+Note I neutral
+7 I neutral
 has O none
 been O none
 recalled O none
@@ -14833,9 +14833,9 @@ remarkable O none
 to O none
 see O none
 the O none
-surge O positive
+surge O none
 Justin B positive
-Turner O positive
+Turner O none
 has O none
 been O none
 on O none
@@ -14986,7 +14986,7 @@ strategy O none
 I O none
 love O none
 Alex B positive
-Karev O positive
+Karev O none
 so O none
 much O none
 . O none
@@ -15068,8 +15068,8 @@ this O none
 Malaysia B neutral
 vs O none
 China B positive
-Badminton O positive
-semis O positive
+Badminton O none
+semis O none
 is O none
 so O none
 intense O none
@@ -15267,11 +15267,11 @@ Sinek O none
 
 Headlines O none
 | O none
-Dartmouth B negative
-North I negative
+Dartmouth B neutral
+North I neutral
 organizing O none
-Voting B negative
-Parade I negative
+Voting B neutral
+Parade I neutral
 this O none
 Saturday O none
 https://t.co/9W1b6yXtZV O none
@@ -15480,7 +15480,7 @@ https://t.co/YgEvQhXp7i O none
 Lights O none
 by O none
 Ellie B neutral
-Goulding O neutral
+Goulding O none
 is O none
 #nowplaying O none
 in O none
@@ -15520,7 +15520,7 @@ Lots O none
 of O none
 information O none
 on O none
-Google B positive
+Google B neutral
 about O none
 you O none
 . O none
@@ -15540,12 +15540,12 @@ of O none
 Man O none
 #MakeYourEscapeSweeps O none
 
-SNAPPING O positive
-OURSELVES O positive
-USING O positive
-nuslife O positive
-snapchat B positive
-accounttThanks O positive
+SNAPPING O none
+OURSELVES O none
+USING O none
+nuslife O none
+snapchat B neutral
+accounttThanks O none
 for O none
 the O none
 lovely O none
@@ -15558,7 +15558,7 @@ https://t.co/TQT9pyDdda O none
 
 Foley B positive
 drew O positive
-lines O positive
+lines O none
 in O none
 the O none
 sand O none
@@ -15574,7 +15574,7 @@ game O none
 lost O none
 to O none
 Joe B positive
-Alleva O positive
+Alleva O none
 . O none
 Pretty O none
 stupid O none
@@ -15656,12 +15656,12 @@ Arts I neutral
 , I neutral
 Campus I neutral
 1 I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/pPCnxyO5y3 O none
 
-Kate B positive
-McKinnon O positive
+Kate B neutral
+McKinnon O none
 https://t.co/1JzRrXwNdf O none
 
 Opened O none
@@ -15713,13 +15713,13 @@ to O none
 apply O none
 : O none
 Starbucks B neutral
-Barista O neutral
+Barista O none
 - O none
 https://t.co/sBvsqLCcEY O none
 #Hospitality O none
 #Hiring O none
 
-Bruce B positive
+Bruce B neutral
 doing O none
 what O none
 he O none
@@ -15755,8 +15755,8 @@ at O none
 @MetroChicago O none
 for O none
 Jack B neutral
-Garratt O neutral
-in O neutral
+Garratt O none
+in O none
 Chicago B neutral
 , I neutral
 IL I neutral
@@ -15830,13 +15830,13 @@ but O none
 don't O none
 touch O none
 our O none
-Marmite B negative
+Marmite B neutral
 / O none
 Pot O none
 Noodles O none
 / O none
-Ben B negative
-& I negative
+Ben B neutral
+& I neutral
 Jerrys O none
 … O none
 https://t.co/L1ANibf2Zp O none
@@ -15865,7 +15865,7 @@ https://t.co/PmeNMj2fKx O none
 #Hospitality O none
 #Jobs O none
 
-Chargers B positive
+Chargers B neutral
 got O none
 lucky O none
 on O none
@@ -15938,7 +15938,7 @@ fems O none
 are O none
 smarter O none
 than O none
-Trump B negative
+Trump B neutral
 . O none
 BC's O none
 women O none
@@ -15972,7 +15972,7 @@ just O none
 read O none
 an O none
 amazing O none
-article O negative
+article O none
 CNN B negative
 about O none
 @realDonaldTrump O none
@@ -16046,7 +16046,7 @@ Teh I neutral
 Tarik I neutral
 Eating I neutral
 House I neutral
-in O neutral
+in O none
 Singapore B neutral
 https://t.co/Bwz8bCo9QG O none
 
@@ -16102,7 +16102,7 @@ North B neutral
 #Northernhumour O none
 #TheNorth O none
 
-@rishi_modi O positive
+@rishi_modi O none
 God B positive
 Bless O none
 u O none
@@ -16176,8 +16176,8 @@ sorry O none
 
 @Jameizi O none
 buy O none
-#poundcake O neutral
-@Alaska5000 O neutral
+#poundcake O none
+@Alaska5000 O none
 New O neutral
 Album O neutral
 on O none
@@ -16208,7 +16208,7 @@ https://t.co/XYP6pB8ybs O none
 but O none
 u O none
 ordered O none
-mac B neutral
+mac B negative
 delivery O none
 alr O none
 
@@ -16226,7 +16226,7 @@ UP O none
 WITH O none
 THE O none
 LATEST O none
-CLINTON B negative
+CLINTON B neutral
 CAMPAIGN O none
 ABOUT O none
 DEBATE O none
@@ -16260,7 +16260,7 @@ out O none
 at O none
 #ultrasingapore O none
 @ O none
-Ultra O neutral
+Ultra O none
 Singapore B neutral
 https://t.co/XDbKAHsUu7 O none
 
@@ -16293,7 +16293,7 @@ at O none
 Mount B neutral
 Faber I neutral
 Park I neutral
-in O neutral
+in O none
 Singapore B neutral
 w O none
 / O none
@@ -16384,7 +16384,7 @@ L B neutral
 M I neutral
 Starlight I neutral
 Restaurant I neutral
-in O neutral
+in O none
 Chicago B neutral
 , I neutral
 IL I neutral
@@ -16548,7 +16548,7 @@ you O none
 https://t.co/RWYRsooTHW O none
 
 Radio O positive
-Twitte O positive
+Twitte O none
 r O none
 silence O none
 this O none
@@ -16589,7 +16589,7 @@ on O none
 menstruation O none
 . O none
 Marc B neutral
-Buckingham O neutral
+Buckingham O none
 from O none
 Initial O none
 which O none
@@ -16638,7 +16638,7 @@ richer O none
 oranger O none
 version O none
 of O none
-Bill B negative
+Bill B neutral
 Cosby O none
 is O none
 running O none
@@ -16706,12 +16706,12 @@ Street I neutral
 https://t.co/gG2Rtd19vN O none
 
 @HalifaxWater O none
-@cupenovascotia O neutral
+@cupenovascotia O none
 DeKalb B neutral
 County I neutral
-halts O neutral
-installing O neutral
-faulty O neutral
+halts O none
+installing O none
+faulty O none
 ' O none
 smart O none
 ' O none

@@ -67,7 +67,7 @@ restaurant O none
 isn't O none
 a O none
 fancy O none
-place B neutral
+place B positive
 . O none
 
 – O none
@@ -371,7 +371,7 @@ restaurant O none
 with O none
 mediocre O none
 food B positive
-and O positive
+and O none
 service B positive
 , O none
 so O none
@@ -1300,7 +1300,7 @@ corner O none
 After O none
 dinner O none
 the O none
-manager B neutral
+manager B negative
 grabbed O none
 my O none
 boyfriend O none
@@ -1549,7 +1549,7 @@ steamed I negative
 vegetables I negative
 ( I negative
 minus I negative
-sauce I negative
+sauce I positive
 , O none
 seasoning O none
 , O none
@@ -2024,7 +2024,7 @@ close O none
 by O none
 like O none
 Mimi's O none
-Cafe O none
+Cafe O positive
 and O none
 Claim O none
 Jumper O none
@@ -2218,7 +2218,7 @@ slightly O none
 reminescent O none
 of O none
 Baker's O none
-Beach O none
+Beach O positive
 pizza B positive
 which O none
 occupied O none
@@ -3044,7 +3044,7 @@ tikka O none
 masala O none
 - O none
 no O none
-bread O none
+bread O negative
 of O none
 rice O none
 - O none
@@ -3060,8 +3060,8 @@ expect O none
 at O none
 a O none
 upscale O none
-Indian O none
-restaurant O none
+Indian O positive
+restaurant O positive
 but O none
 this O none
 place B positive
@@ -3104,7 +3104,7 @@ NYU O none
 i O none
 need O none
 a O none
-place B neutral
+place B positive
 to O none
 eat O none
 after O none
@@ -3120,7 +3120,7 @@ just O none
 go O none
 to O none
 any O none
-indian O none
+indian O positive
 restraunt O none
 near O none
 by O none
@@ -3165,7 +3165,7 @@ has O none
 the O none
 best O none
 service B positive
-and O positive
+and O none
 atmosphere B positive
 in O none
 NYC O none
@@ -3340,7 +3340,7 @@ stumbled O none
 onto O none
 this O none
 hopping O none
-place B neutral
+place B positive
 the O none
 other O none
 night O none
@@ -3582,8 +3582,8 @@ is O none
 the O none
 fantastic O none
 pork B negative
-croquette I positive
-sandwich I positive
+croquette I negative
+sandwich I negative
 , O none
 perfect O none
 on O none
@@ -3755,7 +3755,7 @@ low O none
 on O none
 creativity O none
 and O none
-selection O none
+selection O positive
 . O none
 
 I O none
@@ -3801,7 +3801,7 @@ minnow O none
 Great O none
 financial O none
 district O none
-mexican O none
+mexican O positive
 spot B positive
 . O none
 
@@ -4047,7 +4047,7 @@ is O none
 the O none
 kind O none
 of O none
-place B neutral
+place B positive
 you'd O none
 like O none
 to O none
@@ -4207,7 +4207,7 @@ great O none
 limited O none
 menu B positive
 , O none
-no-so-fresh O none
+no-so-fresh O positive
 ingredients B positive
 , O none
 thinly-sliced O none

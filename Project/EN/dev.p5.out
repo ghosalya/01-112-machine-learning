@@ -67,7 +67,7 @@ restaurant O
 isn't O
 a O
 fancy O
-place B-neutral
+place B-positive
 . O
 
 – O
@@ -1300,7 +1300,7 @@ corner O
 After O
 dinner O
 the O
-manager B-neutral
+manager B-negative
 grabbed O
 my O
 boyfriend O
@@ -1549,7 +1549,7 @@ steamed I-negative
 vegetables I-negative
 ( I-negative
 minus I-negative
-sauce I-negative
+sauce I-positive
 , O
 seasoning O
 , O
@@ -3104,7 +3104,7 @@ NYU O
 i O
 need O
 a O
-place B-neutral
+place B-positive
 to O
 eat O
 after O
@@ -3340,7 +3340,7 @@ stumbled O
 onto O
 this O
 hopping O
-place B-neutral
+place B-positive
 the O
 other O
 night O
@@ -3582,8 +3582,8 @@ is O
 the O
 fantastic O
 pork B-negative
-croquette I-positive
-sandwich I-positive
+croquette I-negative
+sandwich I-negative
 , O
 perfect O
 on O
@@ -4047,7 +4047,7 @@ is O
 the O
 kind O
 of O
-place B-neutral
+place B-positive
 you'd O
 like O
 to O

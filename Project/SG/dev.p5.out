@@ -102,10 +102,10 @@ make O
 the O
 show O
 . O
-Amy B-negative
-, I-negative
-LaRoyce I-negative
-, I-negative
+Amy B-neutral
+, I-neutral
+LaRoyce I-neutral
+, I-neutral
 Burgess O
 ... O
 
@@ -186,7 +186,7 @@ past O
 , O
 it's O
 about O
-America B-negative
+America B-neutral
 ' O
 s O
 future O
@@ -270,7 +270,7 @@ FOCUSED O
 AND O
 FROSTY O
 MR O
-TRUMP B-negative
+TRUMP B-neutral
 YOU O
 CAN O
 DO O
@@ -423,7 +423,7 @@ Check O
 this---accusers O
 work O
 for O
-Clinton B-negative
+Clinton B-neutral
 https://t.co/8rxoboNy58 O
 
 I'm O
@@ -529,7 +529,7 @@ https://t.co/3Yzhsm61nC O
 Oh O
 god O
 . O
-Pokemon B-positive
+Pokemon B-neutral
 Go O
 is O
 stretching O
@@ -684,7 +684,7 @@ FFP O
 * O
 Sync O
 this O
-iPhone B-positive
+iPhone B-neutral
 over O
 wifi O
 * O
@@ -703,9 +703,9 @@ Toronto B-neutral
 https://t.co/WGbyDScJF0 O
 
 Our O
-Blues B-positive
-Brothers I-positive
-Chocolate I-positive
+Blues B-neutral
+Brothers I-neutral
+Chocolate I-neutral
 Brownie O
 goes O
 crunchy O
@@ -730,7 +730,7 @@ They O
 both O
 suck O
 . O
-America B-positive
+America B-neutral
 needs O
 to O
 Vote O
@@ -1038,7 +1038,7 @@ money O
 ? O
 Eh O
 , O
-Bill B-negative
+Bill B-neutral
 ? O
 
 @ChurchofCrowley O
@@ -1087,7 +1087,7 @@ tooth O
 and O
 nail O
 against O
-Hillary B-negative
+Hillary B-neutral
 #VOTEBLUE O
 
 If O
@@ -1388,8 +1388,8 @@ over-rated O
 ? O
 
 Krugman's O
-Nobel B-negative
-prize I-negative
+Nobel B-neutral
+prize I-neutral
 ( O
 for O
 trade O
@@ -1609,7 +1609,7 @@ it O
 Join O
 the O
 TJX O
-Canada B-neutral
+Canada B-positive
 team O
 ! O
 See O
@@ -1665,15 +1665,15 @@ for O
 this O
 #job O
 ? O
-Certified B-positive
-Medical I-positive
+Certified B-neutral
+Medical I-neutral
 Assistant O
 - O
-Happy B-positive
-Valley I-positive
-Immediate I-positive
-Care I-positive
-Clinic I-positive
+Happy B-neutral
+Valley I-neutral
+Immediate I-neutral
+Care I-neutral
+Clinic I-neutral
 ... O
 - O
 https://t.co/AepM8FNPfN O
@@ -1716,7 +1716,7 @@ way O
 . O
 
 @realDonaldTrump O
-Trump B-negative
+Trump B-neutral
 you O
 suck O
 oops O
@@ -2136,7 +2136,7 @@ Amazon B-neutral
 / O
 Bandcamp O
 / O
-Spotify B-positive
+Spotify B-neutral
 tomorrow O
 . O
 Album O
@@ -2201,8 +2201,8 @@ Dagger O
 rings O
 in O
 the O
-Windy B-negative
-City I-negative
+Windy B-neutral
+City I-neutral
 
 Zoey O
 just O
@@ -2354,11 +2354,11 @@ people O
 
 Headlines O
 | O
-Dartmouth B-negative
-North I-negative
+Dartmouth B-neutral
+North I-neutral
 organizing O
-Voting B-negative
-Parade I-negative
+Voting B-neutral
+Parade I-neutral
 this O
 Saturday O
 https://t.co/9W1b6yXtZV O
@@ -2408,7 +2408,7 @@ I O
 prefer O
 the O
 Larry O
-David B-positive
+David B-neutral
 Holiday O
 version O
 . O
@@ -2423,8 +2423,8 @@ heart O
 is O
 longing O
 for O
-Paris B-positive
-, I-positive
+Paris B-neutral
+, I-neutral
 the O
 Eiffel O
 … O
@@ -2615,7 +2615,7 @@ https://t.co/JBGm2DUpFn O
 
 I O
 fw O
-Jill B-positive
+Jill B-neutral
 Scottt O
 https://t.co/SFQ1yoJWl2 O
 
@@ -2699,13 +2699,13 @@ improved O
 
 Fall O
 in O
-Vermont B-negative
+Vermont B-neutral
 is O
 unreal O
 https://t.co/2t9KeK7rTS O
 
 All O
-Ireland B-positive
+Ireland B-neutral
 championship O
 Leinster O
 first O
@@ -2715,7 +2715,7 @@ has O
 been O
 made O
 its O
-a B-positive
+a B-neutral
 Midlands I-neutral
 rivalry O
 with O
@@ -2740,7 +2740,7 @@ Fmr O
 Wells O
 Fargo O
 CEO O
-John B-positive
+John B-neutral
 Stumpf O
 pay O
 package O
@@ -2875,7 +2875,7 @@ a O
 common O
 low O
 lifeLike O
-Trump B-negative
+Trump B-neutral
 or O
 any O
 follower O
@@ -3151,8 +3151,8 @@ region O
 is O
 in O
 the O
-English B-negative
-Midlands I-negative
+English B-neutral
+Midlands I-neutral
 by O
 this O
 . O
@@ -3257,7 +3257,7 @@ we O
 play O
 the O
 stinking O
-Blues B-negative
+Blues B-neutral
 ... O
 like O
 tonight O
@@ -3594,7 +3594,7 @@ Brunchin O
 ' O
 on O
 grilled O
-chicken B-positive
+chicken B-neutral
 sandwich O
 and O
 fresh O
@@ -3739,7 +3739,7 @@ anecdote O
 that O
 didn't O
 make O
-KL B-positive
+KL B-neutral
 story O
 : O
 An O
@@ -3885,7 +3885,7 @@ https://t.co/m3gfQQqDR6 O
 
 Idk O
 you O
-trump B-negative
+trump B-neutral
 but O
 president O
 isn't O
@@ -4479,19 +4479,19 @@ YOU O
 BACK O
 
 " O
-Putin B-negative
-, I-negative
+Putin B-neutral
+, I-neutral
 the O
 guy O
 from O
-China B-positive
-, I-negative
+China B-neutral
+, I-neutral
 the O
 guy O
 from O
 North B-neutral
 Korea I-neutral
-, I-negative
+, I-neutral
 they're O
 gonna O
 be O
@@ -4499,7 +4499,7 @@ afraid O
 of O
 him O
 [ O
-Trump B-negative
+Trump B-neutral
 ] O
 . O
 " O
@@ -4628,7 +4628,7 @@ YG O
 concert O
 man O
 
-Trump B-negative
+Trump B-neutral
 supporters O
 really O
 are O
@@ -4637,7 +4637,7 @@ crazy O
 . O
 https://t.co/Ii92c8K2i5 O
 
-Leafs B-positive
+Leafs B-neutral
 fans O
 are O
 pretty O
@@ -4694,7 +4694,7 @@ There O
 & O
 here O
 in O
-#Winnipeg B-positive
+#Winnipeg B-neutral
 #manitoba O
 tooAs O
 a O
@@ -5021,9 +5021,9 @@ mdfleetweek O
 … O
 https://t.co/ri1xzjYjKp O
 
-Mrs B-positive
-. I-positive
-J I-negative
+Mrs B-neutral
+. I-neutral
+J I-neutral
 please O
 explain O
 https://t.co/qjUJc2cNSK O
@@ -5032,7 +5032,7 @@ I O
 praise O
 and O
 thank O
-God B-positive
+God B-neutral
 for O
 blessing O
 me O
@@ -5181,7 +5181,7 @@ what O
 was O
 left O
 of O
-Carolyn B-negative
+Carolyn B-neutral
 ' O
 s O
 music O
@@ -5239,7 +5239,7 @@ so O
 much O
 better O
 if O
-Harold B-negative
+Harold B-neutral
 Reynolds O
 talked O
 a O
@@ -5717,7 +5717,7 @@ https://t.co/yXaIUyekWL O
 " O
 " O
 DONALD O
-TRUMP B-negative
+TRUMP B-neutral
 https://t.co/liHecqRSIn O
 
 Is O
@@ -5769,7 +5769,7 @@ https://t.co/hsPW3y5iyX O
 @frangeladuo O
 @SMShow O
 Did O
-Trump B-negative
+Trump B-neutral
 provide O
 sound O
 effects O
@@ -5798,7 +5798,7 @@ of O
 Milwaukee O
 
 @jonfavs O
-TRUMP B-negative
+TRUMP B-neutral
 is O
 furious O
 about O
@@ -6011,7 +6011,7 @@ on O
 @YoungMAMusic O
 
 #OtherHarryPotterSpells O
-Putin B-negative
+Putin B-neutral
 becomes O
 a O
 pussy O
@@ -6303,9 +6303,9 @@ do O
 prefer O
 a O
 nice O
-glass B-positive
-of I-positive
-Jackson I-positive
+glass B-neutral
+of I-neutral
+Jackson I-neutral
 Triggs O
 CSV O
 every O
@@ -6413,7 +6413,7 @@ ever O
 think O
 of O
 
-Northampton B-positive
+Northampton B-neutral
 family O
 desperate O
 to O
@@ -6569,7 +6569,7 @@ in O
 Singapore B-neutral
 https://t.co/wmzmD3BeQD O
 
-Trump B-negative
+Trump B-neutral
 has O
 really O
 amped O
@@ -6586,11 +6586,11 @@ polls O
 . O
 https://t.co/rmH6YW0JGi O
 
-Bob B-positive
-Dylan I-positive
+Bob B-neutral
+Dylan I-neutral
 wins O
-Nobel B-negative
-Prize I-negative
+Nobel B-neutral
+Prize I-neutral
 in O
 Literaturehttps O
 :/ O
@@ -6691,9 +6691,9 @@ award O
 3 O
 winners O
 ! O
-Andrew B-positive
-McCrimmon I-positive
-, I-positive
+Andrew B-neutral
+McCrimmon I-neutral
+, I-neutral
 Nihara O
 Krause O
 & O
@@ -6888,15 +6888,15 @@ is O
 beautiful O
 
 Seriously O
-Auston B-positive
-Matthews I-positive
+Auston B-neutral
+Matthews I-neutral
 has O
 a O
 hat O
 trick O
 in O
 his O
-NHL B-positive
+NHL B-neutral
 Debut O
 .. O
 in O
@@ -7173,9 +7173,9 @@ Who O
 would O
 have O
 thought O
-Ken B-positive
+Ken B-neutral
 and O
-David B-positive
+David B-neutral
 would O
 be O
 who O
@@ -7192,7 +7192,7 @@ YESSSS O
 #Survivor O
 
 Because O
-Bill B-negative
+Bill B-neutral
 actually O
 has O
 assaulted O
@@ -7207,12 +7207,12 @@ again O
 # O
 https://t.co/IjOWwvRSRE O
 
-Nobel B-negative
-Prize I-negative
+Nobel B-neutral
+Prize I-neutral
 winner O
 , O
-Bob B-positive
-Dylan I-positive
+Bob B-neutral
+Dylan I-neutral
 . O
 https://t.co/DMebyLQkVa O
 
@@ -7396,7 +7396,7 @@ will O
 you O
 answer O
 if O
-God B-positive
+God B-neutral
 ask O
 " O
 What O
@@ -7425,7 +7425,7 @@ the O
 radio O
 stations O
 are O
-Dylan B-positive
+Dylan B-neutral
 FM O
 today O
 . O
@@ -7453,7 +7453,7 @@ am O
 a O
 friend O
 of O
-Tom B-positive
+Tom B-neutral
 Reilly O
 and O
 I O
@@ -7612,7 +7612,7 @@ about O
 " O
 Daughters O
 and O
-Trumps B-negative
+Trumps B-neutral
 " O
 , O
 you O
@@ -7620,7 +7620,7 @@ should O
 be O
 terrified O
 of O
-#Hillary B-negative
+#Hillary B-neutral
 . O
 #Google O
 it O
@@ -7683,7 +7683,7 @@ ton O
 … O
 https://t.co/JzgTVOBo8o O
 
-Dr B-positive
+Dr B-neutral
 . O
 Margaret B-neutral
 Brooks O
@@ -8045,15 +8045,15 @@ is O
 Beyoncé O
 but O
 
-Tom B-positive
+Tom B-neutral
 Hanks O
 and O
 Gregory O
 Porter O
 on O
 the O
-One B-positive
-Show I-positive
+One B-neutral
+Show I-neutral
 tonight O
 , O
 SO O
@@ -8114,8 +8114,8 @@ issue O
 retraction O
 demanded O
 by O
-Donald B-negative
-Trump I-negative
+Donald B-neutral
+Trump I-neutral
 ; O
 ' O
 we O
@@ -8237,17 +8237,17 @@ them O
 to O
 FB O
 
-Berkeley B-positive
-Castle I-positive
+Berkeley B-neutral
+Castle I-neutral
 was O
 constructed O
 in O
 1885 O
 by O
-Samuel B-positive
-Taylor I-negative
-Suit I-positive
-, I-positive
+Samuel B-neutral
+Taylor I-neutral
+Suit I-neutral
+, I-neutral
 President O
 of O
 the O
@@ -8295,7 +8295,7 @@ episode O
 . O
 Off O
 to O
-Cornwall B-positive
+Cornwall B-neutral
 soon O
 . O
 mustn't O
@@ -8374,7 +8374,7 @@ in O
 Malaysia B-neutral
 ! O
 Hello O
-Malaysia B-neutral
+Malaysia B-positive
 
 The O
 GBP O
@@ -8910,11 +8910,11 @@ comments O
 … O
 https://t.co/52e2qpHAG0 O
 
-New B-negative
+New B-neutral
 study O
 finds O
-Hillary B-negative
-Clinton I-negative
+Hillary B-neutral
+Clinton I-neutral
 ' O
 s O
 tax O
@@ -8977,7 +8977,7 @@ https://t.co/rXVqHZgGnY O
 
 Proof O
 of O
-Tommy B-positive
+Tommy B-neutral
 ’ O
 s O
 employment O
@@ -9001,8 +9001,8 @@ I O
 can't O
 do O
 the O
-Drake B-negative
-Birmingham I-negative
+Drake B-positive
+Birmingham I-positive
 dates O
 and O
 decent O
@@ -10148,7 +10148,7 @@ night O
 . O
 Talk O
 to O
-Eric B-positive
+Eric B-neutral
 asap O
 . O
 https://t.co/El8Htl3aDt O
@@ -10353,7 +10353,7 @@ TP O
 , O
 as O
 " O
-John B-neutral
+John B-positive
 Wayne O
 " O
 , O
@@ -10450,7 +10450,7 @@ doing O
 #crossfit O
 ! O
 
-Kershaw B-positive
+Kershaw B-neutral
 is O
 THAT O
 DUDE O
@@ -10561,9 +10561,9 @@ https://t.co/vfXsX9beK1 O
 Bothell O
 fumbles O
 the O
-ball B-positive
-, I-positive
-Jackson I-positive
+ball B-neutral
+, I-neutral
+Jackson I-neutral
 Dean O
 recovers O
 . O
@@ -10955,7 +10955,7 @@ the O
 trip O
 to O
 Bangkok O
-Thailand B-positive
+Thailand B-neutral
 . O
 Larry O
 or O
@@ -10987,7 +10987,7 @@ assault O
 i O
 ­ O
 n O
-Dartmouth B-negative
+Dartmouth B-neutral
 yesterday O
 https://t.co/kiid8yjnDh O
 https://t.co/xvxfEfzEVq O
@@ -11244,9 +11244,9 @@ love O
 going O
 on O
 the O
-Disney B-neutral
-Weddings I-neutral
-website I-neutral
+Disney B-positive
+Weddings I-positive
+website I-positive
 and O
 planning O
 my O
@@ -11267,12 +11267,12 @@ Whoops O
 . O
 
 First O
-NHL B-positive
+NHL B-neutral
 game O
 for O
-Auston B-positive
-Matthews I-positive
-& I-positive
+Auston B-neutral
+Matthews I-neutral
+& I-neutral
 he O
 already O
 has O
@@ -11338,11 +11338,11 @@ Rawlings O
 From O
 his O
 office O
-Bill B-negative
+Bill B-neutral
 Cosby O
 endorses O
-Donald B-negative
-Trump I-negative
+Donald B-neutral
+Trump I-neutral
 . O
 #billcosby O
 https://t.co/myqoh90gxn O
@@ -11729,7 +11729,7 @@ any O
 it O
 changes O
 into O
-Amy B-negative
+Amy B-neutral
 lmaoooo O
 
 " O
@@ -11784,8 +11784,8 @@ New I-neutral
 York I-neutral
 ⒐ I-neutral
 Philippines I-neutral
-⒑ I-neutral
-Paris I-neutral
+⒑ I-positive
+Paris I-positive
 2016/10 O
 / O
 5 O
@@ -11835,7 +11835,7 @@ plans O
 to O
 release O
 an O
-NHL B-positive
+NHL B-neutral
 app O
 for O
 Samsung B-neutral
@@ -12191,7 +12191,7 @@ parties O
 while O
 Brad O
 plays O
-Molly B-positive
+Molly B-neutral
 Cyrus O
 and O
 give O
@@ -12257,7 +12257,7 @@ Church B-neutral
 of I-neutral
 St I-neutral
 . O
-Anthony B-positive
+Anthony B-neutral
 ( O
 of O
 Padua O
@@ -12349,7 +12349,7 @@ opinion O
 @SuttonSuzy O
 @realDonaldTrump O
 AMERICAN O
-TRUMP B-negative
+TRUMP B-neutral
 IS O
 A O
 PATRIOT O
@@ -12403,8 +12403,8 @@ you O
 sleep O
 . O
 
-Auston B-positive
-Matthews I-positive
+Auston B-neutral
+Matthews I-neutral
 may O
 just O
 make O
@@ -12420,7 +12420,7 @@ craig O
 He O
 is O
 my O
-God B-positive
+God B-neutral
 ! O
 ! O
 Dr B-neutral
@@ -12579,9 +12579,9 @@ https://t.co/gabN7ejLq7 O
 Going O
 to O
 the O
-Washington B-positive
-Space I-positive
-Business I-positive
+Washington B-neutral
+Space I-neutral
+Business I-neutral
 Roundtable O
 this O
 week O
@@ -12660,8 +12660,8 @@ Lemon O
 peppa O
 wangz O
 * O
-Rick B-positive
-Ross I-positive
+Rick B-neutral
+Ross I-neutral
 voice O
 * O
 https://t.co/FnBU3qpmd4 O
@@ -12707,7 +12707,7 @@ love O
 you O
 ma O
 @ O
-La B-positive
+La B-neutral
 Famiglia O
 Giorgio's O
 https://t.co/GvJDZt4nCV O
@@ -12725,7 +12725,7 @@ Are O
 there O
 more O
 damaging O
-Trump B-negative
+Trump B-neutral
 tapes O
 out O
 there O
@@ -12880,7 +12880,7 @@ and I-neutral
 Drive I-neutral
 you O
 to O
-Mexico B-negative
+Mexico B-neutral
 ! O
 Oh O
 wait O
@@ -13239,7 +13239,7 @@ https://t.co/1txGL7bxu0 O
 2 O
 goals O
 for O
-Austin B-positive
+Austin B-neutral
 Douglas O
 #therinktrained O
 https://t.co/R0SB2SjYer O
@@ -13369,7 +13369,7 @@ masterchef O
 this O
 shit O
 
-Justin B-positive
+Justin B-neutral
 Serra O
 : O
 “ O
@@ -13389,7 +13389,7 @@ shells O
 " O
 Saw O
 Jon B-neutral
-& I-positive
+& I-neutral
 the O
 other O
 guy O
@@ -13480,7 +13480,7 @@ meds O
 
 @MarketOne_Intl O
 Awesome O
-Sam B-positive
+Sam B-neutral
 https://t.co/ZZkdOCdJ22 O
 
 I'm O
@@ -13785,7 +13785,7 @@ go O
 to O
 FSU O
 
-Michael B-positive
+Michael B-neutral
 Lewis O
 interviewed O
 by O
@@ -13835,7 +13835,7 @@ And O
 is O
 right O
 ; O
-Charles B-positive
+Charles B-neutral
 ' O
 new O
 recording O
@@ -13974,7 +13974,7 @@ why O
 people O
 like O
 this O
-snapchat B-negative
+snapchat B-neutral
 thing O
 . O
 These O
@@ -14037,8 +14037,8 @@ Oct O
 #Exhibition O
 https://t.co/W8S1KC7lH0 O
 
-Hillary B-negative
-Clinton I-negative
+Hillary B-neutral
+Clinton I-neutral
 has O
 lost O
 control O
@@ -14084,7 +14084,7 @@ DOESNT O
 DESERVE O
 THIS O
 
-Captain B-negative
+Captain B-neutral
 crunch O
 berries O
 cereal O
@@ -14245,7 +14245,7 @@ undefeated O
 @Gmcswineyyy O
 @trevdick O
 and O
-Theresa B-negative
+Theresa B-neutral
 Mays O
 
 @KaceyMusgraves O
@@ -14619,7 +14619,7 @@ September O
 27th O
 2016 O
 | O
-Nate B-positive
+Nate B-neutral
 liked O
 x21 O
 https://t.co/mKMnCfUkMF O
@@ -14688,7 +14688,7 @@ UP O
 https://t.co/4wzfJTewHO O
 
 A O
-Ferrari B-negative
+Ferrari B-neutral
 crashed O
 into O
 the O
@@ -14778,10 +14778,10 @@ statue O
 https://t.co/0Z9tfTICUF O
 
 The O
-Samsung B-negative
-Galaxy I-negative
-Note I-negative
-7 I-negative
+Samsung B-neutral
+Galaxy I-neutral
+Note I-neutral
+7 I-neutral
 has O
 been O
 recalled O
@@ -15267,11 +15267,11 @@ Sinek O
 
 Headlines O
 | O
-Dartmouth B-negative
-North I-negative
+Dartmouth B-neutral
+North I-neutral
 organizing O
-Voting B-negative
-Parade I-negative
+Voting B-neutral
+Parade I-neutral
 this O
 Saturday O
 https://t.co/9W1b6yXtZV O
@@ -15520,7 +15520,7 @@ Lots O
 of O
 information O
 on O
-Google B-positive
+Google B-neutral
 about O
 you O
 . O
@@ -15544,7 +15544,7 @@ SNAPPING O
 OURSELVES O
 USING O
 nuslife O
-snapchat B-positive
+snapchat B-neutral
 accounttThanks O
 for O
 the O
@@ -15660,7 +15660,7 @@ in O
 Singapore B-neutral
 https://t.co/pPCnxyO5y3 O
 
-Kate B-positive
+Kate B-neutral
 McKinnon O
 https://t.co/1JzRrXwNdf O
 
@@ -15719,7 +15719,7 @@ https://t.co/sBvsqLCcEY O
 #Hospitality O
 #Hiring O
 
-Bruce B-positive
+Bruce B-neutral
 doing O
 what O
 he O
@@ -15830,13 +15830,13 @@ but O
 don't O
 touch O
 our O
-Marmite B-negative
+Marmite B-neutral
 / O
 Pot O
 Noodles O
 / O
-Ben B-negative
-& I-negative
+Ben B-neutral
+& I-neutral
 Jerrys O
 … O
 https://t.co/L1ANibf2Zp O
@@ -15865,7 +15865,7 @@ https://t.co/PmeNMj2fKx O
 #Hospitality O
 #Jobs O
 
-Chargers B-positive
+Chargers B-neutral
 got O
 lucky O
 on O
@@ -15938,7 +15938,7 @@ fems O
 are O
 smarter O
 than O
-Trump B-negative
+Trump B-neutral
 . O
 BC's O
 women O
@@ -16208,7 +16208,7 @@ https://t.co/XYP6pB8ybs O
 but O
 u O
 ordered O
-mac B-neutral
+mac B-negative
 delivery O
 alr O
 
@@ -16226,7 +16226,7 @@ UP O
 WITH O
 THE O
 LATEST O
-CLINTON B-negative
+CLINTON B-neutral
 CAMPAIGN O
 ABOUT O
 DEBATE O
@@ -16638,7 +16638,7 @@ richer O
 oranger O
 version O
 of O
-Bill B-negative
+Bill B-neutral
 Cosby O
 is O
 running O
